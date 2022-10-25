@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss",
+		"../scss/base/_index.scss",
+		"../scss/base/_base.scss"
+	],
+	"sourcesContent": [
+		"// ==========================================================================\r\n// Base Styles\r\n// ==========================================================================\r\n@import 'base/index.scss';\r\n",
+		"// ==========================================================================\r\n// Base Styles\r\n// ==========================================================================\r\n@import 'base';\r\n",
+		"body{\r\n  background-color: #e5e5e5;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AEAA,AAAA,IAAI,CAAA;EACF,gBAAgB,EAAE,OAAO;CAC1B"
+}
