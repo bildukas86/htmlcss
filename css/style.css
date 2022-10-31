@@ -1,6 +1,135 @@
 /* line 1, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 body {
+  margin: 0;
+  background-color: #fff;
+}
+
+/* line 8, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+i {
+  font-size: 56px;
+}
+
+/* line 11, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+a:link {
+  text-decoration: none;
+}
+
+/* line 1, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
+.footer {
+  color: #fff;
+  background-color: #333645;
+}
+
+/* line 4, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
+.footer a {
+  color: #fff;
+  list-style-type: none;
+}
+
+/* line 8, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
+.footer ul {
+  list-style-type: none;
+}
+
+/* line 14, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  padding: 5px;
+  justify-content: space-between;
+  border-top: 1px solid #888;
+}
+
+/* line 22, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 27, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
+.license {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+/* line 31, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
+.license ul, .license h4 {
+  margin: 0;
+  padding: 0;
+  font-size: .9rem;
+}
+
+/* line 39, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
+.license span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 44, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 48, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
+.social-media .fa-brands {
+  font-size: .9rem;
+  margin-left: .9em;
+  margin-right: .9em;
+}
+
+/* line 1, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+/* line 7, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+#header .h-logo {
+  width: 50vw;
+}
+
+/* line 9, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+#header .h-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 16, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+.action {
+  display: inline-flex;
+}
+
+/* line 19, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+.search {
+  width: 100%;
   background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+/* line 24, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+.search .search-f input {
+  height: 3em;
+  border: 0;
+  background-color: #e5e5e5;
+}
+
+/* line 29, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+.search button {
+  background: none;
+  border: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

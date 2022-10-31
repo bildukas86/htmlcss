@@ -1,0 +1,56 @@
+.footer{
+  color: #fff;
+  background-color: #333645;
+  a{
+    color: #fff;
+    list-style-type: none;
+  }
+  ul{
+    list-style-type: none;
+  }
+
+}
+
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  padding: 5px;
+  justify-content: space-between;
+  border-top: 1px solid #888;
+}
+.footer-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.license{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  ul, h4,{
+    margin: 0;
+    padding: 0;
+    font-size: .9rem;
+
+
+
+  }
+span{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+}
+.social-media{
+  display: flex;
+  justify-content: space-between;
+
+  .fa-brands{
+    font-size: .9rem;
+    margin-left: .9em;
+    margin-right: .9em;
+
+
+  }
+
+}
