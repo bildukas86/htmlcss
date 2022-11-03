@@ -1,1 +1,41 @@
+//Services
 
+
+
+//main section
+
+//welcome
+.welcome{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  .w-block{
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+  }
+}
+//partners logo
+.partners-slideshow{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+//Latest news section
+
+.news-articles{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+
+  .news-block{
+    width: 100%;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}

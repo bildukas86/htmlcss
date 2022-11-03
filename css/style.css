@@ -29,6 +29,16 @@ a:link {
   background-color: #333645;
 }
 
+/* line 24, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+div {
+  border: 1px solid red;
+}
+
+/* line 27, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+ul {
+  list-style-type: none;
+}
+
 /* line 1, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
 .f--container {
   color: #fff;
@@ -101,8 +111,8 @@ a:link {
 /* line 1, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
 .header-top {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 /* line 5, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
@@ -111,17 +121,62 @@ a:link {
   height: auto;
 }
 
-/* line 10, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+/* line 9, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+.header-top .action {
+  display: flex;
+}
+
+/* line 11, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+.header-top .action button {
+  width: 56px;
+  height: 56px;
+}
+
+/* line 17, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
 .header-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 8, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+.welcome {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 13, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+.welcome .w-block {
+  max-width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+/* line 20, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+.partners-slideshow {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
 }
 
-/* line 15, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
-.header-bottom .search {
+/* line 28, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+.news-articles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* line 34, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+.news-articles .news-block {
   width: 100%;
+}
+
+/* line 36, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+.news-articles .news-block img {
+  width: 100%;
+  height: auto;
 }
 
 /* line 1, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
@@ -167,6 +222,91 @@ a:link {
   line-height: 35px;
   text-transform: uppercase;
   padding: 10px 20px 10px 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  /* line 3, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .clients-list {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* line 10, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .clients-list {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* line 17, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .clients-list {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 20, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .clients-list img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* line 31, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .clients-list {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 34, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .clients-list img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+  /* line 40, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .welcome {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  /* line 45, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .welcome .w-block {
+    max-width: 40vw;
+    padding: 50px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* line 53, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .clients-list {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 56, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .clients-list img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+  /* line 62, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .welcome {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  /* line 67, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq.scss */
+  .welcome .w-block {
+    max-width: 40vw;
+    padding: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
