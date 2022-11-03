@@ -8,3 +8,5 @@ https://alvarotrigo.com/blog/hamburger-menu-css/
 https://github.com/jonsuh/hamburgers
 
 https://codepen.io/nxworld/pen/ZYNOBZ
+
+https://validator.w3.org/
