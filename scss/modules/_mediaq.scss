@@ -69,4 +69,31 @@
       padding: 50px;
     }
   }
+  .l-news-main{
+    display: flex;
+    flex-wrap: wrap;
+    .news-block{
+      max-width: 100px;
+      height: auto;
+    }
+
+  }
+  .service-block-3{
+    width: 30vw;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 15px;
+    text-align: center;
+  }
+  .service-block-4{
+    width: 20vw;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 15px;
+    text-align: center;
+  }
 }

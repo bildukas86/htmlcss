@@ -10,6 +10,9 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  background-color: #333645;
+  color: #FFFFFF;
+  padding: 50px 15px 50px 15px;
   .w-block{
     max-width: 100%;
     height: auto;
@@ -22,6 +25,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  margin-top: 30px;
 }
 //Latest news section
 
@@ -29,13 +33,50 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-
-
+  padding-left: 15px;
+  padding-right: 15px;
   .news-block{
+    margin-top: 30px;
     width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 30px;
+
     img{
       width: 100%;
       height: auto;
     }
+    p, button, h1{
+      padding: 0 15px 0 15px;
+    }
+    .user{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      padding-top: 30px;
+      border-top: 1px solid #ccc;
+      .avatar{
+          width: 47px;
+          height: 47px;
+      }
+      .details{
+        padding: 0 15px 0 15px;
+      }
+    }
   }
+}
+.container-services{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.service-block-3, .service-block-3{
+  width: 90vw;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: yellow;
+  padding: 15px;
+  text-align: center;
 }
