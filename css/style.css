@@ -19,7 +19,12 @@ a:link {
   background-color: #333645;
 }
 
-/* line 28, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 24, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/*div {
+  border: 1px solid red;
+}*/
+
+/* line 27, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 ul {
   list-style-type: none;
 }
