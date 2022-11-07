@@ -4,6 +4,7 @@
   margin-left: 10vw;
   margin-right: 10vw;
 
+
   a{
     color: #fff;
     list-style-type: none;
@@ -16,6 +17,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  font-size: 16px;
   .service, .office{
     width: 225px;
     margin-bottom: 30px;
@@ -31,6 +33,7 @@
   justify-content: space-between;
   border-top: 1px solid #888;
   padding-top: 10px;
+  font-size: 13px;
   .license{
     display: flex;
     justify-content: space-between;

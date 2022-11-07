@@ -10,3 +10,5 @@ https://github.com/jonsuh/hamburgers
 https://codepen.io/nxworld/pen/ZYNOBZ
 
 https://validator.w3.org/
+
+https://github.com/ganlanyuan/tiny-slider

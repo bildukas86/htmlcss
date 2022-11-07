@@ -1,6 +1,21 @@
 //Services
 
+.container-services{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
+
+}
+.service-block-3, .service-block-4{
+  width: 90vw;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  height: 313px;
+}
 
 //main section
 
@@ -20,12 +35,10 @@
   }
 }
 //partners logo
-.partners-slideshow{
+
+.p-slider{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
-  margin-top: 30px;
 }
 //Latest news section
 
@@ -64,19 +77,4 @@
       }
     }
   }
-}
-.container-services{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-}
-.service-block-3, .service-block-3{
-  width: 90vw;
-  margin-top: 30px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  background-color: yellow;
-  padding: 15px;
-  text-align: center;
 }
