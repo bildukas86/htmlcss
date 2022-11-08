@@ -169,63 +169,68 @@
       </div>
     </div>
     <div class="l-news-main">
-      <div class="l-news">
-        <h1>Latest News</h1>
-      </div>
-      <div class="news-articles">
-        <div class="news-block">
-          <img src="images\business-automation-BBSN.jpg" alt="business automation">
-          <h1>some text here</h1>
-          <p>In this article we explain everything
-             you need to know about business automation,
-              and why your busin...</p>
-          <button class="btn" type="button" name="button">read more</button>
-          <div class="user">
-            <div class="avatar">
-                <img src="images/netmatters-ltd-VXAv.png" alt="Netmatters ">
-            </div>
-            <div class="details">
-              <h4>Posted by Netmatters</h4>
-              <p>3rd November 2022</p>
-            </div>
-          </div>
+        <div class="l-news">
+          <h1>Latest News</h1>
         </div>
-        <div class="news-block">
-          <img src="images\6-steps-you-AJuB.jpg" alt="six steps to you">
-          <h1>some text here</h1>
-          <p>Making your website visible on Google
-             is one of the most important factors
-              in getting leads through...</p>
-          <button class="btn" type="button" name="button">read more</button>
-          <div class="user">
-            <div class="avatar">
-                <img src="images/netmatters-ltd-VXAv.png" alt="Netmatters ">
-            </div>
-            <div class="details">
-              <h4>Posted by Netmatters</h4>
-              <p>3rd November 2022</p>
-            </div>
-          </div>
-        </div>
-        <div class="news-block">
-          <img src="images\business-automation-BBSN.jpg" alt="business automation">
-          <h1>some text here</h1>
-          <p>At Netmatters we have a proven track record
-             of building software solutions
-              that improves the efficie...</p>
-          <button class="btn" type="button" name="button">read more</button>
-          <div class="user">
-            <div class="avatar">
-                <img src="images/netmatters-ltd-VXAv.png" alt="Netmatters ">
-            </div>
-            <div class="details">
-              <h4>Posted by Netmatters</h4>
-              <p>3rd November 2022</p>
-            </div>
-          </div>
-        </div>
+        <div class="news-articles">
+          <div class="news-block news-block-h">
+            <img class="news-img" src="images/tourism-leisure-CKOD.png" alt="tourism - leisure">
+            <div class="news-block-b">
+              <h4>Tourism & Leisure - Increasing Revenue with a...</h4>
+              <p>The Client Searles Leisure Resort,
+                 on the beautiful North Norfolk coast, is an award-winning UK holi...</p>
+              <a class="btn btn-h" href="#">read more</a>
 
-      </div>
+              <div class="user">
+                <div class="avatar">
+                    <img src="images/netmatters-ltd-VXAv.png" alt="Netmatters ">
+                </div>
+                <div class="details">
+                  <h4>Posted by Netmatters</h4>
+                  <p>3rd November 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-block">
+              <img class="news-img" src="images\business-automation-BBSN.jpg" alt="business automation">
+              <div class="news-block-b">
+                <h4>Business Automation: Take Your Business to th...</h4>
+                <p>In this article we explain everything
+                   you need to know about business automation,
+                    and why your busin...</p>
+                <a class="btn btn-software" href="#">read more</a>
+                <div class="user">
+                  <div class="avatar">
+                      <img src="images/netmatters-ltd-VXAv.png" alt="Netmatters ">
+                  </div>
+                  <div class="details">
+                    <h4>Posted by Netmatters</h4>
+                    <p>3rd November 2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="news-block">
+              <img class="news-img" src="images/-djvX.jpg" alt="business automation">
+              <div class="news-block-b">
+                <h4>Improving Efficiency With a Bespoke Software...</h4>
+                <p>At Netmatters we have a proven
+                   track record of building software
+                   solutions that improves the efficie...</p>
+                <a class="btn btn-software" href="#">read more</a>
+                <div class="user">
+                  <div class="avatar">
+                      <img src="images/netmatters-ltd-VXAv.png" alt="Netmatters ">
+                  </div>
+                  <div class="details">
+                    <h4>Posted by Netmatters</h4>
+                    <p>3rd November 2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
       <div class="n-view-all">
         <h1>View All &#129122;</h1>
       </div>
@@ -248,15 +253,40 @@
     </div>
     <div class="sign-up">
       <h1>Email Newsletter Sign-Up</h1>
-      <form class="" action="#" method="get">
-        <div class="">
+        <form class="signup-group" action="#" method="post">
+          <div class="signup-input">
+            <div class="s-input">
+              <label class="required" for="name">Your name</label>
+              <input class="form-control" type="text" name="name" value="" required>
+            </div>
+            <div class="s-input">
+              <label class="required" for="email">Your email</label>
+              <input class="form-control" type="email" name="email" value="" required>
+            </div>
+          </div>
+          <div class="signup-tick">
+            <input class="checkbox" type="checkbox" name="checkbox" value="1">
+            <h4>Please tick this box if you wish to receive marketing
+              information from us. Please see our <a href="#">Privacy
+               Policy</a> for more information on how we keep your data safe.</h4>
+          </div>
+          <div>
+            <input class="sub-button" type="button" name="submit" value="Subscribe">
+          </div>
+
+        </form>
+
+
+
+      <!-- <form class="" action="#" method="get">
+        <div class="form-input">
           <input type="text" name="" value="" placeholder="Your Name">
           <input type="checkbox" name="" value="">
         </div>
         <div class="">
           <input type="email" name="" value="" placeholder="Your Email">
         </div>
-      </form>
+      </form> -->
 
     </div>
     <div class="footer">
@@ -359,20 +389,26 @@
         items: 8,
         autoplay: true,
         autoplayButtonOutput: false,
-        gutter: 20,
+        gutter: 40,
         controls: false,
         nav: false,
 
         //need to adjust
         responsive: {
+          200:{
+            items: 2
+          },
           350:{
-            items: 3
+            items: 2
           },
           500:{
-            items: 4
+            items: 3
           },
           800:{
-            items: 7
+            items: 5
+          },
+          1000:{
+            items: 8
           }
         }
 
