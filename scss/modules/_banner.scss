@@ -1,6 +1,8 @@
 .banner{
   display: flex;
   flex-wrap: wrap;
+
+
   .banner-img{
     display: flex;
     flex-wrap: wrap;
@@ -11,16 +13,26 @@
       align-items: center;
       object-fit: cover;
       filter: brightness(50%);
+
     }
   }
 }
 .txt {
   position: absolute;
-  width: 100%;
-  top: 50%;
-  p, h1{
+  z-index: 1;
+  width: 100vw;
+  top: 30%;
+
+  h1{
     color: white;
     text-align: center;
+    font-size: 2em;
+
+  }
+  p{
+    color: white;
+    text-align: center;
+    font-size: 1em;
   }
   .btn{
     border-radius: 3%;
@@ -30,4 +42,17 @@
     text-transform: uppercase;
     padding: 10px 20px 10px 20px;
   }
+  .btn-web{
+      color: #fff;
+      background-color: #926fb1;
+      border-color: #926fb1;
+      line-height: 50px;
+  }
 }
+// .tns-nav{
+//   position: relative;
+//   z-index: 99;
+//   text-align: center;
+//
+//
+// }

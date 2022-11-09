@@ -18,22 +18,22 @@ a:link {
   text-decoration: none;
 }
 
-/* line 17, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 18, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .sign-up {
   background-color: #ddd;
 }
 
-/* line 20, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 21, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .footer {
   background-color: #333645;
 }
 
-/* line 27, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 28, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 30, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 31, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn {
   height: auto;
   line-height: 35px;
@@ -42,31 +42,62 @@ ul {
   font-size: 1.063rem;
   border-radius: 3px;
   white-space: normal;
+  border: none;
 }
 
-/* line 39, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 42, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 label.required:after {
   content: " *";
   color: #d24d57;
 }
 
-/* line 43, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 46, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 p {
   font-size: 14px;
 }
 
-/* line 46, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 49, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-h {
   color: #fff;
   background-color: #2ecc71;
   border-color: #2ecc71;
 }
 
-/* line 51, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 54, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-software {
   color: #fff;
   background-color: #67809f;
   border-color: #67809f;
+}
+
+/* line 59, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+.btn-google {
+  background-color: #4387f6;
+  margin-right: 8px;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* line 67, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+.btn-trustpilot {
+  background-color: #00b67b;
+  margin-right: 8px;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* line 76, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+.btn-primary {
+  background-color: #272936;
+  margin-right: 8px;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
 }
 
 /* line 1, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_footer.scss */
@@ -188,23 +219,27 @@ p {
   justify-content: center;
   background-color: #333645;
   color: #FFFFFF;
-  padding: 50px 15px 50px 15px;
+  padding: 25px 15px 25px 15px;
 }
 
 /* line 33, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .welcome .w-block {
   max-width: 100%;
   height: auto;
-  padding: 50px;
 }
 
 /* line 42, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+.partners-slideshow {
+  padding: 50px 0 50px 0;
+}
+
+/* line 45, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .p-slider {
   display: flex;
   flex-direction: row;
 }
 
-/* line 50, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 53, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .news-articles {
   display: flex;
   flex-wrap: wrap;
@@ -213,7 +248,7 @@ p {
   padding-right: 15px;
 }
 
-/* line 56, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 59, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .news-articles .news-block {
   margin-top: 30px;
   width: 100%;
@@ -221,61 +256,61 @@ p {
   border-radius: 3px;
 }
 
-/* line 61, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 64, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .news-articles .news-block .news-img {
   width: 100%;
   height: auto;
 }
 
-/* line 65, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 68, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .news-articles .news-block .news-block-b {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-/* line 70, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 73, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .news-articles .news-block .user {
   display: flex;
   margin-top: 30px;
   border-top: 1px solid #ccc;
 }
 
-/* line 74, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 77, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .news-articles .news-block .user .avatar {
   margin-top: 15px;
   width: 47px;
   height: 47px;
 }
 
-/* line 79, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 82, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .news-articles .news-block .user .details {
   line-height: 12px;
   padding: 0 15px 0 15px;
 }
 
-/* line 92, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 95, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .sign-up {
   padding: 50px 15px;
 }
 
-/* line 94, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 97, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .sign-up .signup-input {
   font-weight: 600;
   color: #666;
 }
 
-/* line 99, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 102, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .sign-up .signup-tick {
   display: inline-flex;
 }
 
-/* line 103, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 106, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .sign-up input[type="checkbox"] {
   transform: scale(2.5);
   margin-right: 20px;
 }
 
-/* line 108, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 111, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .sign-up .form-control {
   display: block;
   width: 100%;
@@ -285,7 +320,7 @@ p {
   padding: 5px 15px;
 }
 
-/* line 118, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
+/* line 121, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_main.scss */
 .sign-up .sub-button {
   color: #fff;
   background-color: #333645;
@@ -303,14 +338,14 @@ p {
   flex-wrap: wrap;
 }
 
-/* line 4, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
+/* line 6, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
 .banner .banner-img {
   display: flex;
   flex-wrap: wrap;
   position: relative;
 }
 
-/* line 8, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
+/* line 10, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
 .banner .banner-img img {
   width: 100%;
   height: 80vh;
@@ -319,20 +354,29 @@ p {
   filter: brightness(50%);
 }
 
-/* line 17, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
+/* line 20, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
 .txt {
   position: absolute;
-  width: 100%;
-  top: 50%;
+  z-index: 1;
+  width: 100vw;
+  top: 30%;
 }
 
-/* line 21, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
-.txt p, .txt h1 {
+/* line 26, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
+.txt h1 {
   color: white;
   text-align: center;
+  font-size: 2em;
 }
 
-/* line 25, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
+/* line 32, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
+.txt p {
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* line 37, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
 .txt .btn {
   border-radius: 3%;
   background-color: #d64541;
@@ -340,6 +384,14 @@ p {
   line-height: 35px;
   text-transform: uppercase;
   padding: 10px 20px 10px 20px;
+}
+
+/* line 45, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
+.txt .btn-web {
+  color: #fff;
+  background-color: #926fb1;
+  border-color: #926fb1;
+  line-height: 50px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -411,7 +463,7 @@ p {
   /* line 17, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
   .welcome .w-block {
     max-width: 40vw;
-    padding: 50px;
+    padding: 25px;
   }
   /* line 22, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
   .signup-input {

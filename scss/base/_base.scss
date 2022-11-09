@@ -13,6 +13,7 @@ body{
 
 a:link{
   text-decoration: none;
+
 }
 .sign-up{
   background-color: #ddd;
@@ -35,6 +36,8 @@ ul {
   font-size: 1.063rem;
   border-radius: 3px;
   white-space: normal;
+  border: none;
+
 }
 label.required:after{
   content: " *";
@@ -52,4 +55,30 @@ p{
     color: #fff;
     background-color: #67809f;
     border-color: #67809f;
+}
+.btn-google{
+    background-color: #4387f6;
+    margin-right: 8px;
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #fff;
+}
+.btn-trustpilot{
+  background-color: #00b67b;
+  margin-right: 8px;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
+
+}
+.btn-primary{
+
+    background-color: #272936;
+    margin-right: 8px;
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #fff;
 }

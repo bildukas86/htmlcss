@@ -29,16 +29,19 @@
   justify-content: center;
   background-color: #333645;
   color: #FFFFFF;
-  padding: 50px 15px 50px 15px;
+  padding: 25px 15px 25px 15px;
   .w-block{
     max-width: 100%;
     height: auto;
-    padding: 50px;
+
   }
 }
 //--------------------------------------
 //partners logo
 //--------------------------------------
+.partners-slideshow{
+  padding: 50px 0 50px 0;
+}
 .p-slider{
   display: flex;
   flex-direction: row;
