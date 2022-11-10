@@ -20,22 +20,21 @@
         </div>
         <div class="action">
           <div class="b-icon">
-            <button type="button" name="button"><i class="fa-xl fa-solid fa-phone"></i></button>
+            <button type="button" name="button"><i class="fa-solid fa-phone fa-2xl"></i></button>
           </div>
           <div class="b-icon">
-            <button type="button" name="button"><i class="fa-solid fa-bars"></i></button>
+            <button type="button" name="button"><i class="fa-solid fa-bars fa-2xl"></i></button>
           </div>
         </div>
       </div>
       <div class="header-bottom">
-        <form class="search" action="index.html" method="get">
-          <input type="text" name="" value="" placeholder="Search...">
-          <button type="button" name="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <form class="search" action="#" method="get">
+          <input class="s-input" type="text" name="" value="" placeholder="Search...">
+          <button class="s-button" type="submit" name="button"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
         </form>
       </div>
     </div>
     <div class="banner">
-
       <div class="b-item">
         <div class="banner-img">
           <img src="images/banners/home-oaVs.webp" alt="Leading Technology Images">
@@ -113,66 +112,55 @@
           <p><a class="btn btn-web" href="#">find out more</a></p>
         </div>
       </div>
-
-
-        <!-- <div class="banner-img">
-          <img src="images/banners/home-KDXb.jpg" alt="Banner Images">
-        </div>
-        <div class="txt">
-          <h1>Web Design</h1>
-          <p>For businesses looking to make a strong <br>
-            and effective first impression.</p>
-          <p><a class="btn btn-web" href="#">find out more</a></p>
-        </div> -->
     </div>
     <div class="container-services">
       <div class="service-block-3">
           <span class="icon-apps"><i class="fa-solid fa-cube fa-5x"></i></span><br>
           <h2>Bespoke Software</h2>
           <p>Bespoke software solutions for all your business needs including integrations and reporting.</p>
-          <a href="#">read more</a>
+          <a class="btn btn-software" href="#">read more</a>
       </div>
       <div class="service-block-3">
           <span class="icon-apps"><i class="fa-solid fa-desktop fa-5x"></i></span><br>
           <h2>IT Support</h2>
           <p>Fully managed IT support and consultancy packages tailored to
                 meet your exact business needs.</p>
-          <a href="#">read more</a>
+          <a class="btn btn-software" href="#">read more</a>
       </div>
       <div class="service-block-3">
           <span class="icon-apps"><i class="fa-solid fa-chart-simple fa-5x"></i></span><br>
           <h2>Digital Marketing</h2>
           <p>Driven brand awareness &amp; ROI through creative digital
                 marketing capaigns.</p>
-          <a href="#">read more</a>
+          <a class="btn btn-software" href="#">read more</a>
       </div>
       <div class="service-block-4">
           <span class="icon-apps"><i class="fa-solid fa-phone-volume fa-5x"></i></span><br>
           <h2>Telecoms Services</h2>
           <p>Business telephony solutions including mobile &amp;
                   connectivity solutions.</p>
-          <a href="#">read more</a>
+          <a class="btn btn-software" href="#">read more</a>
       </div>
       <div class="service-block-4">
           <span class="icon-apps"><i class="fa-solid fa-code fa-5x"></i></span><br>
           <h2>Web Design</h2>
           <p>User-centric design for businesses looking to make a lasting
                   impression.</p>
-          <a href="#">read more</a>
+          <a class="btn btn-software" href="#">read more</a>
       </div>
       <div class="service-block-4">
           <span class="icon-apps"><i class="fa-solid fa-shield-virus fa-5x"></i></span><br>
           <h2>Cyber Security</h2>
           <p>Prevention, testing consultancy &amp; breach management
                   services.</p>
-          <a href="#">read more</a>
+          <a class="btn btn-software" href="#">read more</a>
       </div>
       <div class="service-block-4">
           <span class="icon-apps"><i class="fa-solid fa-graduation-cap fa-5x"></i></span><br>
           <h2>Developer Training</h2>
           <p>Web design &amp; software training courses designed to secure
                   a job in tech.</p>
-          <a href="#">read more</a>
+          <a class="btn btn-software" href="#">read more</a>
       </div>
     </div>
     <div class="partners-slideshow">
@@ -241,8 +229,7 @@
            and went over and above to ensure we were satisfied
            clients - and we are!</p>
         <p>Eleanor Bishop, Head of Marketing - Ashcroft Partnership LLP</p>
-        <div>
-
+        <div class="w-more">
           <a class="btn btn-google" href="#" target="_blank" >Google Reviews</a>
           <a class="btn btn-trustpilot" href="#" target="_blank" >TrustPilot Reviews</a>
         </div>
@@ -355,7 +342,6 @@
           </div>
 
         </form>
-
     </div>
     <div class="footer">
         <div class="f--container">
@@ -451,6 +437,7 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <!-- Partners slider settings -->
     <script>
       var slider = tns({
         container: '.my-slider',
@@ -482,6 +469,7 @@
 
       });
     </script>
+<!-- banner slider settings -->
     <script>
       var slider = tns({
         container: '.banner',

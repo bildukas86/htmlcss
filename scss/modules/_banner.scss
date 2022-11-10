@@ -21,7 +21,7 @@
   position: absolute;
   z-index: 1;
   width: 100vw;
-  top: 30%;
+  top: 10vh;
 
   h1{
     color: white;
@@ -49,10 +49,25 @@
       line-height: 50px;
   }
 }
-// .tns-nav{
-//   position: relative;
-//   z-index: 99;
-//   text-align: center;
-//
-//
-// }
+.tns-nav{
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  text-align: center;
+  top: 90vh;
+
+
+}
+.tns-nav-active{
+  transform: scale(1.5);
+
+}
+.tns-nav button{
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgba(239, 245, 245, 0.9);
+}

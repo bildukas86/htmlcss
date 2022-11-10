@@ -10,10 +10,8 @@ body{
   color: #666;
 
 }
-
 a:link{
   text-decoration: none;
-
 }
 .sign-up{
   background-color: #ddd;
@@ -39,6 +37,7 @@ ul {
   border: none;
 
 }
+
 label.required:after{
   content: " *";
   color: #d24d57;
@@ -57,10 +56,10 @@ p{
     border-color: #67809f;
 }
 .btn-google{
+    display: inline-block;
+    margin-bottom: 20px;
     background-color: #4387f6;
-    margin-right: 8px;
     border-radius: 6px;
-    padding: 10px 30px;
     font-size: 20px;
     color: #fff;
 }
@@ -74,11 +73,18 @@ p{
 
 }
 .btn-primary{
-
     background-color: #272936;
     margin-right: 8px;
     border-radius: 6px;
     padding: 10px 30px;
     font-size: 20px;
     color: #fff;
+}
+.service-block-3:hover{
+  transform: translateY(-20px);
+  transition: .5s ease;
+}
+.service-block-4:hover{
+  transform: translateY(-20px);
+  transition: .5s ease;
 }

@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   padding: 20px 0;
-  height: 26vh;
+  height: 168px;
 
   .header-top{
     display: flex;
@@ -13,5 +13,37 @@
       max-width: 100%;
       height: auto;
     }
+    .action{
+      display: inline-flex;
+      .b-icon button{
+        margin: 5px;
+        padding: 15px;
+      }
+    }
   }
+  .header-bottom{
+    border: 2px solid grey;
+    background-color: #e5e5e5;
+    padding: 5px 15px;
+    margin: 0 15px;
+    border-radius: 3px
+
+    }
+    .search{
+      display: flex;
+      justify-content: space-between;
+      .s-input{
+        width: 100%;
+        height: 47px;
+        border:none;
+        outline: none;
+        background-color: transparent;
+      }
+      .s-button{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+
+    }
 }
