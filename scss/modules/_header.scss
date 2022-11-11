@@ -1,10 +1,8 @@
 .header{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  padding: 20px 0;
-  height: 168px;
-
+  padding: 20px 0 0;
+  height: auto;
   .header-top{
     display: flex;
     justify-content: space-between;
@@ -21,14 +19,20 @@
       }
     }
   }
-  .header-bottom{
+  .header-search-sm{
     border: 2px solid grey;
     background-color: #e5e5e5;
     padding: 5px 15px;
     margin: 0 15px;
-    border-radius: 3px
-
+    border-radius: 3px;
     }
+    // .header-search-lg{
+    //   border: 2px solid grey;
+    //   background-color: #e5e5e5;
+    //   padding: 5px 15px;
+    //   margin: 0 15px;
+    //   border-radius: 3px;
+    //   }
     .search{
       display: flex;
       justify-content: space-between;
@@ -46,4 +50,98 @@
       }
 
     }
+}
+
+//main menu navigation
+.main-nav{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: $main-nav-color;
+  .nav-btn{
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+span, small{
+  display: block;
+  text-align: center;
+}
+//set visibility submenu start
+.nav-btn .sub-menu-banner{
+  display: none;
+}
+.nav-btn:hover .sub-menu-banner{
+  display: flex;
+  position: absolute;
+  background-color: red;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+//set visibility submenu end
+
+//swich icon+background color
+.software span>i{
+  color: $software-color;
+}
+.software:hover{
+  background-color: $software-color;
+  i{
+    color: inherit;
+  }
+}
+.support span>i{
+  color: $support-color;
+}
+.support:hover{
+  background-color: $support-color;
+  i{
+    color: inherit;
+  }
+}
+.marketing span>i{
+  color: $maraketing-color;
+}
+.marketing:hover{
+  background-color: $maraketing-color;
+  i{
+    color: inherit;
+  }
+}
+.services span>i{
+  color: $services-color;
+}
+.services:hover{
+  background-color: $services-color;
+  i{
+    color: inherit;
+  }
+}
+.design span>i{
+  color: $design-color;
+}
+.design:hover{
+  background-color: $design-color;
+  i{
+    color: inherit;
+  }
+}
+.security span>i{
+  color: $security-color;
+}
+.security:hover{
+  background-color: $security-color;
+  i{
+    color: inherit;
+  }
+}
+.course span>i{
+  color: $course-color;
+}
+.course:hover{
+  background-color: $course-color;
+  i{
+    color: inherit;
+  }
 }
