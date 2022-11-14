@@ -31,11 +31,22 @@
 
 
 }
-  .nav-btm{
+
+  .main-nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: $main-nav-color;
+    margin-top: 10px;
+    .nav-btn{
+      text-align: center;
+      padding: 0 20px;
+    }
+  }
+  .hide-sm{
     display: block;
   }
-
-
+  
 
 
 

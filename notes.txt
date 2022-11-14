@@ -13,3 +13,4 @@ https://validator.w3.org/
 
 https://github.com/ganlanyuan/tiny-slider
 https://www.youtube.com/watch?v=ObFqp3yTwjQ
+http://apps.eky.hk/css-triangle-generator/

@@ -98,3 +98,20 @@ p{
   transform: translateY(-20px);
   transition: .5s ease;
 }
+.main-nav, .hide-sm, .header-search-md{
+  display: none;
+}
+.btn-it{
+  background-color: $support-color;
+  color: $w-color;
+  height: 56px;
+  line-height: 46px;
+  margin-right: 10px;
+}
+.btn-support{
+  background-color: #999aa2;
+  color: $w-color;
+  height: 56px;
+  line-height: 46px;
+  margin-right: 10px;
+}
