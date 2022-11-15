@@ -1,0 +1,222 @@
+//set buttons colours
+.btn-software{
+  background-color: $software-color;
+  color: $w-color;
+}
+.btn-support{
+  background-color: $support-color;
+  color: $w-color;
+}
+.btn-marketing{
+  background-color: $maraketing-color;
+  color: $w-color;
+}
+.btn-telecom{
+  background-color: $telecom-color;
+  color: $w-color;
+}
+.btn-design{
+  background-color: $design-color;
+  color: $w-color;
+}
+.btn-security{
+  background-color: $security-color;
+  color: $w-color;
+}
+.btn-course{
+  background-color: $course-color;
+  color: $w-color;
+}
+
+
+////////////////////////////////////////
+
+///////////////////////////////////////
+//switch main navigation icons + background colour
+.software span>i{
+  color: $software-color;
+}
+.software:hover{
+  background-color: $software-color;
+  i{
+    color: inherit;
+  }
+}
+.support span>i{
+  color: $support-color;
+}
+.support:hover{
+  background-color: $support-color;
+  i{
+    color: inherit;
+  }
+}
+.marketing span>i{
+  color: $maraketing-color;
+}
+.marketing:hover{
+  background-color: $maraketing-color;
+  i{
+    color: inherit;
+  }
+}
+.telecom span>i{
+  color: $telecom-color;
+}
+.telecom:hover{
+  background-color: $telecom-color;
+  i{
+    color: inherit;
+  }
+}
+.design span>i{
+  color: $design-color;
+}
+.design:hover{
+  background-color: $design-color;
+  i{
+    color: inherit;
+  }
+}
+.security span>i{
+  color: $security-color;
+}
+.security:hover{
+  background-color: $security-color;
+  i{
+    color: inherit;
+  }
+}
+.course span>i{
+  color: $course-color;
+}
+.course:hover{
+  background-color: $course-color;
+  i{
+    color: inherit;
+  }
+}
+////////////////////////////////////////////////
+/// Services icons +backround change colour
+///////////////////////////////////////////////
+.s-software span>i{
+  color: $w-color;
+  border: 1px solid $software-color;
+  background-color: $software-color;
+  border-radius: 50%;
+  padding: 20px;
+}
+.s-software:hover{
+  background-color: $software-color;
+  i, .btn-software{
+    color: $software-color;
+    background-color: $w-color;
+  }
+  h2, p{
+    color: $w-color;
+  }
+}
+
+
+.s-support span>i{
+  color: $w-color;
+  border: 1px solid $support-color;
+  background-color: $support-color;
+  border-radius: 50%;
+  padding: 20px;
+}
+.s-support:hover{
+  background-color: $support-color;
+  i, .btn-support{
+    color: $support-color;
+    background-color: $w-color;
+  }
+  h2, p{
+    color: $w-color;
+  }
+}
+.s-marketing span>i{
+  color: $w-color;
+  border: 1px solid $maraketing-color;
+  background-color: $maraketing-color;
+  border-radius: 50%;
+  padding: 20px;
+}
+.s-marketing:hover{
+  background-color: $maraketing-color;
+  i, .btn-marketing{
+    color: $maraketing-color;
+    background-color: $w-color;
+  }
+  h2, p{
+    color: $w-color;
+  }
+}
+.s-telecom span>i{
+  color: $w-color;
+  border: 1px solid $telecom-color;
+  background-color: $telecom-color;
+  border-radius: 50%;
+  padding: 20px;
+}
+.s-telecom:hover{
+  background-color: $telecom-color;
+  i, .btn-telecom{
+    color: $telecom-color;
+    background-color: $w-color;
+  }
+  h2, p{
+    color: $w-color;
+  }
+}
+.s-design span>i{
+  color: $w-color;
+  border: 1px solid $design-color;
+  background-color: $design-color;
+  border-radius: 50%;
+  padding: 20px;
+}
+.s-design:hover{
+  background-color: $design-color;
+  i, .btn-design{
+    color: $design-color;
+    background-color: $w-color;
+  }
+  h2, p{
+    color: $w-color;
+  }
+}
+.s-security span>i{
+  color: $w-color;
+  border: 1px solid $security-color;
+  background-color: $security-color;
+  border-radius: 50%;
+  padding: 20px;
+}
+.s-security:hover{
+  background-color: $security-color;
+  i, .btn-security{
+    color: $security-color;
+    background-color: $w-color;
+  }
+  h2, p{
+    color: $w-color;
+  }
+}
+.s-course span>i{
+  color: $w-color;
+  border: 1px solid $course-color;
+  background-color: $course-color;
+  border-radius: 50%;
+  padding: 20px;
+}
+.s-course:hover{
+  background-color: $course-color;
+  i, .btn-course{
+    color: $course-color;
+    background-color: $w-color;
+  }
+  h2, p{
+    color: $w-color;
+  }
+}

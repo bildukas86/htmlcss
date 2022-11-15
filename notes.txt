@@ -6,6 +6,7 @@ https://teamtreehouse.com/library/css-flexbox-layout/controlling-the-direction-o
 hamburger menu
 https://alvarotrigo.com/blog/hamburger-menu-css/
 https://github.com/jonsuh/hamburgers
+only css hamburger menu https://codepen.io/erikterwan/pen/grOZxx
 
 https://codepen.io/nxworld/pen/ZYNOBZ
 
@@ -14,3 +15,5 @@ https://validator.w3.org/
 https://github.com/ganlanyuan/tiny-slider
 https://www.youtube.com/watch?v=ObFqp3yTwjQ
 http://apps.eky.hk/css-triangle-generator/
+
+#79539a

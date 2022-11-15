@@ -106,12 +106,27 @@ p{
   color: $w-color;
   height: 56px;
   line-height: 46px;
-  margin-right: 10px;
+  margin: 10px 10px;
 }
-.btn-support{
-  background-color: #999aa2;
+.btn-support-h{
+  background-color: $contact-color;
   color: $w-color;
   height: 56px;
   line-height: 46px;
-  margin-right: 10px;
+  margin: 10px 10px;
+}
+//hide search input sm/md/lr screen
+.s-input-md{
+  display: none;
+}
+
+///////////////////////////////////////
+//testing
+/////////
+.soft-icon{
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: inherit;
+  i{color:$w-color;}
 }

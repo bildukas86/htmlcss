@@ -14,46 +14,41 @@
     .action{
       display: inline-flex;
       .b-icon button{
-        margin: 5px;
+        margin: 15px;
         padding: 15px;
       }
     }
   }
-  .header-search-sm{
-    border: 2px solid grey;
-    background-color: #e5e5e5;
-    padding: 5px 15px;
-    margin: 0 15px 20px;
-    border-radius: 3px;
-    }
-    .header-search-md{
-      border: 2px solid grey;
+//search
 
-      padding: 5px 15px;
-      margin: 0 15px 20px;
-      border-radius: 3px;
-      .s-button-md{
-        background-color: #999aa2;
-        border: none;
-        padding: 20px;
-        color: #fff;
-        cursor: pointer;
-      }
-      }
-
-    .search{
+    .search, .search-md{
       display: flex;
       justify-content: space-between;
+      border: 1px solid grey;
+      border-radius: 3px;
+      margin: 10px 15px;
       .s-input{
         width: 100%;
         height: 47px;
         border:none;
         outline: none;
         background-color: transparent;
+        .s-input:focus, .s-input-md:focus{
+          outline: none !important;
+          border-color: #719ECE;
+          box-shadow: 0 0 10px #719ECE;
+        }
       }
       .s-button{
         border: none;
         background-color: transparent;
+        cursor: pointer;
+      }
+      .s-button-md{
+        background-color: #999aa2;
+        border: none;
+        padding: 20px;
+        color: #fff;
         cursor: pointer;
       }
 
@@ -75,11 +70,14 @@ span, small{
   flex-wrap: wrap;
   position: absolute;
   list-style: none;
+
   background-color: inherit;
+  
   padding: 20px 0;
   width: 100%;
   left: 0;
   z-index: 1;
+
   h1{
     color: $w-color;
     width: 100%;
@@ -98,68 +96,3 @@ span, small{
   }
 }
 //set visibility submenu end
-
-//swich icon+background color
-.software span>i{
-  color: $software-color;
-}
-.software:hover{
-  background-color: $software-color;
-  i{
-    color: inherit;
-  }
-}
-.support span>i{
-  color: $support-color;
-}
-.support:hover{
-  background-color: $support-color;
-  i{
-    color: inherit;
-  }
-}
-.marketing span>i{
-  color: $maraketing-color;
-}
-.marketing:hover{
-  background-color: $maraketing-color;
-  i{
-    color: inherit;
-  }
-}
-.telecom span>i{
-  color: $telecom-color;
-}
-.telecom:hover{
-  background-color: $telecom-color;
-  i{
-    color: inherit;
-  }
-}
-.design span>i{
-  color: $design-color;
-}
-.design:hover{
-  background-color: $design-color;
-  i{
-    color: inherit;
-  }
-}
-.security span>i{
-  color: $security-color;
-}
-.security:hover{
-  background-color: $security-color;
-  i{
-    color: inherit;
-  }
-}
-.course span>i{
-  color: $course-color;
-}
-.course:hover{
-  background-color: $course-color;
-  i{
-    color: inherit;
-  }
-}

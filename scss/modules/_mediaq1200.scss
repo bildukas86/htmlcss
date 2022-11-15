@@ -26,6 +26,7 @@
     border-radius: 10px;
     padding: 15px;
     text-align: center;
+    background-color: $w-color;
   }
   .service-block-4{
     width: 20vw;
@@ -49,6 +50,10 @@
 
     }
   }
-  
+  // unhide search input at the top large screen
+  .s-input-md{
+    display: block;
+  }
+
 
 }
