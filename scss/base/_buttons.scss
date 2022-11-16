@@ -30,6 +30,36 @@
 
 
 ////////////////////////////////////////
+//hamburger sidenav buttons
+
+
+.ham-button {
+  display: inline-block;
+  cursor: pointer;
+  background-color: $b-color;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ham1, .ham2, .ham3 {
+  width: 35px;
+  height: 5px;
+  background-color: $w-color;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .ham1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .ham2 {opacity: 0;}
+
+.change .ham3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
 
 ///////////////////////////////////////
 //switch main navigation icons + background colour

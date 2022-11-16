@@ -17,3 +17,10 @@ https://www.youtube.com/watch?v=ObFqp3yTwjQ
 http://apps.eky.hk/css-triangle-generator/
 
 #79539a
+
+
+sticky navigation
+https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
+
+side navigation
+https://www.w3schools.com/howto/howto_js_sidenav.asp
