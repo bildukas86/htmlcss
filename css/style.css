@@ -354,11 +354,6 @@
   color: #ffffff;
 }
 
-/* line 3, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
-.hide-b {
-  display: none;
-}
-
 /* line 7, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 * {
   box-sizing: border-box;
@@ -374,39 +369,44 @@ body {
   color: #666;
 }
 
-/* line 20, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 23, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 a {
   color: #ffffff;
   text-transform: uppercase;
 }
 
-/* line 24, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 27, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 a:link {
   text-decoration: none;
 }
 
-/* line 29, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 32, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+#main-container {
+  position: relative;
+}
+
+/* line 39, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .sign-up {
   background-color: #ddd;
 }
 
-/* line 32, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 42, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .footer {
   background-color: #333645;
 }
 
-/* line 36, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 46, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 ul {
   list-style-type: none;
   padding: 0;
 }
 
-/* line 41, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 51, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 small {
   font-size: 0.625rem;
 }
 
-/* line 44, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 54, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn {
   height: auto;
   line-height: 35px;
@@ -418,32 +418,32 @@ small {
   border: none;
 }
 
-/* line 56, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 66, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 label.required:after {
   content: " *";
   color: #d24d57;
 }
 
-/* line 60, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 70, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 p {
   font-size: 14px;
 }
 
-/* line 63, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 73, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-h {
   color: #fff;
   background-color: #2ecc71;
   border-color: #2ecc71;
 }
 
-/* line 68, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 78, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-software {
   color: #fff;
   background-color: #67809f;
   border-color: #67809f;
 }
 
-/* line 73, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 83, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-google {
   display: inline-block;
   margin-bottom: 20px;
@@ -453,7 +453,7 @@ p {
   color: #fff;
 }
 
-/* line 81, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 91, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-trustpilot {
   background-color: #00b67b;
   margin-right: 8px;
@@ -463,7 +463,7 @@ p {
   color: #fff;
 }
 
-/* line 90, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 100, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-primary {
   background-color: #272936;
   margin-right: 8px;
@@ -473,24 +473,24 @@ p {
   color: #fff;
 }
 
-/* line 98, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 108, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .service-block-3:hover {
   transform: translateY(-20px);
   transition: .5s ease;
 }
 
-/* line 102, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 112, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .service-block-4:hover {
   transform: translateY(-20px);
   transition: .5s ease;
 }
 
-/* line 106, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 116, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .main-nav, .hide-sm, .header-search-md {
   display: none;
 }
 
-/* line 109, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 119, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-it {
   background-color: #4183d7;
   color: #ffffff;
@@ -499,7 +499,7 @@ p {
   margin: 10px 10px;
 }
 
-/* line 116, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 126, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-support-h {
   background-color: #999aa2;
   color: #ffffff;
@@ -508,12 +508,12 @@ p {
   margin: 10px 10px;
 }
 
-/* line 124, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 134, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .s-input-md {
   display: none;
 }
 
-/* line 131, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 141, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .soft-icon {
   border: 1px solid red;
   border-radius: 50%;
@@ -521,7 +521,7 @@ p {
   background-color: inherit;
 }
 
-/* line 136, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 146, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .soft-icon i {
   color: #ffffff;
 }
@@ -936,6 +936,84 @@ span, small {
 /* line 68, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
 .tns-nav-active {
   transform: scale(1.5);
+}
+
+/* line 1, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_sidenav.scss */
+#sideNav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 275px;
+  text-transform: uppercase;
+  background-color: #333645;
+  z-index: 9;
+  overflow-y: auto;
+}
+
+/* line 12, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_sidenav.scss */
+#sideNav .side-main-li {
+  padding-top: 19px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 17, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_sidenav.scss */
+#sideNav .side-main-li a {
+  display: block;
+  background-color: #333645;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 28, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_sidenav.scss */
+#sideNav .side-nav-sub {
+  padding-top: 20px;
+}
+
+/* line 33, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_sidenav.scss */
+#sideNav .side-nav-sub > ul > li a {
+  display: block;
+  background-color: #272936;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 45, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_sidenav.scss */
+#sideNav .side-nav-list2 {
+  margin-top: 20px;
+}
+
+/* line 48, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_sidenav.scss */
+#sideNav .side-nav-list2 .side-main-li2 a {
+  display: block;
+  background-color: #333645;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 59, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_sidenav.scss */
+#sideNav .side-nav-list2 .side-main-li2 .side-nav-sub2 > ul > li a {
+  display: block;
+  background-color: #272936;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  padding: 15px 20px;
+  text-align: center;
+  margin: 0;
 }
 
 /* Extra small devices (phones, 600px and down) */
