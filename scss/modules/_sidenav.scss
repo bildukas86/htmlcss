@@ -1,4 +1,5 @@
 #sideNav{
+  display: none;
   position: fixed;
   top: 0;
   right: 0;
@@ -8,6 +9,7 @@
   background-color: $main-nav-color;
   z-index: 9;
   overflow-y: auto;
+  
   //side navigation list 1
   .side-main-li{
       padding-top:19px;

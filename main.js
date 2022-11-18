@@ -1,21 +1,24 @@
 
 //animated hamburger icon
 function hamFunction(x) {
-  x.classList.toggle("change");
-}
 
-// <script>
-//           /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
-//       function openNav() {
-//       document.getElementById("sideNav").style.width = "250px";
-//       document.getElementById("main-container").style.marginLeft = "250px";
-//       document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-//       }
-//
-//       /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-//       function closeNav() {
-//       document.getElementById("sideNav").style.width = "0";
-//       document.getElementById("main-container").style.marginLeft = "0";
-//       document.body.style.backgroundColor = "white";
-//       }
-// </script>
+  x.classList.toggle("change");
+
+  var s = document.getElementById('sideNav');
+  var b = document.body;
+  var m = document.getElementById('main-container');
+    if (s.style.display === "block"){
+     s.style.display = "none";
+     b.style.overflow = "visible";
+     b.style.left = "0";
+     m.style.opacity = "1";
+     
+    } else {
+      s.style.display = "block";
+      b.style.overflow = "hidden";
+      b.style.left = "-275px";
+      m.style.opacity = "0.3";
+
+
+    }
+}

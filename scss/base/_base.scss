@@ -1,9 +1,4 @@
-////////////////////////////
-//hide block classList
-// .hide-b{
-//   display: none;
-// }
-//////////////////////////
+
 *{
   box-sizing: border-box;
 }
@@ -14,10 +9,7 @@ body{
   font-size: 1rem;
   letter-spacing: .4px;
   color: #666;
-
-  // overflow: hidden;
-
-
+  position: relative;
 }
 
 a{
@@ -29,12 +21,6 @@ a:link{
 
 }
 
-#main-container{
-  position: relative;
-
-
-
-}
 
 .sign-up{
   background-color: #ddd;
@@ -144,4 +130,7 @@ p{
   padding: 10px;
   background-color: inherit;
   i{color:$w-color;}
+}
+.w-more{
+
 }

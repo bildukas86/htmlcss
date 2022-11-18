@@ -18,6 +18,12 @@
       margin: 15px;
       }
   }
+  .header-top{
+    justify-content: center;
+    .logo{
+      padding-right: 50px;
+    }
+  }
   .header-search-sm, .phone{
     display: none;
   }
@@ -25,6 +31,9 @@
    display: block;
  }
 
-
-
+}
+@media only screen and (max-width: 767px){
+  .header-top{
+    justify-content: space-between;
+  }
 }
