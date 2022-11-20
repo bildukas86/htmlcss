@@ -3,13 +3,14 @@
   position: fixed;
   top: 0;
   right: 0;
-  height: 100%;
   width: 275px;
+  height: 100%;
   text-transform: uppercase;
   background-color: $main-nav-color;
   z-index: 9;
   overflow-y: auto;
-  
+  transition: 1.5s;
+
   //side navigation list 1
   .side-main-li{
       padding-top:19px;

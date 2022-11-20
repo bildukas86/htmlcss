@@ -1,7 +1,93 @@
-
+//1.Header
+//2.Banner
+//3.Services
+//4.Partners
+//5.Wellcome
+//6.Latest News
+//7.Newsletter
+//8.Footer
 *{
   box-sizing: border-box;
 }
+
+////////////////////////////////////////////////
+// 1. header
+///////////////////////////////////////////////
+
+////////////////////////////////////////////////
+// 2. Banner-slideshow
+///////////////////////////////////////////////
+
+////////////////////////////////////////////////
+// 3. services
+///////////////////////////////////////////////
+
+////////////////////////////////////////////////
+// 4. partners-slideshow
+///////////////////////////////////////////////
+
+////////////////////////////////////////////////
+// 5. Welcome section
+///////////////////////////////////////////////
+
+////////////////////////////////////////////////
+// 6. Latest News
+///////////////////////////////////////////////
+
+////////////////////////////////////////////////
+// 7. Newsletter
+///////////////////////////////////////////////
+.sign-up{
+  padding: 50px 15px;
+  background-color: $newsletter-color;
+}
+
+  .signup-input{
+    font-weight: 600;
+    color: #666;
+  }
+
+  .signup-tick{
+    display: inline-flex;
+    a{
+      color: #666;
+      text-decoration: underline;
+      text-transform: capitalize;
+    }
+
+  }
+  input[type="checkbox"] {
+
+    transform: scale(2.5);
+    margin-right: 20px;
+
+
+  }
+  .form-control{
+    display: block;
+    width: 100%;
+    height: 47px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    padding: 5px 15px;
+
+  }
+
+  .sub-button{
+    color: #fff;
+    background-color: #333645;
+    border-color: #333645;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 3px;
+  }
+
+////////////////////////////////////////////////
+// 8. Footer
+///////////////////////////////////////////////
+
 body{
   margin: 0;
   background-color: #fff;
@@ -22,9 +108,7 @@ a:link{
 }
 
 
-.sign-up{
-  background-color: #ddd;
-}
+
 .footer{
   background-color: #333645;
 }
@@ -130,7 +214,4 @@ p{
   padding: 10px;
   background-color: inherit;
   i{color:$w-color;}
-}
-.w-more{
-
 }

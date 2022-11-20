@@ -7,12 +7,14 @@ function hamFunction(x) {
   var s = document.getElementById('sideNav');
   var b = document.body;
   var m = document.getElementById('main-container');
+
+  
     if (s.style.display === "block"){
      s.style.display = "none";
      b.style.overflow = "visible";
      b.style.left = "0";
      m.style.opacity = "1";
-     
+
     } else {
       s.style.display = "block";
       b.style.overflow = "hidden";

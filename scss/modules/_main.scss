@@ -94,40 +94,47 @@
 //--------------------------------------
 //sign-up form
 //---------------------------------------
-.sign-up{
-  padding: 50px 15px;
-  .signup-input{
-    font-weight: 600;
-    color: #666;
-  }
-
-  .signup-tick{
-    display: inline-flex;
-
-  }
-  input[type="checkbox"] {
-
-    transform: scale(2.5);
-    margin-right: 20px;
-  }
-  .form-control{
-    display: block;
-    width: 100%;
-    height: 47px;
-    border-radius: 3px;
-    border: 1px solid #e5e5e5;
-    padding: 5px 15px;
-
-  }
-
-  .sub-button{
-    color: #fff;
-    background-color: #333645;
-    border-color: #333645;
-    text-transform: uppercase;
-    font-size: 1rem;
-    text-align: center;
-    line-height: 35px;
-    border-radius: 3px;
-  }
-}
+// .sign-up{
+//   padding: 50px 15px;
+//   .signup-input{
+//     font-weight: 600;
+//     color: #666;
+//   }
+//
+//   .signup-tick{
+//     display: inline-flex;
+//     a{
+//       color: #666;
+//       text-decoration: underline;
+//       text-transform: capitalize;
+//     }
+//
+//   }
+//   input[type="checkbox"] {
+//
+//     transform: scale(2.5);
+//     margin-right: 20px;
+//
+//
+//   }
+//   .form-control{
+//     display: block;
+//     width: 100%;
+//     height: 47px;
+//     border-radius: 3px;
+//     border: 1px solid #e5e5e5;
+//     padding: 5px 15px;
+//
+//   }
+//
+//   .sub-button{
+//     color: #fff;
+//     background-color: #333645;
+//     border-color: #333645;
+//     text-transform: uppercase;
+//     font-size: 1rem;
+//     text-align: center;
+//     line-height: 35px;
+//     border-radius: 3px;
+//   }
+// }
