@@ -18,6 +18,17 @@
       margin: 15px;
       }
   }
+  .n-view-all{
+    display: none;
+  }
+  .n-view-all-top{
+    display: block;
+  }
+  .l-news-links{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5vw;
+  }
   .header-top{
     justify-content: center;
     .logo{
@@ -31,6 +42,9 @@
    display: block;
  }
 
+}
+.service-block-4{
+  width: 45vw;
 }
 @media only screen and (max-width: 767px){
   .header-top{

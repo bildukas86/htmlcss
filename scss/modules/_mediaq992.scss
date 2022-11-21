@@ -1,5 +1,8 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .service-block-3{
+    width: 30vw;
+  }
   .clients-list{
     display: flex;
     justify-content: center;
@@ -17,7 +20,10 @@
     .w-block{
       max-width: 45vw;
       padding: 5px;
+      
+
     }
+
   }
   .signup-input{
   display: flex;
@@ -38,6 +44,7 @@
     flex-direction: row;
     background-color: $main-nav-color;
     margin-top: 10px;
+    z-index: 100;
     .nav-btn{
       text-align: center;
       padding: 0 20px;
@@ -49,6 +56,7 @@
   .s-input-md{
     display: none;
   }
+
 
 
 }

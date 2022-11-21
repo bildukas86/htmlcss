@@ -21,25 +21,119 @@
 ////////////////////////////////////////////////
 // 3. services
 ///////////////////////////////////////////////
+.container-services{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
+
+}
+.service-block-3, .service-block-4{
+  width: 90vw;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  height: 313px;
+  background-color: $w-color
+}
+.service-block-3:hover, .service-block-4:hover{
+  cursor: pointer;
+}
 ////////////////////////////////////////////////
 // 4. partners-slideshow
 ///////////////////////////////////////////////
-
+.partners-slideshow{
+  padding: 50px 0 50px 0;
+}
+.p-slider{
+  display: flex;
+  flex-direction: row;
+}
 ////////////////////////////////////////////////
 // 5. Welcome section
 ///////////////////////////////////////////////
+.welcome{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #333645;
+  color: #FFFFFF;
+  padding: 25px 15px 25px 15px;
+  .w-block{
+    max-width: 100%;
+    height: auto;
 
+
+  }
+}
 ////////////////////////////////////////////////
 // 6. Latest News
 ///////////////////////////////////////////////
+.l-news-main{
+  h1{
+    margin-left: 5vw;
+  }
+}
 
+.n-view-all-top{
+  display: none;
+}
+.news-articles{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  .news-block{
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    .news-img{
+      width: 100%;
+      height: auto;
+    }
+    .news-block-b{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .user{
+      display: flex;
+      margin-top: 30px;
+      border-top: 1px solid #ccc;
+      .avatar{
+          margin-top: 15px;
+          width: 47px;
+          height: 47px;
+      }
+      .details{
+        line-height: 12px;
+        padding: 0 15px 0 15px;
+      }
+    }
+  }
+}
+.news-block:hover{
+  cursor: pointer;
+  transform: translateY(-20px);
+  transition: .5s ease;
+}
 ////////////////////////////////////////////////
 // 7. Newsletter
 ///////////////////////////////////////////////
 .sign-up{
   padding: 50px 15px;
   background-color: $newsletter-color;
+
+  .sign-up-inner, a{
+    color: $b-color;
+  }
+
 }
 
   .signup-input{
@@ -47,15 +141,22 @@
     color: #666;
   }
 
-  .signup-tick{
+
+  .checkbox-line{
     display: inline-flex;
-    a{
-      color: #666;
-      text-decoration: underline;
-      text-transform: capitalize;
+    margin: 1vw 5vw;
+    span:hover{
+      cursor: pointer;
     }
 
+    span>a{
+      text-decoration: underline;
+    }
+
+
+
   }
+
   input[type="checkbox"] {
 
     transform: scale(2.5);
@@ -121,17 +222,7 @@ ul {
 small{
   font-size: 0.625rem;
 }
-.btn{
-  height: auto;
-  line-height: 35px;
-  padding: 5px 15px;
-  text-transform: uppercase;
-  font-size: 1.063rem;
-  border-radius: 3px;
-  white-space: normal;
-  border: none;
 
-}
 
 label.required:after{
   content: " *";
