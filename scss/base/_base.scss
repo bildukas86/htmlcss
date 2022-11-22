@@ -35,7 +35,7 @@
   border-radius: 10px;
   padding: 15px;
   text-align: center;
-  height: 313px;
+  height: auto;
   background-color: $w-color
 }
 .service-block-3:hover, .service-block-4:hover{
@@ -62,10 +62,16 @@
   background-color: #333645;
   color: #FFFFFF;
   padding: 25px 15px 25px 15px;
-  .w-block{
-    max-width: 100%;
-    height: auto;
+  line-height: 1.8rem;
+  .w-more{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
 
+    a{
+      margin: 5px;
+    }
 
   }
 }
@@ -228,9 +234,7 @@ label.required:after{
   content: " *";
   color: #d24d57;
 }
-p{
-  font-size: 14px;
-}
+
 .btn-h{
     color: #fff;
     background-color: #2ecc71;
@@ -241,23 +245,7 @@ p{
     background-color: #67809f;
     border-color: #67809f;
 }
-.btn-google{
-    display: inline-block;
-    margin-bottom: 20px;
-    background-color: #4387f6;
-    border-radius: 6px;
-    font-size: 20px;
-    color: #fff;
-}
-.btn-trustpilot{
-  background-color: #00b67b;
-  margin-right: 8px;
-  border-radius: 6px;
-  padding: 10px 30px;
-  font-size: 20px;
-  color: #fff;
 
-}
 .btn-primary{
     background-color: #272936;
     margin-right: 8px;

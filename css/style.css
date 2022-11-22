@@ -10,49 +10,49 @@
   border: none;
 }
 
-/* line 14, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 15, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .btn-software {
   background-color: #67809f;
   color: #ffffff;
 }
 
-/* line 18, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 19, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .btn-support {
   background-color: #4183d7;
   color: #ffffff;
 }
 
-/* line 22, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 23, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .btn-marketing {
   background-color: #2ecc71;
   color: #ffffff;
 }
 
-/* line 26, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 27, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .btn-telecom {
   background-color: #d64541;
   color: #ffffff;
 }
 
-/* line 30, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 31, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .btn-design {
   background-color: #926fb1;
   color: #ffffff;
 }
 
-/* line 34, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 35, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .btn-security {
   background-color: #f62459;
   color: #ffffff;
 }
 
-/* line 38, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 39, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .btn-course {
   background-color: #ce4125;
   color: #ffffff;
 }
 
-/* line 48, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 49, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .ham-button {
   display: inline-block;
   cursor: pointer;
@@ -62,7 +62,7 @@
   margin: 10px;
 }
 
-/* line 57, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 58, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .ham1, .ham2, .ham3 {
   width: 35px;
   height: 5px;
@@ -71,127 +71,127 @@
   transition: 0.4s;
 }
 
-/* line 65, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 66, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .change .ham1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
 
-/* line 69, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 70, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .change .ham2 {
   opacity: 0;
 }
 
-/* line 71, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 72, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .change .ham3 {
   transform: translate(0, -11px) rotate(45deg);
 }
 
-/* line 78, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 79, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .software span > i {
   color: #67809f;
 }
 
-/* line 81, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 82, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .software:hover {
   background-color: #67809f;
 }
 
-/* line 83, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 84, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .software:hover i {
   color: inherit;
 }
 
-/* line 87, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 88, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .support span > i {
   color: #4183d7;
 }
 
-/* line 90, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 91, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .support:hover {
   background-color: #4183d7;
 }
 
-/* line 92, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 93, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .support:hover i {
   color: inherit;
 }
 
-/* line 96, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 97, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .marketing span > i {
   color: #2ecc71;
 }
 
-/* line 99, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 100, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .marketing:hover {
   background-color: #2ecc71;
 }
 
-/* line 101, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 102, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .marketing:hover i {
   color: inherit;
 }
 
-/* line 105, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 106, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .telecom span > i {
   color: #d64541;
 }
 
-/* line 108, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 109, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .telecom:hover {
   background-color: #d64541;
 }
 
-/* line 110, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 111, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .telecom:hover i {
   color: inherit;
 }
 
-/* line 114, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 115, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .design span > i {
   color: #926fb1;
 }
 
-/* line 117, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 118, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .design:hover {
   background-color: #926fb1;
 }
 
-/* line 119, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 120, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .design:hover i {
   color: inherit;
 }
 
-/* line 123, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 124, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .security span > i {
   color: #f62459;
 }
 
-/* line 126, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 127, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .security:hover {
   background-color: #f62459;
 }
 
-/* line 128, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 129, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .security:hover i {
   color: inherit;
 }
 
-/* line 132, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 133, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .course span > i {
   color: #ce4125;
 }
 
-/* line 135, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 136, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .course:hover {
   background-color: #ce4125;
 }
 
-/* line 137, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 138, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .course:hover i {
   color: inherit;
 }
 
-/* line 144, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 145, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-software span > i {
   color: #ffffff;
   border: 1px solid #67809f;
@@ -200,23 +200,23 @@
   padding: 20px;
 }
 
-/* line 151, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 152, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-software:hover {
   background-color: #67809f;
 }
 
-/* line 153, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 154, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-software:hover i, .s-software:hover .btn-software {
   color: #67809f;
   background-color: #ffffff;
 }
 
-/* line 157, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 158, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-software:hover h2, .s-software:hover p {
   color: #ffffff;
 }
 
-/* line 163, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 164, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-support span > i {
   color: #ffffff;
   border: 1px solid #4183d7;
@@ -225,23 +225,23 @@
   padding: 20px;
 }
 
-/* line 170, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 171, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-support:hover {
   background-color: #4183d7;
 }
 
-/* line 172, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 173, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-support:hover i, .s-support:hover .btn-support {
   color: #4183d7;
   background-color: #ffffff;
 }
 
-/* line 176, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 177, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-support:hover h2, .s-support:hover p {
   color: #ffffff;
 }
 
-/* line 180, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 181, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-marketing span > i {
   color: #ffffff;
   border: 1px solid #2ecc71;
@@ -250,23 +250,23 @@
   padding: 20px;
 }
 
-/* line 187, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 188, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-marketing:hover {
   background-color: #2ecc71;
 }
 
-/* line 189, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 190, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-marketing:hover i, .s-marketing:hover .btn-marketing {
   color: #2ecc71;
   background-color: #ffffff;
 }
 
-/* line 193, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 194, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-marketing:hover h2, .s-marketing:hover p {
   color: #ffffff;
 }
 
-/* line 197, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 198, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-telecom span > i {
   color: #ffffff;
   border: 1px solid #d64541;
@@ -275,23 +275,23 @@
   padding: 20px;
 }
 
-/* line 204, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 205, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-telecom:hover {
   background-color: #d64541;
 }
 
-/* line 206, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 207, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-telecom:hover i, .s-telecom:hover .btn-telecom {
   color: #d64541;
   background-color: #ffffff;
 }
 
-/* line 210, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 211, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-telecom:hover h2, .s-telecom:hover p {
   color: #ffffff;
 }
 
-/* line 214, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 215, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-design span > i {
   color: #ffffff;
   border: 1px solid #926fb1;
@@ -300,23 +300,23 @@
   padding: 20px;
 }
 
-/* line 221, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 222, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-design:hover {
   background-color: #926fb1;
 }
 
-/* line 223, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 224, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-design:hover i, .s-design:hover .btn-design {
   color: #926fb1;
   background-color: #ffffff;
 }
 
-/* line 227, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 228, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-design:hover h2, .s-design:hover p {
   color: #ffffff;
 }
 
-/* line 231, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 232, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-security span > i {
   color: #ffffff;
   border: 1px solid #f62459;
@@ -325,23 +325,23 @@
   padding: 20px;
 }
 
-/* line 238, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 239, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-security:hover {
   background-color: #f62459;
 }
 
-/* line 240, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 241, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-security:hover i, .s-security:hover .btn-security {
   color: #f62459;
   background-color: #ffffff;
 }
 
-/* line 244, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 245, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-security:hover h2, .s-security:hover p {
   color: #ffffff;
 }
 
-/* line 248, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 249, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-course span > i {
   color: #ffffff;
   border: 1px solid #ce4125;
@@ -350,20 +350,40 @@
   padding: 20px;
 }
 
-/* line 255, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 256, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-course:hover {
   background-color: #ce4125;
 }
 
-/* line 257, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 258, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-course:hover i, .s-course:hover .btn-course {
   color: #ce4125;
   background-color: #ffffff;
 }
 
-/* line 261, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+/* line 262, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .s-course:hover h2, .s-course:hover p {
   color: #ffffff;
+}
+
+/* line 266, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+.btn-google {
+  background-color: #4387f6;
+  margin-right: 8px;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* line 274, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+.btn-trustpilot {
+  background-color: #00b67b;
+  margin-right: 8px;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
 }
 
 /* line 9, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
@@ -386,7 +406,7 @@
   border-radius: 10px;
   padding: 15px;
   text-align: center;
-  height: 313px;
+  height: auto;
   background-color: #ffffff;
 }
 
@@ -415,25 +435,33 @@
   background-color: #333645;
   color: #FFFFFF;
   padding: 25px 15px 25px 15px;
+  line-height: 1.8rem;
 }
 
-/* line 65, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
-.welcome .w-block {
-  max-width: 100%;
-  height: auto;
+/* line 66, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+.welcome .w-more {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-/* line 76, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 72, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+.welcome .w-more a {
+  margin: 5px;
+}
+
+/* line 82, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .l-news-main h1 {
   margin-left: 5vw;
 }
 
-/* line 81, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 87, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .n-view-all-top {
   display: none;
 }
 
-/* line 84, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 90, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .news-articles {
   display: flex;
   flex-wrap: wrap;
@@ -442,7 +470,7 @@
   padding-right: 15px;
 }
 
-/* line 91, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 97, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .news-articles .news-block {
   margin-top: 30px;
   width: 100%;
@@ -450,85 +478,85 @@
   border-radius: 3px;
 }
 
-/* line 96, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 102, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .news-articles .news-block .news-img {
   width: 100%;
   height: auto;
 }
 
-/* line 100, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 106, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .news-articles .news-block .news-block-b {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-/* line 105, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 111, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .news-articles .news-block .user {
   display: flex;
   margin-top: 30px;
   border-top: 1px solid #ccc;
 }
 
-/* line 109, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 115, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .news-articles .news-block .user .avatar {
   margin-top: 15px;
   width: 47px;
   height: 47px;
 }
 
-/* line 114, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 120, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .news-articles .news-block .user .details {
   line-height: 12px;
   padding: 0 15px 0 15px;
 }
 
-/* line 121, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 127, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .news-block:hover {
   cursor: pointer;
   transform: translateY(-20px);
   transition: .5s ease;
 }
 
-/* line 129, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 135, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .sign-up {
   padding: 50px 15px;
   background-color: #ddd;
 }
 
-/* line 133, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 139, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .sign-up .sign-up-inner, .sign-up a {
   color: #000000;
 }
 
-/* line 139, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 145, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .signup-input {
   font-weight: 600;
   color: #666;
 }
 
-/* line 145, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 151, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .checkbox-line {
   display: inline-flex;
   margin: 1vw 5vw;
 }
 
-/* line 148, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 154, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .checkbox-line span:hover {
   cursor: pointer;
 }
 
-/* line 152, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 158, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .checkbox-line span > a {
   text-decoration: underline;
 }
 
-/* line 160, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 166, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 input[type="checkbox"] {
   transform: scale(2.5);
   margin-right: 20px;
 }
 
-/* line 167, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 173, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .form-control {
   display: block;
   width: 100%;
@@ -538,7 +566,7 @@ input[type="checkbox"] {
   padding: 5px 15px;
 }
 
-/* line 177, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 183, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .sub-button {
   color: #fff;
   background-color: #333645;
@@ -550,7 +578,7 @@ input[type="checkbox"] {
   border-radius: 3px;
 }
 
-/* line 192, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 198, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 body {
   margin: 0;
   background-color: #fff;
@@ -561,79 +589,54 @@ body {
   position: relative;
 }
 
-/* line 202, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 208, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 a {
   color: #ffffff;
   text-transform: uppercase;
 }
 
-/* line 206, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 212, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 a:link {
   text-decoration: none;
 }
 
-/* line 213, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 219, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .footer {
   background-color: #333645;
 }
 
-/* line 217, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 223, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 ul {
   list-style-type: none;
   padding: 0;
 }
 
-/* line 222, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 228, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 small {
   font-size: 0.625rem;
 }
 
-/* line 227, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 233, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 label.required:after {
   content: " *";
   color: #d24d57;
 }
 
-/* line 231, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
-p {
-  font-size: 14px;
-}
-
-/* line 234, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 238, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-h {
   color: #fff;
   background-color: #2ecc71;
   border-color: #2ecc71;
 }
 
-/* line 239, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 243, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-software {
   color: #fff;
   background-color: #67809f;
   border-color: #67809f;
 }
 
-/* line 244, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
-.btn-google {
-  display: inline-block;
-  margin-bottom: 20px;
-  background-color: #4387f6;
-  border-radius: 6px;
-  font-size: 20px;
-  color: #fff;
-}
-
-/* line 252, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
-.btn-trustpilot {
-  background-color: #00b67b;
-  margin-right: 8px;
-  border-radius: 6px;
-  padding: 10px 30px;
-  font-size: 20px;
-  color: #fff;
-}
-
-/* line 261, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 249, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-primary {
   background-color: #272936;
   margin-right: 8px;
@@ -643,24 +646,24 @@ p {
   color: #fff;
 }
 
-/* line 269, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 257, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .service-block-3:hover {
   transform: translateY(-20px);
   transition: .5s ease;
 }
 
-/* line 273, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 261, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .service-block-4:hover {
   transform: translateY(-20px);
   transition: .5s ease;
 }
 
-/* line 277, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 265, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .main-nav, .hide-sm, .header-search-md {
   display: none;
 }
 
-/* line 280, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 268, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-it {
   background-color: #4183d7;
   color: #ffffff;
@@ -669,7 +672,7 @@ p {
   margin: 10px 10px;
 }
 
-/* line 287, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 275, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .btn-support-h {
   background-color: #999aa2;
   color: #ffffff;
@@ -678,12 +681,12 @@ p {
   margin: 10px 10px;
 }
 
-/* line 295, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 283, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .s-input-md {
   display: none;
 }
 
-/* line 302, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 290, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .soft-icon {
   border: 1px solid red;
   border-radius: 50%;
@@ -691,7 +694,7 @@ p {
   background-color: inherit;
 }
 
-/* line 307, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
+/* line 295, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_base.scss */
 .soft-icon i {
   color: #ffffff;
 }
@@ -1054,23 +1057,17 @@ span, small {
   .clients-list, .news-block-h {
     display: none;
   }
-  /* line 6, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq576.scss */
-  .w-more {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   /* line 3, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq600.scss */
-  .clients-list {
+  .clients-list, .news-block-h {
     display: none;
   }
-  /* line 6, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq600.scss */
-  .news-block-h {
-    display: none;
+  /* line 7, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq600.scss */
+  .welcome .w-more {
+    flex-direction: row;
   }
 }
 
@@ -1130,15 +1127,19 @@ span, small {
   }
 }
 
-/* line 46, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq768.scss */
+/* line 47, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq768.scss */
 .service-block-4 {
   width: 45vw;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 50, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq768.scss */
+  /* line 51, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq768.scss */
   .header-top {
     justify-content: space-between;
+  }
+  /* line 54, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq768.scss */
+  .service-block-4 {
+    width: 90vw;
   }
 }
 
@@ -1229,10 +1230,10 @@ span, small {
   }
   /* line 17, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
   .welcome .w-block {
-    max-width: 40vw;
-    padding: 50px;
+    max-width: 35vw;
+    padding: 20px;
   }
-  /* line 22, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
+  /* line 23, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
   .service-block-3 {
     width: 30vw;
     margin-top: 30px;
@@ -1242,7 +1243,7 @@ span, small {
     text-align: center;
     background-color: #ffffff;
   }
-  /* line 31, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
+  /* line 32, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
   .service-block-4 {
     width: 20vw;
     margin-top: 30px;
@@ -1251,22 +1252,22 @@ span, small {
     padding: 15px;
     text-align: center;
   }
-  /* line 39, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
+  /* line 40, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
   .news-articles {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  /* line 43, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
+  /* line 44, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
   .news-articles .news-block {
     width: 30%;
     margin: 15px;
   }
-  /* line 47, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
+  /* line 48, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
   .news-articles .news-block-h {
     display: block;
   }
-  /* line 54, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
+  /* line 55, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq1200.scss */
   .s-input-md {
     display: block;
   }
