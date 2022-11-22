@@ -9,6 +9,10 @@
       padding: 5px;
     }
   }
+  .sign-up-inner{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
   .news-articles{
     display: flex;
     flex-direction: row;
@@ -44,6 +48,11 @@
 
 }
 
+.container-services{
+  padding-left: 2em;
+  padding-right: 2em;
+  justify-content: space-between;
+}
 .service-block-4{
   width: 45vw;
 }

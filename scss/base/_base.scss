@@ -134,6 +134,7 @@
 ///////////////////////////////////////////////
 .sign-up{
   padding: 50px 15px;
+
   background-color: $newsletter-color;
 
   .sign-up-inner, a{
@@ -150,7 +151,8 @@
 
   .checkbox-line{
     display: inline-flex;
-    margin: 1vw 5vw;
+    margin: 1em;
+
     span:hover{
       cursor: pointer;
     }
@@ -166,7 +168,9 @@
   input[type="checkbox"] {
 
     transform: scale(2.5);
+    margin-top: 20px;
     margin-right: 20px;
+
 
 
   }
@@ -176,7 +180,7 @@
     height: 47px;
     border-radius: 3px;
     border: 1px solid #e5e5e5;
-    padding: 5px 15px;
+    // padding: 5px 15px;
 
   }
 
