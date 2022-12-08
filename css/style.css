@@ -867,16 +867,16 @@ span, small {
   z-index: 1;
 }
 
-/* line 83, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+/* line 80, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
 .nav-btn:hover .sub-menu-banner h1 {
   color: #ffffff;
   width: 100%;
-  text-align: left;
+  text-align: center;
   margin-left: 30px;
 }
 
-/* line 90, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
-.nav-btn:hover .sub-menu-banner li {
+/* line 86, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+.nav-btn:hover .sub-menu-banner ul > li {
   padding: 0 10px;
   margin-top: 15px;
   margin-left: 30px;
@@ -1184,36 +1184,40 @@ span, small {
     max-width: 45vw;
     padding: 5px;
   }
-  /* line 28, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
+  /* line 26, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
   .signup-input {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
-  /* line 33, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
+  /* line 30, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
   .signup-input .s-input {
     width: 50%;
     padding: 5px;
   }
-  /* line 41, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
+  /* line 35, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
   .main-nav {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    display: block;
     background-color: #333645;
-    margin-top: 10px;
     z-index: 100;
   }
-  /* line 48, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
-  .main-nav .nav-btn {
-    text-align: center;
-    padding: 0 20px;
+  /* line 39, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
+  .main-nav .nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto 0;
+    justify-content: center;
   }
-  /* line 53, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
+  /* line 45, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
+  .main-nav .nav-container .nav-btn {
+    padding: 0 30px;
+  }
+  /* line 52, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
   .hide-sm {
     display: block;
   }
-  /* line 56, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
+  /* line 55, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
   .s-input-md {
     display: none;
   }
