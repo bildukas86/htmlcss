@@ -32,6 +32,7 @@
   }
   h2{
     margin: 20px auto;
+    color: $main-nav-color;
   }
 
 
@@ -45,7 +46,7 @@
   text-align: center;
   height: auto;
   background-color: $w-color;
-  box-shadow: 0 5px 35px rgba(0,0,0, .2);
+  box-shadow: 0 3px 35px rgba(0,0,0,.1);
 
 }
 .service-block-3:hover, .service-block-4:hover{
@@ -95,6 +96,10 @@
 .l-news-main{
   h1{
     margin-left: 5vw;
+    color: $main-nav-color;
+  }
+  h2{
+    margin: 0 auto;
   }
 }
 
@@ -113,7 +118,7 @@
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 3px;
-    box-shadow: 0 0 35px 10px rgba(0,0,0, .1);
+    box-shadow: 0 3px 35px rgba(0,0,0,.1);
     .news-img{
       width: 100%;
       height: auto;
@@ -150,17 +155,21 @@
 .sign-up{
   padding: 50px 15px;
   background-color: $newsletter-color;
+  color: $main-nav-color;
 
-  .sign-up-inner, a{
+  .sign-up-inner{
+    h1{
+      font-weight: 400;
+    }
+    a{
     color: $b-color;
+    }
+    label, p{
+      font-weight: bold;
+    }
   }
-
 }
 
-  .signup-input{
-    font-weight: 600;
-    color: #666;
-  }
 
 
   .checkbox-line{
@@ -187,6 +196,7 @@
     transform: scale(2.5);
     margin-top: 20px;
     margin-right: 20px;
+
 
 
 

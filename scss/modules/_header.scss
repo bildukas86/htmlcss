@@ -1,7 +1,9 @@
 .header{
   display: flex;
   flex-direction: column;
-  margin: 10px 0 5px;
+  margin: 10px 0 25px;
+  
+
   height: $header-height;
 
   .header-top{
@@ -42,7 +44,7 @@
         background-color: rgba(0,0,0,.1);
         &::placeholder{
           color: rgba(0, 0, 0, .4);
-          font-weight: 500;          
+          font-weight: 500;
         }
 
         .s-input:focus, .s-input-md:focus{
