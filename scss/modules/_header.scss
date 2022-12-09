@@ -1,11 +1,11 @@
 .header{
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
-  height: auto;
+  margin: 10px 0 5px;
+  height: $header-height;
+
   .header-top{
     display: flex;
-
     padding: 0 15px;
     align-items: center;
     img{
@@ -16,7 +16,7 @@
     .action{
       display: inline-flex;
       .b-icon button{
-        margin: 15px;
+        // margin: 15px;
         padding: 15px;
       }
     }
@@ -26,15 +26,25 @@
     .search, .search-md{
       display: flex;
       justify-content: space-between;
-      border: 1px solid grey;
+      border: 2px solid rgba(0,0,0,.2);
       border-radius: 3px;
       margin: 10px 15px;
+      font-size: 16px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
       .s-input{
         width: 100%;
         height: 47px;
+        padding-left: 15px;
+        font-size: 16px;
         border:none;
         outline: none;
-        background-color: transparent;
+        background-color: rgba(0,0,0,.1);
+        &::placeholder{
+          color: rgba(0, 0, 0, .4);
+          font-weight: 500;          
+        }
+
         .s-input:focus, .s-input-md:focus{
           outline: none !important;
           border-color: #719ECE;
@@ -43,8 +53,9 @@
       }
       .s-button{
         border: none;
-        background-color: transparent;
+        background-color: rgba(0, 0, 0, .1);
         cursor: pointer;
+        color: $main-nav-color;
       }
       .s-button-md{
         background-color: #999aa2;
@@ -83,7 +94,7 @@ span, small{
     text-align: center;
     margin-left: 30px;
   }
-  ul>li{    
+  ul>li{
     padding: 0 10px;
     margin-top: 15px;
     margin-left: 30px;

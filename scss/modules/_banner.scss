@@ -7,7 +7,7 @@
     position: relative;
     img{
       width: 100%;
-      height: 60vh;
+      height: 100vh - $header-height;
       align-items: center;
       object-fit: cover;
       filter: brightness(50%);
@@ -50,22 +50,25 @@
 .tns-nav{
   position: relative;
   width: 100%;
-  z-index: 99;
+  // z-index: 99;
   text-align: center;
-  top: -100px;
+  top: -50px;
 
 }
 
 .tns-nav button{
-  height: 13px;
-  width: 13px;
-  border-radius: 50%;
+  height: 10px;
+  width: 10px;
   border: none;
+  border-radius: 50%;
   margin-left: 5px;
   margin-right: 5px;
-  background-color: $w-color;
+  background-color: #666;
+
 }
 .tns-nav-active{
-  transform: scale(1.5);
-  
+  outline: 2px solid $w-color;
+  outline-offset: 4px;
+  background-color: $w-color !important;
+
   }

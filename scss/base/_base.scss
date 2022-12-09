@@ -14,6 +14,7 @@
 // 1. header
 ///////////////////////////////////////////////
 
+
 ////////////////////////////////////////////////
 // 2. Banner-slideshow
 ///////////////////////////////////////////////
@@ -25,6 +26,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  h1{
+    color: $main-nav-color;
+    font-size: 2.5rem;
+  }
+  h2{
+    margin: 20px auto;
+  }
 
 
 }
@@ -32,11 +40,13 @@
   width: 90vw;
   margin-top: 30px;
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 15px;
   text-align: center;
   height: auto;
-  background-color: $w-color
+  background-color: $w-color;
+  box-shadow: 0 5px 35px rgba(0,0,0, .2);
+
 }
 .service-block-3:hover, .service-block-4:hover{
   cursor: pointer;
@@ -63,6 +73,10 @@
   color: #FFFFFF;
   padding: 25px 15px 25px 15px;
   line-height: 1.8rem;
+  font-weight: 600;
+  .w-block-p{
+    color: #a3a8ac;
+  }
   .w-more{
     display: flex;
     flex-wrap: wrap;
@@ -99,6 +113,7 @@
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 3px;
+    box-shadow: 0 0 35px 10px rgba(0,0,0, .1);
     .news-img{
       width: 100%;
       height: auto;
@@ -134,7 +149,6 @@
 ///////////////////////////////////////////////
 .sign-up{
   padding: 50px 15px;
-
   background-color: $newsletter-color;
 
   .sign-up-inner, a{
@@ -152,11 +166,14 @@
   .checkbox-line{
     display: inline-flex;
     margin: 1em;
+    text-align: left;
 
     span:hover{
       cursor: pointer;
     }
-
+    span{
+      text-align: left;
+    }
     span>a{
       text-decoration: underline;
     }

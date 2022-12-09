@@ -1,3 +1,12 @@
+.phone{
+  button{
+    border: none;
+    background: transparent;
+    color: $main-nav-color;
+
+  }
+}
+
 .btn{
   height: auto;
   line-height: 35px;
@@ -45,11 +54,13 @@
 ////////////////////////////////////////
 //hamburger sidenav buttons
 
-
+.ham-container{
+  margin: auto 0;
+}
 .menu-hamburger {
   display: inline-block;
   cursor: pointer;
-  background-color: $b-color;
+  background-color: $main-nav-color;
   border-radius: 3px;
   padding: 10px;
   margin: 10px;

@@ -31,10 +31,10 @@
               </form>
             </div>
             <div class="b-icon phone">
-              <button type="button" name="button"><i class="fa-solid fa-phone fa-2xl"></i></button>
+              <button type="button" name="button"><i class="fa-solid fa-phone fa-3x"></i></button>
             </div>
             <!-- hamburger menu button -->
-            <div class="b-icon">
+            <div class="b-icon ham-container">
               <div  class="menu-hamburger" onclick="hamFunction(this)">
                   <div class="ham1"></div>
                   <div class="ham2"></div>
@@ -300,6 +300,7 @@
       </div>
     </div>
     <div class="container-services">
+      <h1>Our Services</h1>
       <div class="service-block-3 s-software">
           <span class="icon-apps"><i class="fa-solid fa-cube fa-2x"></i></span><br>
           <h2>Bespoke Software</h2>
@@ -348,6 +349,7 @@
                   a job in tech.</p>
           <a class="btn btn-course" href="#">read more</a>
       </div>
+      <h2 class="small-screen">View All &#129122;</h2>
     </div>
     <div class="partners-slideshow">
       <div class="my-slider p-slider">
@@ -413,7 +415,7 @@
            They delivered a website to our (high!) expectations
            and went over and above to ensure we were satisfied
            clients - and we are!</p>
-        <p>Eleanor Bishop, Head of Marketing - Ashcroft Partnership LLP</p>
+        <p class="w-block-p">Eleanor Bishop, Head of Marketing - Ashcroft Partnership LLP</p>
         <div class="w-more">
           <a class="btn btn-google" href="#" target="_blank" >Google Reviews</a>
           <a class="btn btn-trustpilot" href="#" target="_blank" >TrustPilot Reviews</a>
@@ -635,132 +637,135 @@
     </div>
   </div>
   <div id="sideNav" class="side-nav">
-    <ul>
-      <li class="side-main-li"><a  href="#">contact us</a></li>
-      <li class="side-main-li">
+    <div class="hide-xl">
+      <ul>
+        <li class="side-main-li"><a  href="#">contact us</a></li>
+        <li class="side-main-li">
+            <a  href="#">
+                <span><i class="fa-solid fa-cube fa-2x"></i></span>
+                <small>bespoke</small>
+                <p>software</p>
+            </a>
+            <div class="side-nav-sub">
+              <ul>
+                <li class="side-nav-sub-li"><a  href="#">workflow</a></li>
+                <li class="side-nav-sub-li"><a  href="#">automation</a></li>
+                <li class="side-nav-sub-li"><a  href="#">integration</a></li>
+                <li class="side-nav-sub-li"><a  href="#">apps</a></li>
+                <li class="side-nav-sub-li"><a  href="#">database</a></li>
+                <li class="side-nav-sub-li"><a  href="#">sharepoint</a></li>
+                <li class="side-nav-sub-li"><a  href="#">management</a></li>
+                <li class="side-nav-sub-li"><a  href="#">business central</a></li>
+                <li class="side-nav-sub-li"><a  href="#">internet of things</a></li>
+                <li class="side-nav-sub-li"><a  href="#">intranet development</a></li>
+                <li class="side-nav-sub-li"><a  href="#">customer portal development</a></li>
+                <li class="side-nav-sub-li"><a  href="#">reporting hub</a></li>
+              </ul>
+            </div>
+        </li>
+        <li class="side-main-li">
           <a  href="#">
-              <span><i class="fa-solid fa-cube fa-2x"></i></span>
-              <small>bespoke</small>
-              <p>software</p>
+            <span><i class="fa-solid fa-desktop fa-2x"></i></span>
+              <small>it</small>
+              <p>support</p>
           </a>
           <div class="side-nav-sub">
             <ul>
-              <li class="side-nav-sub-li"><a  href="#">workflow</a></li>
-              <li class="side-nav-sub-li"><a  href="#">automation</a></li>
-              <li class="side-nav-sub-li"><a  href="#">integration</a></li>
-              <li class="side-nav-sub-li"><a  href="#">apps</a></li>
-              <li class="side-nav-sub-li"><a  href="#">database</a></li>
-              <li class="side-nav-sub-li"><a  href="#">sharepoint</a></li>
-              <li class="side-nav-sub-li"><a  href="#">management</a></li>
-              <li class="side-nav-sub-li"><a  href="#">business central</a></li>
-              <li class="side-nav-sub-li"><a  href="#">internet of things</a></li>
-              <li class="side-nav-sub-li"><a  href="#">intranet development</a></li>
-              <li class="side-nav-sub-li"><a  href="#">customer portal development</a></li>
-              <li class="side-nav-sub-li"><a  href="#">reporting hub</a></li>
+              <li class="side-nav-sub-li"><a  href="#">managed it</a></li>
+              <li class="side-nav-sub-li"><a  href="#">business it</a></li>
+              <li class="side-nav-sub-li"><a  href="#">office 365</a></li>
+              <li class="side-nav-sub-li"><a  href="#">consultancy</a></li>
+              <li class="side-nav-sub-li"><a  href="#">cloud provider</a></li>
+              <li class="side-nav-sub-li"><a  href="#">data backup</a></li>
             </ul>
           </div>
-      </li>
-      <li class="side-main-li">
-        <a  href="#">
-          <span><i class="fa-solid fa-desktop fa-2x"></i></span>
-            <small>it</small>
-            <p>support</p>
-        </a>
-        <div class="side-nav-sub">
-          <ul>
-            <li class="side-nav-sub-li"><a  href="#">managed it</a></li>
-            <li class="side-nav-sub-li"><a  href="#">business it</a></li>
-            <li class="side-nav-sub-li"><a  href="#">office 365</a></li>
-            <li class="side-nav-sub-li"><a  href="#">consultancy</a></li>
-            <li class="side-nav-sub-li"><a  href="#">cloud provider</a></li>
-            <li class="side-nav-sub-li"><a  href="#">data backup</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="side-main-li">
-        <a  href="#">
-          <span><i class="fa-solid fa-chart-simple fa-2x"></i></span>
-            <small>digital</small>
-            <p>marketing</p>
-        </a>
-        <div class="side-nav-sub">
-          <ul>
-            <li class="side-nav-sub-li"><a  href="#">search (seo)</a></li>
-            <li class="side-nav-sub-li"><a  href="#">paid (ppc)</a></li>
-            <li class="side-nav-sub-li"><a  href="#">conversion (cro)</a></li>
-            <li class="side-nav-sub-li"><a  href="#">email</a></li>
-            <li class="side-nav-sub-li"><a  href="#">social media</a></li>
-            <li class="side-nav-sub-li"><a  href="#">content</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="side-main-li">
-        <a  href="#">
-          <span><i class="fa-solid fa-phone-volume fa-2x"></i></span>
-            <small>telecoms</small>
-            <p>services</p>
-        </a>
-        <div class="side-nav-sub">
-          <ul>
-            <li class="side-nav-sub-li"><a  href="#">business mobile</a></li>
-            <li class="side-nav-sub-li"><a  href="#">hosted voip</a></li>
-            <li class="side-nav-sub-li"><a  href="#">business voip</a></li>
-            <li class="side-nav-sub-li"><a  href="#">business broadband</a></li>
-            <li class="side-nav-sub-li"><a  href="#">leased line</a></li>
-            <li class="side-nav-sub-li"><a  href="#">3cx systems</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="side-main-li">
-        <a  href="#">
-          <span><i class="fa-solid fa-code fa-2x"></i></span>
-            <small>web</small>
-            <p>design</p>
-        </a>
-        <div class="side-nav-sub">
-          <ul>
-            <li class="side-nav-sub-li"><a  href="#">stylish websites</a></li>
-            <li class="side-nav-sub-li"><a  href="#">ecommerce stores</a></li>
-            <li class="side-nav-sub-li"><a  href="#">branding</a></li>
-            <li class="side-nav-sub-li"><a  href="#">apps</a></li>
-            <li class="side-nav-sub-li"><a  href="#">webhosting</a></li>
-            <li class="side-nav-sub-li"><a  href="#">pay monthly websites</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="side-main-li">
-        <a  href="#">
-          <span><i class="fa-solid fa-shield-virus fa-2x"></i></span>
-            <small>cyber</small>
-            <p>security</p>
-        </a>
-        <div class="side-nav-sub">
-          <ul>
-            <li class="side-nav-sub-li"><a  href="#">assesment</a></li>
-            <li class="side-nav-sub-li"><a  href="#">management</a></li>
-            <li class="side-nav-sub-li"><a  href="#">penetration testing</a></li>
-            <li class="side-nav-sub-li"><a  href="#">cyber essentials</a></li>
-            <li class="side-nav-sub-li"><a  href="#">pci/dss</a></li>
-            <li class="side-nav-sub-li"><a  href="#">hacker prevention</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="side-main-li">
-        <a  href="#">
-          <span><i class="fa-solid fa-graduation-cap fa-2x"></i></span>
-            <small>developer</small>
-            <p>course</p>
-        </a>
-        <div class="side-nav-sub">
-          <ul>
-            <li class="side-nav-sub-li"><a  href="#">train for a career in tech</a></li>
-            <li class="side-nav-sub-li"><a  href="#">skills bootcamp</a></li>
-            <li class="side-nav-sub-li"><a  href="#">scion scheme frequently asked questions</a></li>
-            <li class="side-nav-sub-li"><a  href="#">scion collaborators</a></li>
-          </ul>
-        </div>
-      </li>
-    </ul>
+        </li>
+        <li class="side-main-li">
+          <a  href="#">
+            <span><i class="fa-solid fa-chart-simple fa-2x"></i></span>
+              <small>digital</small>
+              <p>marketing</p>
+          </a>
+          <div class="side-nav-sub">
+            <ul>
+              <li class="side-nav-sub-li"><a  href="#">search (seo)</a></li>
+              <li class="side-nav-sub-li"><a  href="#">paid (ppc)</a></li>
+              <li class="side-nav-sub-li"><a  href="#">conversion (cro)</a></li>
+              <li class="side-nav-sub-li"><a  href="#">email</a></li>
+              <li class="side-nav-sub-li"><a  href="#">social media</a></li>
+              <li class="side-nav-sub-li"><a  href="#">content</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="side-main-li">
+          <a  href="#">
+            <span><i class="fa-solid fa-phone-volume fa-2x"></i></span>
+              <small>telecoms</small>
+              <p>services</p>
+          </a>
+          <div class="side-nav-sub">
+            <ul>
+              <li class="side-nav-sub-li"><a  href="#">business mobile</a></li>
+              <li class="side-nav-sub-li"><a  href="#">hosted voip</a></li>
+              <li class="side-nav-sub-li"><a  href="#">business voip</a></li>
+              <li class="side-nav-sub-li"><a  href="#">business broadband</a></li>
+              <li class="side-nav-sub-li"><a  href="#">leased line</a></li>
+              <li class="side-nav-sub-li"><a  href="#">3cx systems</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="side-main-li">
+          <a  href="#">
+            <span><i class="fa-solid fa-code fa-2x"></i></span>
+              <small>web</small>
+              <p>design</p>
+          </a>
+          <div class="side-nav-sub">
+            <ul>
+              <li class="side-nav-sub-li"><a  href="#">stylish websites</a></li>
+              <li class="side-nav-sub-li"><a  href="#">ecommerce stores</a></li>
+              <li class="side-nav-sub-li"><a  href="#">branding</a></li>
+              <li class="side-nav-sub-li"><a  href="#">apps</a></li>
+              <li class="side-nav-sub-li"><a  href="#">webhosting</a></li>
+              <li class="side-nav-sub-li"><a  href="#">pay monthly websites</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="side-main-li">
+          <a  href="#">
+            <span><i class="fa-solid fa-shield-virus fa-2x"></i></span>
+              <small>cyber</small>
+              <p>security</p>
+          </a>
+          <div class="side-nav-sub">
+            <ul>
+              <li class="side-nav-sub-li"><a  href="#">assesment</a></li>
+              <li class="side-nav-sub-li"><a  href="#">management</a></li>
+              <li class="side-nav-sub-li"><a  href="#">penetration testing</a></li>
+              <li class="side-nav-sub-li"><a  href="#">cyber essentials</a></li>
+              <li class="side-nav-sub-li"><a  href="#">pci/dss</a></li>
+              <li class="side-nav-sub-li"><a  href="#">hacker prevention</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="side-main-li">
+          <a  href="#">
+            <span><i class="fa-solid fa-graduation-cap fa-2x"></i></span>
+              <small>developer</small>
+              <p>course</p>
+          </a>
+          <div class="side-nav-sub">
+            <ul>
+              <li class="side-nav-sub-li"><a  href="#">train for a career in tech</a></li>
+              <li class="side-nav-sub-li"><a  href="#">skills bootcamp</a></li>
+              <li class="side-nav-sub-li"><a  href="#">scion scheme frequently asked questions</a></li>
+              <li class="side-nav-sub-li"><a  href="#">scion collaborators</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+
     <ul class="side-nav-list2">
       <li class="side-main-li2">
           <a  href="#">our work</a>
