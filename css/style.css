@@ -64,6 +64,7 @@
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 /* line 59, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .ham-container {
   margin: auto 0;
@@ -71,6 +72,10 @@
 
 /* line 62, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
 .menu-hamburger {
+=======
+/* line 49, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/base/_buttons.scss */
+.ham-button {
+>>>>>>> parent of e3143de (add)
   display: inline-block;
   cursor: pointer;
   background-color: #333645;
