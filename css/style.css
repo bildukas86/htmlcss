@@ -854,10 +854,11 @@ span, small {
   display: none;
 }
 
-/* line 70, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+/* line 71, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
 .nav-btn:hover .sub-menu-banner {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   position: absolute;
   list-style: none;
   background-color: inherit;
@@ -865,29 +866,24 @@ span, small {
   width: 100%;
   left: 0;
   z-index: 1;
+  text-align: left;
 }
 
-/* line 81, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+/* line 83, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
 .nav-btn:hover .sub-menu-banner h1 {
   color: #ffffff;
-  width: 100%;
-  text-align: left;
-  margin-left: 30px;
 }
 
-/* line 88, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+/* line 86, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
 .nav-btn:hover .sub-menu-banner ul {
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 /* line 90, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
 .nav-btn:hover .sub-menu-banner ul li {
-  padding: 0 10px;
-  margin-top: 15px;
-  margin-left: 30px;
   width: 30%;
-  height: auto;
-  text-align: left;
 }
 
 /* line 1, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_banner.scss */
@@ -1221,6 +1217,10 @@ span, small {
   /* line 56, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
   .s-input-md {
     display: none;
+  }
+  /* line 60, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_mediaq992.scss */
+  .txt {
+    text-align: left;
   }
 }
 
