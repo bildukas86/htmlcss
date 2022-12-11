@@ -867,7 +867,7 @@ span, small {
   z-index: 1;
 }
 
-/* line 83, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+/* line 81, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
 .nav-btn:hover .sub-menu-banner h1 {
   color: #ffffff;
   width: 100%;
@@ -875,8 +875,13 @@ span, small {
   margin-left: 30px;
 }
 
+/* line 88, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
+.nav-btn:hover .sub-menu-banner ul {
+  width: 100%;
+}
+
 /* line 90, ../../../Users/ekonc/Documents/GitHub/htmlcss/scss/modules/_header.scss */
-.nav-btn:hover .sub-menu-banner li {
+.nav-btn:hover .sub-menu-banner ul li {
   padding: 0 10px;
   margin-top: 15px;
   margin-left: 30px;
