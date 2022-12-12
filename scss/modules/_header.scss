@@ -64,6 +64,7 @@ span, small{
   text-align: center;
 }
 //set visibility submenu start
+
 .nav-btn .sub-menu-banner{
   display: none;
 }
@@ -74,7 +75,6 @@ span, small{
       flex-direction: column;
       position: absolute;
       list-style: none;
-      background-color: inherit;
       padding: 20px 0;
       width: 100%;
       left: 0;
@@ -93,27 +93,6 @@ span, small{
       }
   }
 }
-// .nav-btn:hover .sub-menu-banner{
-//
-//
-//   h1{
-//     color: $w-color;
-//     width: 100%;
-//     text-align: left;
-//     margin-left: 30px;
-//
-//   }
-//   ul{
-//     li{
-//       padding: 0 10px;
-//       margin-top: 15px;
-//       margin-left: 30px;
-//       width: 30%;
-//       height: auto;
-//       text-align: left;
-//     }
-//   }
-//
-// }
+
 
 //set visibility submenu end

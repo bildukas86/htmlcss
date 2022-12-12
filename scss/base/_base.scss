@@ -20,6 +20,44 @@
 // 1. header
 ///////////////////////////////////////////////
 
+.phone {
+  margin: auto 0;
+}
+.phone button {
+  border: none;
+  background: transparent;
+  color: #333645;
+}
+/////////////////////////////////////////////
+//set sub navigation background colours
+/////////////////////////////////////////////
+.software>.sub-menu-banner{
+  background-color: $software-color-sub;
+}
+.support>.sub-menu-banner{
+  background-color: $support-color-sub;
+}
+.marketing>.sub-menu-banner{
+  background-color: $maraketing-color-sub;
+}
+.service>.sub-menu-banner{
+  background-color: $security-color-sub;
+}
+.design>.sub-menu-banner{
+  background-color: $design-color-sub;
+}
+.security>.sub-menu-banner{
+  background-color: $security-color-sub;
+}
+.course>.sub-menu-banner{
+  background-color: $course-color-sub;
+}
+//////////////////////////////////////////////////
+
+
+
+
+
 ////////////////////////////////////////////////
 // 2. Banner-slideshow
 ///////////////////////////////////////////////
