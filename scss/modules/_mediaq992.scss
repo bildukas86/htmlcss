@@ -20,24 +20,17 @@
     .w-block{
       max-width: 45vw;
       padding: 5px;
-
-
     }
-
   }
   .signup-input{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
   .s-input{
     width: 50%;
     padding: 5px;
   }
-
-
 }
-
   .main-nav{
     display: flex;
     justify-content: center;
@@ -56,7 +49,10 @@
   .s-input-md{
     display: none;
   }
+.txt{
+  
 
+}
 
 
 }
