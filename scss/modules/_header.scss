@@ -3,6 +3,11 @@
   flex-direction: column;
   padding-top: 20px;
   height: auto;
+  position: sticky;
+  background-color: $w-color;
+  top: 0;
+  z-index: 100;
+
   .header-top{
     display: flex;
 

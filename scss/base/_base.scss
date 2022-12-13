@@ -9,13 +9,7 @@
 *{
   box-sizing: border-box;
 }
-.width-containers{
-  // display: flex;
-  // flex-direction: row;
-  // justify-content: center;
-  // width: 60%;
-  // height: auto;
-}
+
 ////////////////////////////////////////////////
 // 1. header
 ///////////////////////////////////////////////
@@ -41,7 +35,7 @@
   background-color: $maraketing-color-sub;
 }
 .telecom>.sub-menu-banner{
-  background-color: $security-color-sub;
+  background-color: $telecom-color-sub;
 }
 .design>.sub-menu-banner{
   background-color: $design-color-sub;
@@ -69,8 +63,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
-
 }
 .service-block-3, .service-block-4{
   width: 90vw;
@@ -80,7 +72,8 @@
   padding: 15px;
   text-align: center;
   height: auto;
-  background-color: $w-color
+  background-color: $w-color;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 1 / 10%);
 }
 .service-block-3:hover, .service-block-4:hover{
   cursor: pointer;
@@ -143,6 +136,7 @@
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 3px;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, 1 / 10%);
     .news-img{
       width: 100%;
       height: auto;

@@ -42,6 +42,18 @@
       text-align: center;
       padding: 0 20px;
     }
+    .nav-container{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      background-color: $main-nav-color;
+      margin-top: 10px;
+      z-index: 100;
+      .nav-btn{
+        text-align: center;
+        padding: 0 20px;
+      }
+    }
   }
   .hide-sm{
     display: block;
@@ -49,10 +61,11 @@
   .s-input-md{
     display: none;
   }
-.txt{
-  
-
-}
+  .width-containers{
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 
 }
