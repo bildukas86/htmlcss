@@ -1,28 +1,25 @@
 .header{
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
-  height: auto;
   position: sticky;
   background-color: $w-color;
   top: 0;
   z-index: 100;
-
+  height: 168px;
+  width: 100%;
+  padding-top: 20px;
   .header-top{
     display: flex;
-
-    padding: 0 15px;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
     img{
       max-width: 100%;
       height: auto;
-
     }
     .action{
       display: inline-flex;
-      .b-icon button{
-        margin: 15px;
-        padding: 15px;
+      .b-icon{
+        padding: 7px 0;
       }
     }
   }
@@ -31,20 +28,28 @@
     .search, .search-md{
       display: flex;
       justify-content: space-between;
-      border: 1px solid grey;
       border-radius: 3px;
       margin: 10px 15px;
+      border: 2px solid rgba(0,0,0,.1);
+      background-color: rgba(0,0,0,.1);
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
       .s-input{
         width: 100%;
         height: 47px;
+        color: #555;
         border:none;
         outline: none;
+        margin-left: 10px;
         background-color: transparent;
-        .s-input:focus, .s-input-md:focus{
-          outline: none !important;
-          border-color: #719ECE;
-          box-shadow: 0 0 10px #719ECE;
-        }
+        font-size: 14px;
+        line-height: 1.42;
+        font-weight: 400;
+        font-family: inherit;
+        // .s-input:focus, .s-input-md:focus{
+        //   outline: none !important;
+        //   border-color: #719ECE;
+        //   box-shadow: 0 0 10px #719ECE;
+        // }
       }
       .s-button{
         border: none;

@@ -1,5 +1,12 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1260px) {
+
+
+  .width-containers{
+    width: 1200px;
+    padding: 0 15px;
+    
+  }
   .clients-list{
     display: flex;
     justify-content: center;

@@ -47,15 +47,15 @@
 .ham-button {
   display: inline-block;
   cursor: pointer;
-  background-color: $b-color;
+  background-color: $main-nav-color;
   border-radius: 3px;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px 15px;
+  margin-left: 20px;
 }
 
 .ham1, .ham2, .ham3 {
-  width: 35px;
-  height: 5px;
+  width: 33px;
+  height: 4px;
   background-color: $w-color;
   margin: 6px 0;
   transition: 0.4s;
