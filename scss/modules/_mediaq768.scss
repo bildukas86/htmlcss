@@ -26,16 +26,48 @@
    display: block;
 
  }
- 
+
   .clients-list{
     display: flex;
     justify-content: center;
-    img{
-      width: 100%;
-      height: auto;
-      padding: 5px;
+    li:hover{
+      img.no-color{
+        display: none;
+      }
+      img.color{
+        display: block;
+      }
     }
+
+
+      // .no-color:hover{
+      //   display: none;
+      //   .color{
+      //     display: block;
+      //   }
+      // }
+
   }
+
+  //////////////////////////////
+  // .clients-list{
+  //   display: none;
+  //   li{
+  //      img>.color{
+  //   display: none;
+  // }
+  //     img:hover{
+  //       .no-color{
+  //         display: none;
+  //       }
+  //       .color{
+  //         display: block;
+  //       }
+  //
+  //     }
+  //   }
+  // }
+  ///////////////////////////////
   .sign-up-inner{
     margin-left: 2em;
     margin-right: 2em;
@@ -62,18 +94,33 @@
   }
 
 
-
+/////////////////
+////our services containers
+////////////////
  .container-services{
-   padding-left: 2em;
-   padding-right: 2em;
+
    justify-content: space-between;
  }
+ .service-block-3{
+   width: 100%;
+ }
  .service-block-4{
-   width: 45vw;
+   width: 47%;
  }
  .width-containers{
    width: 750px;
    margin: 0 auto;
+ }
+
+ .services-top{
+   h3{
+     display: block;
+   }
+ }
+ .services-bottom{
+   h3{
+     display: none;
+   }
  }
 }
 

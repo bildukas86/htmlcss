@@ -1,8 +1,7 @@
 .f--container{
   color: #fff;
   padding: 30px 0 30px 0;
-  margin-left: 10vw;
-  margin-right: 10vw;
+
 
 
   a{
@@ -37,15 +36,49 @@
   .license{
     display: flex;
     justify-content: space-between;
+    span{
+      margin: auto 10px;
+    }
     ul{
-      margin: 0;
+      margin: auto;
       padding-left: 10px;
     }
   }
   .social--media{
     display: flex;
+    // margin: auto 0;
+    padding: 10px;
+
+
     a{
-      padding: 5px 8px 8px;
+      width: 30px;
+      height: 30px;
+      padding: 10px;
+      border: 1px solid red;
+      border-radius: 50px;
+
+      .fa-facebook-f:hover{
+
+        background-color: blue;
+        padding: 10px;
+      }
+      .fa-twitter:hover{
+
+        background-color: lightblue;
+        padding: 10px;
+      }
+      .fa-instagram:hover{
+
+        background-color: pink;
+        padding: 10px;
+
+      }
+      .fa-linkedin-in:hover{
+
+        background-color: blue;
+        padding: 10px;
+      }
+
     }
   }
 }
