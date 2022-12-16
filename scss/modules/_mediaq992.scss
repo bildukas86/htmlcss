@@ -12,14 +12,10 @@
       padding: 5px;
     }
   }
-  .welcome{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+  .welcome-container{
+    flex-direction: row !important;
     .w-block{
-      max-width: 45vw;
-      padding: 5px;
+      width: 50%;
     }
   }
   .signup-input{
@@ -44,10 +40,10 @@
     }
     .nav-container{
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       flex-direction: row;
       background-color: $main-nav-color;
-      margin-top: 10px;
+
       z-index: 100;
       .nav-btn{
         text-align: center;
@@ -64,6 +60,26 @@
   .width-containers{
     width: 970px;
   }
+  .txt{
+    top: 15vh;
+    h1, p{
+      text-align: left;
+    }
+    h1{
+      font-size: 4rem;
+    }
+  }
+  .banner{
 
+    .banner-img{
+      height: 700px;
+      // img{
+      //
+      //   height: 75vh;
+      //
+      //
+      // }
+    }
+  }
 
 }

@@ -45,39 +45,35 @@
     }
   }
   .social--media{
-    display: flex;
+    // display: flex;
     // margin: auto 0;
     padding: 10px;
-
-
     a{
       width: 30px;
       height: 30px;
       padding: 10px;
-      border: 1px solid red;
-      border-radius: 50px;
+      
+      border-radius: 50%;
+      // &:hover{
+      //   background-color: blue;
+      // }
 
-      .fa-facebook-f:hover{
+    }
+    .fa:hover{
+      background-color: blue;
 
-        background-color: blue;
-        padding: 10px;
-      }
-      .fa-twitter:hover{
 
-        background-color: lightblue;
-        padding: 10px;
-      }
-      .fa-instagram:hover{
+    }
+    .tw:hover{
+      background-color: lightblue;
 
-        background-color: pink;
-        padding: 10px;
+    }
+    .in:hover{
+      background-color: pink;
 
-      }
-      .fa-linkedin-in:hover{
-
-        background-color: blue;
-        padding: 10px;
-      }
+    }
+    .li:hover{
+      background-color: blue;
 
     }
   }
