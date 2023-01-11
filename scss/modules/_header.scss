@@ -1,20 +1,13 @@
 .header{
   display: flex;
   flex-direction: column;
-  position: sticky;
-  background-color: $w-color;
-  top: 0;
-  z-index: 100;
-  height: 168px;
-  width: 100%;
   padding-top: 20px;
+  height: auto;
   .header-top{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    .logo{
-      margin: auto 0;
-    }
+    
+    padding: 0 15px;
+    align-items: center;
     img{
       max-width: 100%;
       height: auto;
@@ -22,8 +15,9 @@
     }
     .action{
       display: inline-flex;
-      .b-icon{
-        padding: 7px 0;
+      .b-icon button{
+        margin: 15px;
+        padding: 15px;
       }
     }
   }
@@ -32,35 +26,19 @@
     .search, .search-md{
       display: flex;
       justify-content: space-between;
+      border: 1px solid grey;
       border-radius: 3px;
       margin: 10px 15px;
-      // border: 2px solid rgba(0,0,0,.1);
-      background-color: rgba(0,0,0,.1);
-      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
       .s-input{
         width: 100%;
         height: 47px;
-        color: #555;
         border:none;
         outline: none;
-        margin-left: 10px;
         background-color: transparent;
-        font-size: 14px;
-        line-height: 1.42;
-        font-weight: 400;
-        font-family: inherit;
-      }
-      .s-input-md{
-        border: 1px solid rgba(0,0,0,.1) !important;
-        border-radius: 3px 0 0 3px;
-        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-        border-right: none !important;
-        padding-left: 10px;
-        &:focus-visible{
-          outline-offset: -1px;
-          outline: 1px solid lightblue;
-          box-shadow: 0 0 10px lightblue;
-
+        .s-input:focus, .s-input-md:focus{
+          outline: none !important;
+          border-color: #719ECE;
+          box-shadow: 0 0 10px #719ECE;
         }
       }
       .s-button{
@@ -71,7 +49,6 @@
       .s-button-md{
         background-color: #999aa2;
         border: none;
-        border-radius: 0 3px 3px 0;
         padding: 20px;
         color: #fff;
         cursor: pointer;
@@ -87,35 +64,37 @@ span, small{
   text-align: center;
 }
 //set visibility submenu start
-
 .nav-btn .sub-menu-banner{
   display: none;
 }
-.nav-btn:hover{
-  .sub-menu-banner{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      position: absolute;
-      list-style: none;
-      padding: 20px 0;
-      width: 100%;
-      left: 0;
-      z-index: 1;
-      text-align: left;
-      h1{
-        color: $w-color;
-      }
-      ul{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        li{
-          width: 30%;
-        }
-      }
+.nav-btn:hover .sub-menu-banner{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  list-style: none;
+
+  background-color: inherit;
+
+  padding: 20px 0;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+
+  h1{
+    color: $w-color;
+    width: 100%;
+    text-align: left;
+    margin-left: 30px;
+
+  }
+  li{
+    padding: 0 10px;
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 30%;
+    height: auto;
+    text-align: left;
+
   }
 }
-
-
 //set visibility submenu end

@@ -1,7 +1,8 @@
 .f--container{
   color: #fff;
   padding: 30px 0 30px 0;
-
+  margin-left: 10vw;
+  margin-right: 10vw;
 
 
   a{
@@ -36,45 +37,15 @@
   .license{
     display: flex;
     justify-content: space-between;
-    span{
-      margin: auto 10px;
-    }
     ul{
-      margin: auto;
+      margin: 0;
       padding-left: 10px;
     }
   }
   .social--media{
-    // display: flex;
-    // margin: auto 0;
-    padding: 10px;
+    display: flex;
     a{
-      width: 30px;
-      height: 30px;
-      padding: 10px;
-      
-      border-radius: 50%;
-      // &:hover{
-      //   background-color: blue;
-      // }
-
-    }
-    .fa:hover{
-      background-color: blue;
-
-
-    }
-    .tw:hover{
-      background-color: lightblue;
-
-    }
-    .in:hover{
-      background-color: pink;
-
-    }
-    .li:hover{
-      background-color: blue;
-
+      padding: 5px 8px 8px;
     }
   }
 }

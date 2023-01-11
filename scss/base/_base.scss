@@ -6,7 +6,6 @@
 //6.Latest News
 //7.Newsletter
 //8.Footer
-//9. Clients
 *{
   box-sizing: border-box;
 }
@@ -15,44 +14,6 @@
 // 1. header
 ///////////////////////////////////////////////
 
-.phone {
-  margin: auto 0;
-}
-.phone button {
-  border: none;
-  background: transparent;
-  color: #333645;
-}
-/////////////////////////////////////////////
-//set sub navigation background colours
-/////////////////////////////////////////////
-.software>.sub-menu-banner{
-  background-color: $software-color-sub;
-}
-.support>.sub-menu-banner{
-  background-color: $support-color-sub;
-}
-.marketing>.sub-menu-banner{
-  background-color: $maraketing-color-sub;
-}
-.telecom>.sub-menu-banner{
-  background-color: $telecom-color-sub;
-}
-.design>.sub-menu-banner{
-  background-color: $design-color-sub;
-}
-.security>.sub-menu-banner{
-  background-color: $security-color-sub;
-}
-.course>.sub-menu-banner{
-  background-color: $course-color-sub;
-}
-//////////////////////////////////////////////////
-
-
-
-
-
 ////////////////////////////////////////////////
 // 2. Banner-slideshow
 ///////////////////////////////////////////////
@@ -60,51 +21,22 @@
 ////////////////////////////////////////////////
 // 3. services
 ///////////////////////////////////////////////
-
-.services-top{
-  width: 100%;
-  display: inline-flex;
-  justify-content: space-between;
-  margin: auto 0;
-  h1{
-    font-weight: 600;
-    color: #333645;
-    font-size: 2.7rem;
-  }
-  h3{
-    display: none;
-    font-weight: 600;
-    color: #333645;
-    font-size: 1.625rem;
-  }
-}
-.services-bottom{
-  h3{
-
-    font-weight: 600;
-    color: #333645;
-    font-size: 1.625rem;
-  }
-}
-
 .container-services{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
 
+
+}
 .service-block-3, .service-block-4{
+  width: 90vw;
   margin-top: 30px;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 15px;
   text-align: center;
   height: auto;
-  background-color: $w-color;
-  box-shadow: 0 3px 35px rgba(0, 0, 0, 1 / 10%);
-  h2{
-    font-weight: 400;
-  }
+  background-color: $w-color
 }
 .service-block-3:hover, .service-block-4:hover{
   cursor: pointer;
@@ -119,47 +51,28 @@
   display: flex;
   flex-direction: row;
 }
-//set swich coloured - no coloured
-.my-slider{
-  .item>.color{
-    display: none;
-  }
-  .item:hover{
-    .no-color{
-      display: none;
-    }
-    .color{
-      display: block;
-    }
-
-  }
-}
 ////////////////////////////////////////////////
 // 5. Welcome section
 ///////////////////////////////////////////////
 .welcome{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
   background-color: #333645;
-  .welcome-container{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #333645;
-        color: #FFFFFF;
-        padding: 25px 0;
-        line-height: 1.8rem;
-        .w-more{
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: column;
-          align-items: flex-start;
+  color: #FFFFFF;
+  padding: 25px 15px 25px 15px;
+  line-height: 1.8rem;
+  .w-more{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
 
-          a{
-            margin: 5px;
-          }
+    a{
+      margin: 5px;
+    }
 
-
-      }
   }
 }
 ////////////////////////////////////////////////
@@ -167,16 +80,12 @@
 ///////////////////////////////////////////////
 .l-news-main{
   h1{
-
+    margin-left: 5vw;
   }
 }
 
 .n-view-all-top{
   display: none;
-}
-.n-view-all{
-  margin: 0 auto;
-  text-align: center;
 }
 .news-articles{
   display: flex;
@@ -190,7 +99,6 @@
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 3px;
-    box-shadow: 0 3px 35px rgba(0, 0, 0, 1 / 10%);
     .news-img{
       width: 100%;
       height: auto;
@@ -238,14 +146,6 @@
   .signup-input{
     font-weight: 600;
     color: #666;
-    input{
-      &:focus-visible{
-        outline-offset: -1px;
-        outline: 1px solid lightblue;
-        box-shadow: 0 0 10px lightblue;
-
-      }
-    }
   }
 
 
@@ -397,66 +297,4 @@ label.required:after{
   padding: 10px;
   background-color: inherit;
   i{color:$w-color;}
-}
-////////////////////////////////
-//9.Clients
-////////////////////////////////
-.clients-list{
-  display: none;
-  .color{
-    display: none;
-  }
-  img{
-    width: 100%;
-    height: auto;
-    padding: 5px;
-  }
-}
-//set swich coloured - no coloured
-
-//side navigation
-
-
-.side-nav-sub2>ul>li>a:before{
-content: "\BB";
-    padding-right: 15px;
-}
-/////////////////////
-//when side nav open/close
-/////////////////////
-.side-nav-open{
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 275px;
-  height: 100%;
-  text-transform: uppercase;
-  background-color: $main-nav-color;
-  z-index: 9;
-  overflow-y: auto;
-
-
-}
-.side-nav-open_body{
-  left: -275px;
-  overflow: hidden;
-
-
-
-  #main-container:after{
-    position: absolute;
-    content:"";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    background-color: rgba(0,0,0,.4);
-    z-index: 1000;
-
-  }
-}
-#main-container{
-  
 }

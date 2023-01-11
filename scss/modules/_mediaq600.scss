@@ -1,9 +1,9 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .news-block-h{
+  .clients-list, .news-block-h{
     display: none;
   }
-
+  
   .welcome .w-more{
 
     flex-direction: row;
