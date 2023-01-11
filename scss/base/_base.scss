@@ -10,10 +10,27 @@
 *{
   box-sizing: border-box;
 }
+body{
 
+  height: 100%;
+}
 #main-container{
   position: relative;
+  height: 100%;
+  // overflow: hidden;
+  left: 0;
+  transition: all .5s;
 
+}
+#outer-container{
+  // height: 100%;
+  // overflow: auto;
+
+}
+#container{
+  // height: 100%;
+  // position: relative;
+  // overflow: hidden;
 }
 ////////////////////////////////////////////////
 // 1. header

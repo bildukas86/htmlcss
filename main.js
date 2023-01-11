@@ -2,14 +2,16 @@ const  hamButton = document.getElementById('ham-button');
 const sideNav = document.getElementById('sideNav')
 const mainContainer = document.getElementById('main-container');
 
+
 hamButton.addEventListener('click', function () {
   // console.log("I clicked")
     hamButton.classList.toggle("change");
     if(sideNav.style.display === "block"){
       sideNav.style.display = "none";
-      console.log("visible");
+      mainContainer.style.left = "0";
     }else {
       sideNav.style.display = "block";
+      mainContainer.style.left = "-275px";
     }
 
 
