@@ -1,14 +1,73 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .header{
+    height: 110px;
+    .header-top{
+
+      .action{
+        .b-icon{
+          margin: auto 0;
+        }
+      }
+      .header-search-md{
+
+        input{
+          border: none;
+        }
+
+      }
+    }
+  }
+
+  .header-search-sm, .phone{
+    display: none;
+  }
+ .header-search-md, .s-input-md{
+   display: block;
+
+ }
+
   .clients-list{
     display: flex;
     justify-content: center;
-    img{
-      width: 100%;
-      height: auto;
-      padding: 5px;
+    li:hover{
+      img.no-color{
+        display: none;
+      }
+      img.color{
+        display: block;
+      }
     }
+
+
+      // .no-color:hover{
+      //   display: none;
+      //   .color{
+      //     display: block;
+      //   }
+      // }
+
   }
+
+  //////////////////////////////
+  // .clients-list{
+  //   display: none;
+  //   li{
+  //      img>.color{
+  //   display: none;
+  // }
+  //     img:hover{
+  //       .no-color{
+  //         display: none;
+  //       }
+  //       .color{
+  //         display: block;
+  //       }
+  //
+  //     }
+  //   }
+  // }
+  ///////////////////////////////
   .sign-up-inner{
     margin-left: 2em;
     margin-right: 2em;
@@ -33,34 +92,45 @@
     justify-content: space-between;
     margin-right: 5vw;
   }
-  .header-top{
-    justify-content: center;
-    .logo{
-      padding-right: 50px;
-    }
-  }
-  .header-search-sm, .phone{
-    display: none;
-  }
- .header-search-md, .s-input-md{
-   display: block;
+
+
+/////////////////
+////our services containers
+////////////////
+ .container-services{
+
+   justify-content: space-between;
+ }
+ .service-block-3{
+   width: 100%;
+ }
+ .service-block-4{
+   width: 47%;
+ }
+ .width-containers{
+   width: 750px;
+   margin: 0 auto;
  }
 
+ .services-top{
+   h3{
+     display: block;
+   }
+ }
+ .services-bottom{
+   h3{
+     display: none;
+   }
+ }
 }
 
-.container-services{
-  padding-left: 2em;
-  padding-right: 2em;
-  justify-content: space-between;
-}
-.service-block-4{
-  width: 45vw;
-}
-@media only screen and (max-width: 767px){
-  .header-top{
-    justify-content: space-between;
-  }
-  .service-block-4{
-    width: 90vw;
-  }
-}
+
+
+// @media only screen and (max-width: 767px){
+//   .header-top{
+//     justify-content: space-between;
+//   }
+//   .service-block-4{
+//     width: 90vw;
+//   }
+// }

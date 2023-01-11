@@ -8,7 +8,7 @@ function hamFunction(x) {
   var b = document.body;
   var m = document.getElementById('main-container');
 
-  
+
     if (s.style.display === "block"){
      s.style.display = "none";
      b.style.overflow = "visible";
@@ -24,3 +24,13 @@ function hamFunction(x) {
 
     }
 }
+// function hamFunction(x){
+//   //add class
+//   x.classList.toggle("change");
+//
+//   // open/close navigation
+//   var n = document.getElementById('sideNav');
+//
+//   n.classList.toggle("vis-on");
+//
+// }

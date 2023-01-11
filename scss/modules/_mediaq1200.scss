@@ -1,5 +1,12 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1260px) {
+
+
+  .width-containers{
+    width: 1200px;
+    padding: 0 15px;
+
+  }
   .clients-list{
     display: flex;
     justify-content: center;
@@ -14,14 +21,19 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    .w-block{
-      max-width: 35vw;
-      padding: 20px;
+        .welcome-container{
 
-    }
+            .w-block{
+              width: 50%;
+              padding: 20px;
+            }
+            .w-more{
+              margin-top: 60px;
+              display: inline-block !important;
+            }
+        }
   }
   .service-block-3{
-    width: 30vw;
     margin-top: 30px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -30,7 +42,7 @@
     background-color: $w-color;
   }
   .service-block-4{
-    width: 20vw;
+    width: 24%;
     margin-top: 30px;
     border: 1px solid #ccc;
     border-radius: 10px;

@@ -1,7 +1,7 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .service-block-3{
-    width: 30vw;
+    width: 32%;
   }
   .clients-list{
     display: flex;
@@ -12,32 +12,21 @@
       padding: 5px;
     }
   }
-  .welcome{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+  .welcome-container{
+    flex-direction: row !important;
     .w-block{
-      max-width: 45vw;
-      padding: 5px;
-
-
+      width: 50%;
     }
-
   }
   .signup-input{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
   .s-input{
     width: 50%;
     padding: 5px;
   }
-
-
 }
-
   .main-nav{
     display: flex;
     justify-content: center;
@@ -49,6 +38,18 @@
       text-align: center;
       padding: 0 20px;
     }
+    .nav-container{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      background-color: $main-nav-color;
+
+      z-index: 100;
+      .nav-btn{
+        text-align: center;
+        padding: 0 20px;
+      }
+    }
   }
   .hide-sm{
     display: block;
@@ -56,7 +57,29 @@
   .s-input-md{
     display: none;
   }
+  .width-containers{
+    width: 970px;
+  }
+  .txt{
+    top: 15vh;
+    h1, p{
+      text-align: left;
+    }
+    h1{
+      font-size: 4rem;
+    }
+  }
+  .banner{
 
-
+    .banner-img{
+      height: 700px;
+      // img{
+      //
+      //   height: 75vh;
+      //
+      //
+      // }
+    }
+  }
 
 }

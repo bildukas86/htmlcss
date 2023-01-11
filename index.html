@@ -17,32 +17,32 @@
 <div id="container">
   <div id="main-container">
     <div class="header">
-        <div class="header-top">
-          <div class="logo">
-            <img src="images/f-logo.png" alt="Netmatters logo">
-          </div>
-          <div class="action">
-            <a class="btn hide-sm btn-it" href="#"><i class="fa-solid fa-computer-mouse"></i> support</a>
-            <a class="btn hide-sm btn-support-h" href="#"><i class="fa-solid fa-paper-plane"></i> contact</a>
-            <div class="header-search-md">
-              <form class="search-md" action="#" method="get">
-                <input class="s-input-md" type="text" placeholder="Search...">
-                <button class="s-button-md" type="submit" name="button"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
-              </form>
+        <div class="header-top width-containers">
+            <div class="logo">
+              <img src="images/f-logo.png" alt="Netmatters logo">
             </div>
-            <div class="b-icon phone">
-              <button type="button" name="button"><i class="fa-solid fa-phone fa-2xl"></i></button>
-            </div>
-            <!-- hamburger menu button -->
-            <div class="b-icon">
-              <div  class="ham-button" onclick="hamFunction(this)">
-                  <div class="ham1"></div>
-                  <div class="ham2"></div>
-                  <div class="ham3"></div>
+            <div class="action">
+              <a class="btn hide-sm btn-it" href="#"><i class="fa-solid fa-computer-mouse"></i> support</a>
+              <a class="btn hide-sm btn-support-h" href="#"><i class="fa-solid fa-paper-plane"></i> contact</a>
+              <div class="header-search-md">
+                <form class="search-md" action="#" method="get">
+                  <input class="s-input-md" type="text" placeholder="Search...">
+                  <button class="s-button-md" type="submit" name="button"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
+                </form>
               </div>
+              <div class="b-icon phone">
+                <button type="button" name="button"><i class="fa-solid fa-phone fa-2xl"></i></button>
+              </div>
+              <!-- hamburger menu button -->
+              <div class="b-icon">
+                <div  class="ham-button" onclick="hamFunction(this)">
+                    <div class="ham1"></div>
+                    <div class="ham2"></div>
+                    <div class="ham3"></div>
+                </div>
 
+              </div>
             </div>
-          </div>
         </div>
         <div class="header-search-sm">
           <form class="search" action="#" method="get">
@@ -51,7 +51,9 @@
           </form>
         </div>
         <!-- nav menu -->
+
         <div class="main-nav">
+          <div class="nav-container width-containers">
             <div class="nav-btn software">
                 <ul>
                   <li>
@@ -64,23 +66,23 @@
 
                 </ul>
                 <div class="sub-menu-banner">
-                  <h1>Our Bespoke Software Services</h1>
-
-                    <li><a href="#"><i class="fa-solid fa-gears"></i> Workflow</a></li>
-                    <li><a href="#"><i class="fa-solid fa-briefcase"></i> Automation</a></li>
-                    <li><a href="#"><i class="fa-solid fa-shuffle"></i> Integretion</a></li>
-                    <li><a href="#"><i class="fa-solid fa-mobile-screen-button"></i> Apps</a></li>
-                    <li><a href="#"><i class="fa-solid fa-folder-open"></i> Database</a></li>
-                    <li><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i> SharePoint</a></li>
-                    <li><a href="#"><i class="fa-solid fa-download"></i> Management</a></li>
-                    <li><a href="#"><i class="fa-solid fa-people-line"></i> Business Central</a></li>
-                    <li><a href="#"><i class="fa-solid fa-laptop"></i> Internet of Things</a></li>
-                    <li><a href="#"><i class="fa-solid fa-cloud"></i> Intranet Development</a></li>
-                    <li><a href="#"><i class="fa-solid fa-cloud-arrow-down"></i> Customer portal<br> development</a></li>
-                    <li><a href="#"><i class="fa-solid fa-earth-americas"></i> Reporting Hub</a></li>
-
-
-
+                  <div class="width-containers">
+                    <h1>Our Bespoke Software Services</h1>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-gears"></i> Workflow</a></li>
+                        <li><a href="#"><i class="fa-solid fa-briefcase"></i> Automation</a></li>
+                        <li><a href="#"><i class="fa-solid fa-shuffle"></i> Integretion</a></li>
+                        <li><a href="#"><i class="fa-solid fa-mobile-screen-button"></i> Apps</a></li>
+                        <li><a href="#"><i class="fa-solid fa-folder-open"></i> Database</a></li>
+                        <li><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i> SharePoint</a></li>
+                        <li><a href="#"><i class="fa-solid fa-download"></i> Management</a></li>
+                        <li><a href="#"><i class="fa-solid fa-people-line"></i> Business Central</a></li>
+                        <li><a href="#"><i class="fa-solid fa-laptop"></i> Internet of Things</a></li>
+                        <li><a href="#"><i class="fa-solid fa-cloud"></i> Intranet Development</a></li>
+                        <li><a href="#"><i class="fa-solid fa-cloud-arrow-down"></i> Customer portal<br> development</a></li>
+                        <li><a href="#"><i class="fa-solid fa-earth-americas"></i> Reporting Hub</a></li>
+                      </ul>
+                  </div>
                 </div>
             </div>
             <div class="nav-btn support">
@@ -94,103 +96,139 @@
                   </li>
                 </ul>
                 <div class="sub-menu-banner">
-                  <h1>Our IT Support Services</h1>
-                  <li><a href="#"><i class="fa-solid fa-headphones"></i> Managed IT</a></li>
-                  <li><a href="#"><i class="fa-solid fa-briefcase"></i> Business IT</a></li>
-                  <li><a href="#"><i class="fa-solid fa-laptop"></i> Office 365</a></li>
-                  <li><a href="#"><i class="fa-solid fa-graduation-cap"></i> Consultancy</a></li>
-                  <li><a href="#"><i class="fa-solid fa-cloud"></i> Cloud Provider</a></li>
-                  <li><a href="#"><i class="fa-solid fa-hard-drive"></i> Data Backup</a></li>
+                  <div class="width-containers">
+                    <h1>Our IT Support Services</h1>
+                    <ul>
+                      <li><a href="#"><i class="fa-solid fa-headphones"></i> Managed IT</a></li>
+                      <li><a href="#"><i class="fa-solid fa-briefcase"></i> Business IT</a></li>
+                      <li><a href="#"><i class="fa-solid fa-laptop"></i> Office 365</a></li>
+                      <li><a href="#"><i class="fa-solid fa-graduation-cap"></i> Consultancy</a></li>
+                      <li><a href="#"><i class="fa-solid fa-cloud"></i> Cloud Provider</a></li>
+                      <li><a href="#"><i class="fa-solid fa-hard-drive"></i> Data Backup</a></li>
+                    </ul>
+                  </div>
                 </div>
             </div>
             <div class="nav-btn marketing">
                 <ul>
-                  <a href="#">
-                    <span><i class="fa-solid fa-chart-simple fa-2x"></i></span>
-                    <small>digital</small>
-                    marketing
-                  </a>
+                  <li>
+                    <a href="#">
+                      <span><i class="fa-solid fa-chart-simple fa-2x"></i></span>
+                      <small>digital</small>
+                      marketing
+                    </a>
+                  </li>
                 </ul>
                 <div class="sub-menu-banner">
-                  <h1>Our Digital Marketing Services</h1>
-                  <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Search (CEO)</a></li>
-                  <li><a href="#"><i class="fa-solid fa-money-bill-1"></i> Paid (PPC)</a></li>
-                  <li><a href="#"><i class="fa-solid fa-arrow-trend-up"></i> Conversion (CRO)</a></li>
-                  <li><a href="#"><i class="fa-solid fa-envelope"></i> Email</a></li>
-                  <li><a href="#"><i class="fa-solid fa-users"></i> Social Media</a></li>
-                  <li><a href="#"><i class="fa-solid fa-pencil"></i> Content</a></li>
+                  <div class="width-containers">
+                      <h1>Our Digital Marketing Services</h1>
+                      <ul>
+                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Search (CEO)</a></li>
+                        <li><a href="#"><i class="fa-solid fa-money-bill-1"></i> Paid (PPC)</a></li>
+                        <li><a href="#"><i class="fa-solid fa-arrow-trend-up"></i> Conversion (CRO)</a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i> Email</a></li>
+                        <li><a href="#"><i class="fa-solid fa-users"></i> Social Media</a></li>
+                        <li><a href="#"><i class="fa-solid fa-pencil"></i> Content</a></li>
+                      </ul>
+                  </div>
                 </div>
             </div>
             <div class="nav-btn telecom">
                 <ul>
-                  <a href="#">
-                    <span><i class="fa-solid fa-phone-volume fa-2x"></i></span>
-                    <small>telecoms</small>
-                    services
-                  </a>
+                  <li>
+                    <a href="#">
+                      <span><i class="fa-solid fa-phone-volume fa-2x"></i></span>
+                      <small>telecoms</small>
+                      services
+                    </a>
+                  </li>
                 </ul>
                 <div class="sub-menu-banner">
-                  <h1>Our Telecoms Services</h1>
-                  <li><a href="#"><i class="fa-solid fa-ticket"></i> Business Mobile</a></li>
-                  <li><a href="#"><i class="fa-solid fa-phone"></i> Hosted VoIP</a></li>
-                  <li><a href="#"><i class="fa-solid fa-square-phone"></i> Business VoIP</a></li>
-                  <li><a href="#"><i class="fa-solid fa-gauge-high"></i> Business Broadband</a></li>
-                  <li><a href="#"><i class="fa-regular fa-handshake"></i> Leased Line</a></li>
-                  <li><a href="#"><i class="fa-solid fa-phone-volume"></i> 3CX Systems</a></li>
+                  <div class="width-containers">
+                      <h1>Our Telecoms Services</h1>
+                      <ul>
+                        <li><a href="#"><i class="fa-solid fa-ticket"></i> Business Mobile</a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i> Hosted VoIP</a></li>
+                        <li><a href="#"><i class="fa-solid fa-square-phone"></i> Business VoIP</a></li>
+                        <li><a href="#"><i class="fa-solid fa-gauge-high"></i> Business Broadband</a></li>
+                        <li><a href="#"><i class="fa-regular fa-handshake"></i> Leased Line</a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone-volume"></i> 3CX Systems</a></li>
+                      </ul>
+                  </div>
                 </div>
             </div>
             <div class="nav-btn design">
                 <ul>
-                  <a href="#">
-                    <span><i class="fa-solid fa-code fa-2x"></i></span>
-                    <small>web</small>
-                    design
-                  </a>
+                  <li>
+                    <a href="#">
+                      <span><i class="fa-solid fa-code fa-2x"></i></span>
+                      <small>web</small>
+                      design
+                    </a>
+                  </li>
                 </ul>
                 <div class="sub-menu-banner">
-                  <h1>Our Web Design Services</h1>
-                  <li><a href="#"><i class="fa-solid fa-pencil"></i> Stylish Websites</a></li>
-                  <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> eCommerce Stores</a></li>
-                  <li><a href="#"><i class="fa-solid fa-bullhorn"></i> Branding</a></li>
-                  <li><a href="#"><i class="fa-solid fa-mobile-screen-button"></i> Apps</a></li>
-                  <li><a href="#"><i class="fa-solid fa-cloud"></i> Web Hosting</a></li>
-                  <li><a href="#"><i class="fa-solid fa-desktop"></i> Pay Monthly Websites</a></li>
+                  <div class="width-containers">
+                      <h1>Our Web Design Services</h1>
+                      <ul>
+                        <li><a href="#"><i class="fa-solid fa-pencil"></i> Stylish Websites</a></li>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> eCommerce Stores</a></li>
+                        <li><a href="#"><i class="fa-solid fa-bullhorn"></i> Branding</a></li>
+                        <li><a href="#"><i class="fa-solid fa-mobile-screen-button"></i> Apps</a></li>
+                        <li><a href="#"><i class="fa-solid fa-cloud"></i> Web Hosting</a></li>
+                        <li><a href="#"><i class="fa-solid fa-desktop"></i> Pay Monthly Websites</a></li>
+                      </ul>
+                  </div>
                 </div>
             </div>
             <div class="nav-btn security">
                 <ul>
-                  <a href="#">
-                    <span><i class="fa-solid fa-shield-virus fa-2x"></i></span>
-                    <small>cyber</small>
-                    security
-                  </a>
+                  <li>
+                    <a href="#">
+                      <span><i class="fa-solid fa-shield-virus fa-2x"></i></span>
+                      <small>cyber</small>
+                      security
+                    </a>
+                  </li>
+
                 </ul>
                 <div class="sub-menu-banner">
-                  <h1>Our Cyber Security Services</h1>
-                  <li><a href="#"><i class="fa-solid fa-paste"></i> Assessment</a></li>
-                  <li><a href="#"><i class="fa-solid fa-clock"></i> Management</a></li>
-                  <li><a href="#"><i class="fa-solid fa-flask-vial"></i> Penetration Testing</a></li>
-                  <li><a href="#"><i class="fa-solid fa-graduation-cap"></i> Cyber Essentials</a></li>
-                  <li><a href="#"><i class="fa-solid fa-shield-halved"></i> PCI/DSS</a></li>
-                  <li><a href="#"><i class="fa-solid fa-lock"></i> Hacker Prevention</a></li>
+                  <div class="width-containers">
+                      <h1>Our Cyber Security Services</h1>
+                      <ul>
+                        <li><a href="#"><i class="fa-solid fa-paste"></i> Assessment</a></li>
+                        <li><a href="#"><i class="fa-solid fa-clock"></i> Management</a></li>
+                        <li><a href="#"><i class="fa-solid fa-flask-vial"></i> Penetration Testing</a></li>
+                        <li><a href="#"><i class="fa-solid fa-graduation-cap"></i> Cyber Essentials</a></li>
+                        <li><a href="#"><i class="fa-solid fa-shield-halved"></i> PCI/DSS</a></li>
+                        <li><a href="#"><i class="fa-solid fa-lock"></i> Hacker Prevention</a></li>
+                      </ul>
+                </div>
                 </div>
             </div>
             <div class="nav-btn course">
                 <ul>
-                  <a href="#">
-                    <span><i class="fa-solid fa-graduation-cap fa-2x"></i></span>
-                    <small>developer</small>
-                    course
-                  </a>
+                  <li>
+                    <a href="#">
+                      <span><i class="fa-solid fa-graduation-cap fa-2x"></i></span>
+                      <small>developer</small>
+                      course
+                    </a>
+                  </li>
                 </ul>
                 <div class="sub-menu-banner">
-                  <h1>Our Developer Course Services</h1>
-                  <li><a href="#"><i class="fa-solid fa-laptop"></i> Train For A Career In Tech</a></li>
-                  <li><a href="#"><i class="fa-solid fa-code"></i> Skills Bootcamp</a></li>
-                  <li><a href="#"><i class="fa-solid fa-question"></i> Scion Scheme Frequently Asked<br>Questions</a></li>
-                  <li><a href="#"><i class="fa-solid fa-handshake"></i> Scion Collaborators</a></li>
+                  <div class="width-containers">
+                      <h1>Our Developer Course Services</h1>
+                      <ul>
+                        <li><a href="#"><i class="fa-solid fa-laptop"></i> Train For A Career In Tech</a></li>
+                        <li><a href="#"><i class="fa-solid fa-code"></i> Skills Bootcamp</a></li>
+                        <li><a href="#"><i class="fa-solid fa-question"></i> Scion Scheme Frequently Asked<br>Questions</a></li>
+                        <li><a href="#"><i class="fa-solid fa-handshake"></i> Scion Collaborators</a></li>
+                      </ul>
+                </div>
                 </div>
             </div>
+          </div>
         </div>
     </div>
     <div class="banner">
@@ -199,10 +237,12 @@
           <img src="images/banners/home-oaVs.webp" alt="Leading Technology Images">
         </div>
         <div class="txt">
-          <h1>The East Of England's Leading Technology Company</h1>
-          <p>Performance-driven digital and technology services <br>
-              with complete transparency.</p>
-          <p><a class="btn btn-software" href="#">find out more</a></p>
+          <div class="txt-container width-containers">
+            <h1>The East Of England's Leading Technology Company</h1>
+            <p>Performance-driven digital and technology services <br>
+                with complete transparency.</p>
+            <p><a class="btn btn-software" href="#">find out more</a></p>
+          </div>
         </div>
       </div>
       <div class="b-item">
@@ -210,10 +250,12 @@
           <img src="images/banners/home-YqKT.webp" alt="Leading Technology Images">
         </div>
         <div class="txt">
-          <h1>The East Of England's Leading Technology Company</h1>
-          <p>Performance-driven digital and technology services <br>
-              with complete transparency.</p>
-          <p><a class="btn btn-software" href="#">find out more</a></p>
+          <div class="txt-container width-containers">
+            <h1>The East Of England's Leading Technology Company</h1>
+            <p>Performance-driven digital and technology services <br>
+                with complete transparency.</p>
+            <p><a class="btn btn-software" href="#">find out more</a></p>
+          </div>
         </div>
       </div>
       <div class="b-item">
@@ -221,10 +263,12 @@
           <img src="images/banners/home-Na90.webp" alt="IT support Images">
         </div>
         <div class="txt">
-          <h1>IT Support</h1>
-          <p>Fast and cost-effective IT support <br>
-              services for your business.</p>
-          <p><a class="btn btn-support" href="#">find out more</a></p>
+          <div class="txt-container width-containers">
+            <h1>IT Support</h1>
+            <p>Fast and cost-effective IT support <br>
+                services for your business.</p>
+            <p><a class="btn btn-support" href="#">find out more</a></p>
+          </div>
         </div>
       </div>
       <div class="b-item">
@@ -232,10 +276,12 @@
           <img src="images/banners/home-3iEf.webp" alt="Digital Marketing image">
         </div>
         <div class="txt">
-          <h1>Digital Marketing</h1>
-          <p>Generating your new business through <br>
-            results-driven marketing activities.</p>
-          <p><a class="btn btn-marketing" href="#">find out more</a></p>
+          <div class="txt-container width-containers">
+            <h1>Digital Marketing</h1>
+            <p>Generating your new business through <br>
+              results-driven marketing activities.</p>
+            <p><a class="btn btn-marketing" href="#">find out more</a></p>
+          </div>
         </div>
       </div>
       <div class="b-item">
@@ -243,10 +289,12 @@
           <img src="images/banners/home-gKfQ.webp" alt="Telecoms Services Image">
         </div>
         <div class="txt">
-          <h1>Telecoms Services</h1>
-          <p>A new approach to connectivity, see how<br>
-              we can help your business.</p>
-          <p><a class="btn btn-telecom" href="#">find out more</a></p>
+          <div class="txt-container width-containers">
+            <h1>Telecoms Services</h1>
+            <p>A new approach to connectivity, see how<br>
+                we can help your business.</p>
+            <p><a class="btn btn-telecom" href="#">find out more</a></p>
+          </div>
         </div>
       </div>
       <div class="b-item">
@@ -254,10 +302,12 @@
           <img src="images/banners/home-KDXb.jpg" alt="Web Design image">
         </div>
         <div class="txt">
-          <h1>Web Design</h1>
-          <p>For businesses looking to make a strong <br>
-              and effective first impression.</p>
-          <p><a class="btn btn-design" href="#">find out more</a></p>
+          <div class="txt-container width-containers">
+            <h1>Web Design</h1>
+            <p>For businesses looking to make a strong <br>
+                and effective first impression.</p>
+            <p><a class="btn btn-design" href="#">find out more</a></p>
+          </div>
         </div>
       </div>
       <div class="b-item">
@@ -265,96 +315,117 @@
           <img src="images/banners/home-kvtG.webp" alt="Cyber Security image">
         </div>
         <div class="txt">
-          <h1>Cyber Security</h1>
-          <p>Keeping businesses and their customers<br>
-            sensitive information protected.</p>
-          <p><a class="btn btn-security" href="#">find out more</a></p>
+          <div class="txt-container width-containers">
+            <h1>Cyber Security</h1>
+            <p>Keeping businesses and their customers<br>
+              sensitive information protected.</p>
+            <p><a class="btn btn-security" href="#">find out more</a></p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container-services">
-      <div class="service-block-3 s-software">
-          <span class="icon-apps"><i class="fa-solid fa-cube fa-2x"></i></span><br>
-          <h2>Bespoke Software</h2>
-          <p>Bespoke software solutions for all your business needs including integrations and reporting.</p>
-          <a class="btn btn-software" href="#">read more</a>
+    <div class="services width-containers">
+      <div class="services-top">
+        <h1>Our Services</h1>
+        <h3 class"View-all-top">View All  &#129122;</h2>
       </div>
-      <div class="service-block-3 s-support">
-          <span class="icon-apps"><i class="fa-solid fa-desktop fa-2x"></i></span><br>
-          <h2>IT Support</h2>
-          <p>Fully managed IT support and consultancy packages tailored to
-                meet your exact business needs.</p>
-          <a class="btn btn-support" href="#">read more</a>
+      <div class="container-services">
+        <div class="service-block-3 s-software">
+            <span class="icon-apps"><i class="fa-solid fa-cube fa-2x"></i></span><br>
+            <h2>Bespoke Software</h2>
+            <p>Bespoke software solutions for all your business needs including integrations and reporting.</p>
+            <a class="btn btn-software" href="#">read more</a>
+        </div>
+        <div class="service-block-3 s-support">
+            <span class="icon-apps"><i class="fa-solid fa-desktop fa-2x"></i></span><br>
+            <h2>IT Support</h2>
+            <p>Fully managed IT support and consultancy packages tailored to
+                  meet your exact business needs.</p>
+            <a class="btn btn-support" href="#">read more</a>
+        </div>
+        <div class="service-block-3 s-marketing">
+            <span class="icon-apps"><i class="fa-solid fa-chart-simple fa-2x"></i></span><br>
+            <h2>Digital Marketing</h2>
+            <p>Driven brand awareness &amp; ROI through creative digital
+                  marketing capaigns.</p>
+            <a class="btn btn-marketing" href="#">read more</a>
+        </div>
+        <div class="service-block-4 s-telecom">
+            <span class="icon-apps"><i class="fa-solid fa-phone-volume fa-2x"></i></span><br>
+            <h2>Telecoms Services</h2>
+            <p>Business telephony solutions including mobile &amp;
+                    connectivity solutions.</p>
+            <a class="btn btn-telecom" href="#">read more</a>
+        </div>
+        <div class="service-block-4 s-design">
+            <span class="icon-apps"><i class="fa-solid fa-code fa-2x"></i></span><br>
+            <h2>Web Design</h2>
+            <p>User-centric design for businesses looking to make a lasting
+                    impression.</p>
+            <a class="btn btn-design" href="#">read more</a>
+        </div>
+        <div class="service-block-4 s-security">
+            <span class="icon-apps"><i class="fa-solid fa-shield-virus fa-2x"></i></span><br>
+            <h2>Cyber Security</h2>
+            <p>Prevention, testing consultancy &amp; breach management
+                    services.</p>
+            <a class="btn btn-security" href="#">read more</a>
+        </div>
+        <div class="service-block-4 s-course">
+            <span class="icon-apps"><i class="fa-solid fa-graduation-cap fa-2x"></i></span><br>
+            <h2>Developer Training</h2>
+            <p>Web design &amp; software training courses designed to secure
+                    a job in tech.</p>
+            <a class="btn btn-course" href="#">read more</a>
+        </div>
       </div>
-      <div class="service-block-3 s-marketing">
-          <span class="icon-apps"><i class="fa-solid fa-chart-simple fa-2x"></i></span><br>
-          <h2>Digital Marketing</h2>
-          <p>Driven brand awareness &amp; ROI through creative digital
-                marketing capaigns.</p>
-          <a class="btn btn-marketing" href="#">read more</a>
-      </div>
-      <div class="service-block-4 s-telecom">
-          <span class="icon-apps"><i class="fa-solid fa-phone-volume fa-2x"></i></span><br>
-          <h2>Telecoms Services</h2>
-          <p>Business telephony solutions including mobile &amp;
-                  connectivity solutions.</p>
-          <a class="btn btn-telecom" href="#">read more</a>
-      </div>
-      <div class="service-block-4 s-design">
-          <span class="icon-apps"><i class="fa-solid fa-code fa-2x"></i></span><br>
-          <h2>Web Design</h2>
-          <p>User-centric design for businesses looking to make a lasting
-                  impression.</p>
-          <a class="btn btn-design" href="#">read more</a>
-      </div>
-      <div class="service-block-4 s-security">
-          <span class="icon-apps"><i class="fa-solid fa-shield-virus fa-2x"></i></span><br>
-          <h2>Cyber Security</h2>
-          <p>Prevention, testing consultancy &amp; breach management
-                  services.</p>
-          <a class="btn btn-security" href="#">read more</a>
-      </div>
-      <div class="service-block-4 s-course">
-          <span class="icon-apps"><i class="fa-solid fa-graduation-cap fa-2x"></i></span><br>
-          <h2>Developer Training</h2>
-          <p>Web design &amp; software training courses designed to secure
-                  a job in tech.</p>
-          <a class="btn btn-course" href="#">read more</a>
+      <div class="services-bottom">
+        <h3>View All</h3>
       </div>
     </div>
     <div class="partners-slideshow">
       <div class="my-slider p-slider">
         <div class="item">
-          <img src="images/partnerslogo/future-50-bw.jpg" alt="future 50 logo">
+          <img class="no-color" src="images/partnerslogo/future-50-bw.jpg" alt="future 50 logo">
+          <img class="color" src="images/partnerslogo/future-50.jpg" alt="future 50 logo">
         </div>
         <div class="item">
-          <img src="images/partnerslogo/google-partner-bw.jpg" alt="google partner logo">
+          <img class="no-color" src="images/partnerslogo/google-partner-bw.jpg" alt="google partner logo">
+          <img class="color" src="images/partnerslogo/google-partner.jpg" alt="google partner logo">
         </div>
         <div class="item">
-          <img src="images/partnerslogo/investing-in-future-growth-bw.jpg" alt="investing in future growth logo">
+          <img class="no-color" src="images/partnerslogo/investing-in-future-growth-bw.jpg" alt="investing in future growth logo">
+          <img class="color" src="images/partnerslogo/investing-in-future-growth.jpg" alt="investing in future growth logo">
         </div>
         <div class="item">
-          <img src="images/partnerslogo/iso_27001-bw.jpg" alt="Iso 27001 logo">
+          <img class="no-color" src="images/partnerslogo/iso_27001-bw.jpg" alt="Iso 27001 logo">
+          <img class="color" src="images/partnerslogo/iso_27001.jpg" alt="Iso 27001 logo">
         </div>
         <div class="item">
-          <img src="images/partnerslogo/norfolk-carbon-charter-bw.jpg" alt="norfolk carbon charter logo">
+          <img class="no-color" src="images/partnerslogo/norfolk-carbon-charter-bw.jpg" alt="norfolk carbon charter logo">
+          <img class="color" src="images/partnerslogo/norfolk-carbon-charter.jpg" alt="norfolk carbon charter logo">
         </div>
         <div class="item">
-          <img src="images/partnerslogo/PPC_logo-bw.jpg" alt="PPC logo">
+          <img class="no-color" src="images/partnerslogo/PPC_logo-bw.jpg" alt="PPC logo">
+          <img class="color" src="images/partnerslogo/PPC_logo.jpg" alt="PPC logo">
         </div>
         <div class="item">
-          <img src="images/partnerslogo/princess-royal-training-bw.jpg" alt="princess royal training logo">
+          <img class="no-color" src="images/partnerslogo/princess-royal-training-bw.jpg" alt="princess royal training logo">
+          <img class="color" src="images/partnerslogo/princess-royal-training.jpg" alt="princess royal training logo">
         </div>
         <div class="item">
-          <img src="images/partnerslogo/qms-bw.jpg" alt="qms logo">
+          <img class="no-color" src="images/partnerslogo/qms-bw.jpg" alt="qms logo">
+          <img class="color" src="images/partnerslogo/qms.jpg" alt="qms logo">
         </div>
         <div class="item">
-          <img src="images/partnerslogo/skills-of-tomorrow-bw.jpg" alt="skill of tomorrow logo">
+          <img class="no-color" src="images/partnerslogo/skills-of-tomorrow-bw.jpg" alt="skill of tomorrow logo">
+          <img class="color" src="images/partnerslogo/skills-of-tomorrow.jpg" alt="skill of tomorrow logo">
         </div>
       </div>
     </div>
     <div class="welcome">
-      <div class="w-block">
+      <div class="welcome-container  width-containers">
+        <div class="w-block">
         <h1>Welcome To Netmatters</h1>
         <p>Netmatters is a leading Bespoke Software,
            IT Support, and Digital Marketing company based
@@ -373,7 +444,7 @@
         </div>
 
       </div>
-      <div class="w-block">
+        <div class="w-block">
         <h1>What Our Clients Think</h1>
         <div style="color: orange; margin-bottom: 25px; font-size: 50px;" class="fa fa-star"></div>
         <div style="color: orange; margin-bottom: 25px; font-size: 50px;" class="fa fa-star"></div>
@@ -388,12 +459,13 @@
            clients - and we are!</p>
         <p>Eleanor Bishop, Head of Marketing - Ashcroft Partnership LLP</p>
         <div class="w-more">
-          <a class="btn btn-google" href="#" target="_blank" >Google Reviews</a>
-          <a class="btn btn-trustpilot" href="#" target="_blank" >TrustPilot Reviews</a>
+          <a class="btn btn-google" href="#" target="_blank" >Google Reviews &#8594;</a>
+          <a class="btn btn-trustpilot" href="#" target="_blank" >TrustPilot Reviews &#8594;</a>
         </div>
       </div>
+      </div>
     </div>
-    <div class="l-news-main">
+    <div class="l-news-main width-containers">
         <div class="l-news-links">
           <div class="l-news">
             <h1>Latest News</h1>
@@ -466,41 +538,45 @@
         <h1>View All &#129122;</h1>
       </div>
     </div>
-    <div class="clients">
+    <div class="clients width-containers">
       <ul class="clients-list">
         <li>
-          <img src="images/home-T5gi.jpg" alt="Busseys logo">
+          <img class="no-color" src="images/home-T5gi.jpg" alt="Busseys logo">
+          <img class="color" src="images/home-gZQR.png" alt="Busseys logo">
         </li>
         <li>
-          <img src="images/home-BsyK.jpg" alt="Crane garden buildings Logo">
+          <img class="no-color" src="images/home-BsyK.jpg" alt="Crane garden buildings Logo">
+          <img class="color" src="images/home-MjHw.png" alt="Crane garden buildings Logo">
         </li>
         <li>
-          <img src="images/home-RfLc.jpg" alt="Beat Logo">
+          <img class="no-color" src="images/home-RfLc.jpg" alt="Beat Logo">
+          <img class="color" src="images/home-ukEL.png" alt="Beat Logo">
         </li>
         <li>
-          <img src="images/home-jHUl.jpg" alt="Northern Driver Logo">
+          <img class="no-color" src="images/home-jHUl.jpg" alt="Northern Driver Logo">
+          <img class="color" src="images/home-kGn4.png" alt="Northern Driver Logo">
         </li>
       </ul>
     </div>
-    <div class="sign-up">
-      <div class="sign-up-inner">
+    <div class="sign-up ">
+      <div class="sign-up-inner width-containers">
         <h1>Email Newsletter Sign-Up</h1>
           <form class="signup-group" action="index.html" method="post">
             <div class="signup-input">
               <div class="s-input">
                 <label class="required" for="name">Your name</label>
-                <input class="form-control" type="text" name="name" value="" required>
+                <input id="name" class="form-control" type="text" name="name" value="" required>
               </div>
               <div class="s-input">
                 <label class="required" for="email">Your email</label>
-                <input class="form-control" type="email" name="email" value="" required>
+                <input id="email" class="form-control" type="email" name="email" value="" required>
               </div>
             </div>
             <div class="signup-tick">
               <label class="checkbox-line">
                 <span><input class="checkbox" type="checkbox" name="checkbox" value="0" required></span>
-                <span name="checkbox">Please tick this box if you wish to receive marketing
-                  information from us. Please see our <a name='privacy' href="#">Privacy
+                <span id="checkbox">Please tick this box if you wish to receive marketing
+                  information from us. Please see our <a id='privacy' href="#">Privacy
                    Policy</a> for more information on how we keep your data safe.</span>
               </label>
             </div>
@@ -512,7 +588,7 @@
       </div>
     </div>
     <div class="footer">
-        <div class="f--container">
+        <div class="f--container width-containers">
 
           <div class="footer--top">
             <div class="services">
@@ -551,7 +627,7 @@
                         <li>Cowley Road, Milton,</li>
                         <li>Cambridge,</li>
                         <li>CB4 0WS</li>
-                        <li>&nbsp;</li>
+                        <!-- <li>&nbsp;</li> -->
                         <li>Tel: <a href="tel:01223375772">01223 37 57 72</a></li>
                     </ul>
                 </div>
@@ -586,18 +662,19 @@
           </div>
           <div class="footer--bottom">
             <div class="license">
-              &copy Copyright Netmatters 2022. All rights reserved.
+              <p>&copy; Copyright Netmatters 2022. All rights reserved.</p>
               <span>-</span>
               <ul>
-                <a href="#">Sitemap</a>
+                <li>
+                  <a href="#">Sitemap</a>
+                </li>
               </ul>
             </div>
             <div class="social--media">
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-
+              <a class="fa" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a class="tw" href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a class="in" href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a class="in" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
           </div>
 
@@ -849,6 +926,6 @@
       });
     </script>
 
-    <script src="main.js" charset="utf-8"></script>
+    <script src="main.js"></script>
   </body>
 </html>

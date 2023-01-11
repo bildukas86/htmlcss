@@ -7,8 +7,6 @@
   border-radius: 3px;
   white-space: normal;
   border: none;
-
-
 }
 
 //set buttons colours
@@ -49,15 +47,16 @@
 .ham-button {
   display: inline-block;
   cursor: pointer;
-  background-color: $b-color;
+  background-color: $main-nav-color;
   border-radius: 3px;
-  padding: 10px;
-  margin: 10px;
+  padding: 10px 15px;
+  vertical-align: middle;
+  margin: auto 0 0 20px;
 }
 
 .ham1, .ham2, .ham3 {
-  width: 35px;
-  height: 5px;
+  width: 33px;
+  height: 4px;
   background-color: $w-color;
   margin: 6px 0;
   transition: 0.4s;
@@ -75,12 +74,26 @@
 
 
 ///////////////////////////////////////
+.nav-btn{
+  width: 140px;
+}
 //switch main navigation icons + background colour
 .software span>i{
   color: $software-color;
 }
 .software:hover{
   background-color: $software-color;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 70px 0 70px;
+    border-color: #67809f transparent transparent transparent;
+    z-index: 2;
+    transform: translateX(-70px);
+  }
   i{
     color: inherit;
   }
@@ -90,6 +103,17 @@
 }
 .support:hover{
   background-color: $support-color;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 70px 0 70px;
+    border-color: $support-color transparent transparent transparent;
+    z-index: 2;
+    transform: translateX(-70px);
+  }
   i{
     color: inherit;
   }
@@ -99,6 +123,17 @@
 }
 .marketing:hover{
   background-color: $maraketing-color;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 70px 0 70px;
+    border-color: $maraketing-color transparent transparent transparent;
+    z-index: 2;
+    transform: translateX(-70px);
+  }
   i{
     color: inherit;
   }
@@ -108,6 +143,17 @@
 }
 .telecom:hover{
   background-color: $telecom-color;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 70px 0 70px;
+    border-color: $telecom-color transparent transparent transparent;
+    z-index: 2;
+    transform: translateX(-70px);
+  }
   i{
     color: inherit;
   }
@@ -117,6 +163,17 @@
 }
 .design:hover{
   background-color: $design-color;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 70px 0 70px;
+    border-color: $design-color transparent transparent transparent;
+    z-index: 2;
+    transform: translateX(-70px);
+  }
   i{
     color: inherit;
   }
@@ -126,6 +183,17 @@
 }
 .security:hover{
   background-color: $security-color;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 70px 0 70px;
+    border-color: $security-color transparent transparent transparent;
+    z-index: 2;
+    transform: translateX(-70px);
+  }
   i{
     color: inherit;
   }
@@ -135,10 +203,24 @@
 }
 .course:hover{
   background-color: $course-color;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 70px 0 70px;
+    border-color: $course-color transparent transparent transparent;
+    z-index: 2;
+    transform: translateX(-70px);
+  }
   i{
     color: inherit;
   }
 }
+
+
+
 ////////////////////////////////////////////////
 /// Services icons +backround change colour
 ///////////////////////////////////////////////
@@ -267,7 +349,7 @@
   background-color: #4387f6;
   margin-right: 8px;
     border-radius: 6px;
-    padding: 10px 30px;
+    padding: 10px 5px;
     font-size: 20px;
     color: #fff;
 }
@@ -275,24 +357,7 @@
   background-color: #00b67b;
   margin-right: 8px;
     border-radius: 6px;
-    padding: 10px 30px;
+    padding: 10px 5px;
     font-size: 20px;
     color: #fff;
 }
-// .btn-google{
-//     display: inline-block;
-//     margin-bottom: 20px;
-//     background-color: #4387f6;
-//     border-radius: 6px;
-//     font-size: 20px;
-//     color: #fff;
-// }
-// .btn-trustpilot{
-//   background-color: #00b67b;
-//   margin-right: 8px;
-//   border-radius: 6px;
-//   padding: 10px 30px;
-//   font-size: 20px;
-//   color: #fff;
-//
-// }
