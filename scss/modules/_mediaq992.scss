@@ -1,5 +1,8 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .side-nav-list1{
+    display: none;
+  }
   .service-block-3{
     width: 32%;
   }
@@ -73,12 +76,7 @@
 
     .banner-img{
       height: 700px;
-      // img{
-      //
-      //   height: 75vh;
-      //
-      //
-      // }
+      
     }
   }
 
