@@ -17,3 +17,5 @@ overlay.addEventListener('click', function () {
   mainContainer.classList.toggle("side-nav-main");
   overlay.classList.toggle("overlay");
 });
+
+//cookie pop-up
