@@ -19,3 +19,28 @@ overlay.addEventListener('click', function () {
 });
 
 //cookie pop-up
+const cookiePop = document.querySelector(".cookie-content");
+const changeCookieSettings = document.querySelector(".btn-settings");
+const acceptCookie = document.querySelector(".btn-accept");
+const cookieSettings = document.querySelector(".cookie-settings");
+
+//check settings clicked
+changeCookieSettings.addEventListener("click", function(){
+  cookiePop.style.display = "none";
+  cookieSettings.style.display = "flex"
+});
+
+//check accept clicked
+acceptCookie.addEventListener("click", function() {
+  cookiePop.style.display = "none";
+  localStorage.setItem("cookieAccepted", "yes")
+});
+
+///check if cookie accepted or not
+
+setTimeout(function (){
+    let cookieAccepted = localStorage.getItem("cookieAccepted")
+    if (cookieAccepted != "yes"){
+        cookiePop.style.display = "flex";
+    }
+}, 1000)

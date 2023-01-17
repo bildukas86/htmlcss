@@ -39,35 +39,8 @@
       }
     }
 
-
-      // .no-color:hover{
-      //   display: none;
-      //   .color{
-      //     display: block;
-      //   }
-      // }
-
   }
 
-  //////////////////////////////
-  // .clients-list{
-  //   display: none;
-  //   li{
-  //      img>.color{
-  //   display: none;
-  // }
-  //     img:hover{
-  //       .no-color{
-  //         display: none;
-  //       }
-  //       .color{
-  //         display: block;
-  //       }
-  //
-  //     }
-  //   }
-  // }
-  ///////////////////////////////
   .sign-up-inner{
     margin-left: 2em;
     margin-right: 2em;
@@ -120,17 +93,10 @@
  .services-bottom{
    h3{
      display: none;
-   }
- }
+    }
+  }
+.cookies-container{
+  width: 750px;
+  margin: 0 auto !important;
 }
-
-
-
-// @media only screen and (max-width: 767px){
-//   .header-top{
-//     justify-content: space-between;
-//   }
-//   .service-block-4{
-//     width: 90vw;
-//   }
-// }
+ }
