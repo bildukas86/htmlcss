@@ -95,8 +95,24 @@
      display: none;
     }
   }
+.cookie-content-inner{
+      width: 600px;
+      box-shadow: 0 5px 15px rgb(0, 0, 0 / 50%);
+      margin: 0 auto !important;
+      .cookies-footer{
+        flex-direction: row !important;
+        justify-content: space-between;
+        .cookies-btn-container{
+          width: 45%;
+        }
+      }
+      .spacer-xs{
+        margin-bottom: 0;
+      }
+  }
 .cookies-container{
   width: 750px;
   margin: 0 auto !important;
+  }
+
 }
- }
