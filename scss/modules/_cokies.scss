@@ -76,12 +76,19 @@
 //cokie settings
 ////////////////////////////////////////////
 .cookie-settings{
+
   display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
   flex-direction: column;
   position: relative;
-  width: 100vw;
   height: 100vh;
   overflow-y: scroll;
+
   ul{
     list-style-type: disc;
     margin: 10px 30px;
@@ -120,7 +127,9 @@
     }
   }
 }
-
+div.cookie-settings div:last-child{
+  padding-bottom: 30px;
+}
 .btn-default{
   color: #fff;
   background-color: #999aa2;
@@ -135,4 +144,28 @@
     color: #aaa;
     background-color: #fff;
     border-color: #f0f0f0;
+}
+.cookie-settings table thead tr td {
+    background-color: #aaa;
+    color: #fff;
+}
+.cookie-settings table td {
+    border: 1px solid #fff;
+    background-color: #ddd;
+    padding: 15px;
+    min-height: 20px;
+}
+table{
+  display: none;
+  border-collapse: collapse;
+}
+.cookie-settings .table {
+    overflow-x: auto;
+}
+.cookie-settings .table-buttons {
+    display: flex;
+    flex-direction: row;
+}
+.cookie-settings table button {
+    margin: 2px;
 }
