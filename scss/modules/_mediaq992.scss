@@ -3,6 +3,19 @@
   .service-block-3{
     width: 32%;
   }
+  .side-nav-list1{
+    display: none;
+  }
+  #sideNav .side-nav-list2 {
+    margin-top: 0;
+}
+  .side-nav-open{
+    width: 350px !important;
+  }
+  .side-nav-main{
+    left: -350px;
+    transition: 5.5s;
+  }
   .clients-list{
     display: flex;
     justify-content: center;
