@@ -17,10 +17,8 @@ acceptCookie[0].addEventListener("click", function () {
   setCookie(cname, cvalue, exdays);
   cookiePop.style.display = "none";
 });
-acceptCookie[18].addEventListener("click", function () {
-  setCookie(cname, cvalue, exdays);
-  cookiePop.style.display = "none";
-});
+
+
 
 
 
@@ -226,3 +224,8 @@ cookieSettingsButtons[4].addEventListener('click', function(){
     cookieSettingsButtons[4].innerHTML = "Hide detailed preferences";
   }
 })
+
+acceptCookie[18].addEventListener("click", function () {
+  setCookie(cname, cvalue, exdays);
+  cookiePop.style.display = "none";
+});
