@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/46c0e5fc09.js" crossorigin="anonymous"></script>
 
   </head>
-  <body>
+  <body onload="checkCookie()">
 <div class="cookie-content">
   <div class="cookie-content-inner">
     <div class="cookies-header">
@@ -26,24 +26,185 @@
            explanation, click on <a href="#">"Privacy Policy"</a> otherwise click "Accept Cookies" to enter.</p>
     </div>
     <div class="cookies-footer">
-      <button class="btn-settings" type="button" name="button">change settings</button>
-      <button class="btn-accept" type="button" name="button">accept cookies</button>
+      <div class="cookies-btn-container">
+        <a class="btn btn-settings spacer-xs" href="#">change settings</a>
+      </div>
+      <div class="cookies-btn-container">
+        <a class="btn btn-accept" href="#">accept cookies</a>
+      </div>
     </div>
   </div>
+</div>
+<div class="cookie-settings">
+  <div class="cookies-container">
+    <h3>Cookies Preferences</h3>
+    <h5>Netmatters uses cookies on their website.
+      Cookies are small text files that are stored on
+      your computer or other device by websites that you visit.
+       This page explains the cookies we use and what we use them for,
+        and lets you turn them on or off. (Some cookies are necessary in
+         order for our website to work properly.) We also explain below which
+         other companies use cookies on our website and what they use them for,
+          and lets you turn those other companies' cookies on or off.</h5>
+    <h5>Our website uses cookies in order to make the website easier to use,
+      to support the provision of information and functionality to you, as well
+       as to provide us with information about how the website is used so that we
+       can make sure it is as up to date, relevant and error free as we can. We also
+        use cookies to try to ensure that our online adverts reflect the interests of
+         web users. Further information about the types of cookies that are used on our
+          website is set out box below.</h5>
+    <h5>As well as the options provided below, you can choose to restrict or block
+      cookies through your browser settings at any time.
+       For more information about how to do this, and about cookies
+       in general, you can visit <a href="www.cookiepedia.co.uk" target="_blank">www.cookiepedia.co.uk</a>
+       and <a href="www.youronlinechoices.eu" target="_blank">www.youronlinechoices.eu</a>.
+        However, please be aware that restricting or blocking cookies set on our
+        website may impact the functionality or performance of the website, or
+         prevent you from using certain services provided through the website.</h5>
+    <h5>Please note that third parties (including, for example, advertising networks
+       and providers of external services like website analysis services) may also use
+       cookies, over which we have no control, although we may receive services from these
+       third parties (including, for example, for targeted advertising purposes and website analytics).
+        These cookies are likely to be performance cookies or targeting cookies (as described below).</h5>
+  </div>
+  <div class="cookies-container">
+    <h1>Functional Cookies</h1>
+    <h5>Functional cookies allow our website to remember choices you make,
+      such as your user name, log in details or language preferences,
+      and any customisations you make to pages on our website during your visit.</h5>
+    <h4><strong>Examples of how we use these cookies include:</strong></h4>
+    <ul>
+      <li>Live chat</li>
+    </ul>
+    <div class="buttons">
+      <button class="btn-default btn" type="button" name="button">disable</button>
+      <button class="btn-default btn" type="button" name="button">enable</button>
+    </div>
+  </div>
+  <div class="cookies-container">
+    <h1>Performance & Analytics</h1>
+    <h5>These cookies help us understand how people use our website.
+      They collect information such as which pages on our website
+      visitors go to most often, which features they use, and which
+      websites people have visited before they visit ours. We use this
+      information to improve our website and provide a better user experience.</h5>
+    <h4>
+      <strong>Examples of how we use these cookies include:</strong>
+    </h4>
+    <ul>
+      <li>Monitoring and providing statistics on how our website is used.</li>
+      <li>Helping us improve our website by measuring any errors that occur.</li>
+      <li>Testing the website's design and operability</li>
+    </ul>
+    <div class="buttons">
+      <button class="btn btn-default" type="button" name="button">disable</button>
+      <button class="btn btn-default" type="button" name="button">enable</button>
+    </div>
+  </div>
+  <div class="cookies-container">
+    <h5>Different web browsers may use different methods for managing cookies.
+      Please follow the instructions below, from the web browser manufacturers directly,
+       to configure your browser settings*.</h5>
+    <ul>
+      <li>
+        <a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies">Microsoft Internet Explorer (IE)</a>
+      </li>
+      <li>
+        <a href="https://support.google.com/chrome/answer/95647?hl=en">Google Chrome</a>
+      </li>
+      <li>
+        <a href="https://support.apple.com/en-gb/guide/safari/manage-cookies-and-website-data-sfri11471/mac">Safari</a>
+      </li>
+      <li>
+        <a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences">Firefox</a>
+      </li>
+    </ul>
+  </div>
+  <div class="cookies-container">
+    <div class="btn">
+      <button class="btn btn-default" type="button" name="button">Show detailed preferences</button>
+    </div>
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <td>Company</td>
+            <td>Domain</td>
+            <td></td>
+          </tr>
+        </thead>
+        <tbody>
+          <td>+ Hotjar Ltd</td>
+          <td>hotjar.com</td>
+          <td>
+            <div class="buttons table-buttons">
+              <button class="btn-default btn" type="button" name="button">disable</button>
+              <button class="btn-default btn" type="button" name="button">enable</button>
+            </div>
+          </td>
+        </tbody>
+        <tbody>
+          <td>+ LinkedIn Corporation</td>
+          <td>licdn.com</td>
+          <td>
+            <div class="buttons table-buttons">
+              <button class="btn-default btn" type="button" name="button">disable</button>
+              <button class="btn-default btn" type="button" name="button">enable</button>
+            </div>
+          </td>
+        </tbody>
+        <tbody>
+          <td>+ Facebook Inc.</td>
+          <td>facebook.com, facebook.net</td>
+          <td>
+            <div class="buttons table-buttons">
+              <button class="btn-default btn" type="button" name="button">disable</button>
+              <button class="btn-default btn" type="button" name="button">enable</button>
+            </div>
+          </td>
+        </tbody>
+        <tbody>
+          <td>+ Google Inc.</td>
+          <td>google.com, googletagmanager.com, google-analytics.com</td>
+          <td>
+            <div class="buttons table-buttons">
+              <button class="btn-default btn" type="button" name="button">disable</button>
+              <button class="btn-default btn" type="button" name="button">enable</button>
+            </div>
+          </td>
+        </tbody>
+        <tbody>
+          <td>+ Lead Forensics</td>
+          <td>https://www.leadforensics.com/</td>
+          <td>
+            <div class="buttons table-buttons">
+              <button class="btn-default btn" type="button" name="button">disable</button>
+              <button class="btn-default btn" type="button" name="button">enable</button>
+            </div>
+          </td>
+        </tbody>
+        <tbody>
+          <td>+ 3CX</td>
+          <td>https://netmatters.co.uk/</td>
+          <td>
+            <div class="buttons table-buttons">
+              <button class="btn-default btn" type="button" name="button">disable</button>
+              <button class="btn-default btn" type="button" name="button">enable</button>
+            </div>
+          </td>
+        </tbody>
+      </table>
 
+    </div>
+  </div>
+  <div class="cookies-container">
+    <div class="buttons">
+      <button class="btn btn-default" type="button" name="button">cancel</button>
+      <button class="btn btn-default btn-accept" type="button" name="button">continue to website</button>
+    </div>
 
-        <!-- <div class="cookie-txt">
-          <h1>Cookies Policy</h1>
-          <p>Our website uses cookies. This helps us provide you with a
-             good experience on our website. To see what cookies we use and what they do,
-              and to opt-in on non-essential cookies click "change settings". For a detailed
-               explanation, click on <a href="#">"Privacy Policy"</a> otherwise click "Accept Cookies" to enter.</p>
-          <div class="cookies-btns">
-            <button class="btn-settings" type="button" name="button">change settings</button>
-            <button class="btn-accept" type="button" name="button">accept cookies</button>
-          </div>
+  </div>
 
-        </div> -->
 </div>
 <div id="container">
   <div id="overlay"></div>
@@ -608,7 +769,14 @@
                     </div>
                     <div class="signup-tick">
                       <label class="checkbox-line">
-                        <span><input class="checkbox" type="checkbox" name="checkbox" value="0" required></span>
+                        <div class="nice-checkbox">
+
+                          <label class="container">
+                              <input type="checkbox" required>
+                              <span class="checkmark"></span>
+                          </label>
+
+                        </div>
                         <span id="checkbox">Please tick this box if you wish to receive marketing
                           information from us. Please see our <a id='privacy' href="#">Privacy
                            Policy</a> for more information on how we keep your data safe.</span>
@@ -717,7 +885,7 @@
         </div>
   </div>
   <div id="sideNav" class="side-nav">
-    <ul>
+    <ul class="side-nav-list1">
       <li class="side-main-li"><a  href="#">contact us</a></li>
       <li class="side-main-li">
           <a  href="#">
@@ -962,5 +1130,6 @@
     </script>
 
     <script src="main.js"></script>
+    <script src="cookie.js"></script>
   </body>
 </html>

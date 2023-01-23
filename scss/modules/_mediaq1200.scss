@@ -67,8 +67,21 @@
   .s-input-md{
     display: block;
   }
-///////////////////////////////////////////////////////////
-//sign-up Form
-//////////////////////////////////////////////////////////
+  .cookies-container{
+    width: 1200px;
 
+  }
+  .nav-btn{
+    width: 170px;
+  }
+  .software:hover::after,
+  .support:hover::after,
+  .marketing:hover::after,
+  .telecom:hover::after,
+  .design:hover::after,
+  .security:hover::after,
+  .course:hover::after{
+    border-width: 35px 85px 0 85px;
+    transform: translateX(-85px);
+  }
 }
