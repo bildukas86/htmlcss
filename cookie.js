@@ -17,7 +17,10 @@ acceptCookie[0].addEventListener("click", function () {
   setCookie(cname, cvalue, exdays);
   cookiePop.style.display = "none";
 });
-
+acceptCookie[18].addEventListener("click", function () {
+  setCookie(cname, cvalue, exdays);
+  cookiePop.style.display = "none";
+});
 
 
 
