@@ -1,7 +1,7 @@
 .header{
   display: flex;
   flex-direction: column;
-  position: sticky;
+
   background-color: $w-color;
   top: 0;
   z-index: 100;
@@ -28,7 +28,9 @@
     }
   }
 //search
-
+.sticky{
+  position: sticky;
+}
     .search, .search-md{
       display: flex;
       justify-content: space-between;
@@ -116,6 +118,8 @@ span, small{
       }
   }
 }
-
+.hover-effect:hover{
+  background-color: hsla(0,0%,100%,.05);
+}
 
 //set visibility submenu end
