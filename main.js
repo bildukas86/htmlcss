@@ -26,18 +26,19 @@ scrollableElement.addEventListener('wheel', checkScrollDirection);
 
 //track scroll up or down
 let position = 0;
+const noClass = document.querySelector('.side-nav');
 
 //sticky header
 function checkScrollDirection(event) {
-  if (checkScrollDirectionIsUp(event)) {
-
+  if (checkScrollDirectionIsUp(event) || noClass.classList.contains("side-nav-open") === true ) {
     position = 1;
-
-    headerUpDown.style.position = "sticky";
+    headerUpDown.classList.add("sticky");
+    headerUpDown.classList.remove("stickyDown");
   } else {
 
     position = 0;
-    headerUpDown.style.position = "unset";
+    headerUpDown.classList.remove("sticky");
+    headerUpDown.classList.add("stickyDown");
   }
 }
 

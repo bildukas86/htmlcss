@@ -9,7 +9,7 @@
   background-color: $main-nav-color;
   z-index: 102;
   overflow-y: auto;
-  transition: .5s;
+  transition: all .5s ease;
   ul{
     margin: 0;
   }
@@ -55,7 +55,7 @@
                 font-size: .875rem;
                       a{
                         display: block;
-                        // background-color: $main-nav-color;
+
                         outline: 1px solid rgba(0,0,0,.25);
                         border: 1px solid rgba(255,255,255,0.1);
                         border-radius: 3px;
@@ -87,6 +87,8 @@
 }
 .side-nav-open{
   width: 275px !important;
+
+
 }
 .overlay{
   position: fixed;
@@ -100,8 +102,13 @@
     background-color: rgba(0,0,0,0.5);
     z-index: 101;
     cursor: pointer;
+
 }
 .side-nav-main{
-  left: -275px;
-  transition: 5.5s;
+  // left: -275px;
+
+  transform: translate(-275px, 4px);
+  transition: all 0.5s ease-in-out;
+  overflow-y: scroll;
+
 }

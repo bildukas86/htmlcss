@@ -16,8 +16,7 @@
     width: 350px !important;
   }
   .side-nav-main{
-    left: -350px;
-    transition: 5.5s;
+    transform: translate(-350px, 4px);
   }
   .clients-list{
     display: flex;

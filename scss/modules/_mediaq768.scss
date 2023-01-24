@@ -17,8 +17,12 @@
 
       }
     }
-  }
 
+  }
+  .stickyDown{
+    position: sticky;
+    top: -215px;
+  }
   .header-search-sm, .phone{
     display: none;
   }
