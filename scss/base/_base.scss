@@ -20,6 +20,7 @@ body{
   position: relative;
   height: 100vh;
   overflow-y: scroll;
+  transition: all 0.5s ease-in-out;
 
 
 }
@@ -120,6 +121,7 @@ body{
   height: auto;
   background-color: $w-color;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 1 / 10%);
+  transition:  .3s ease-in-out;
   h2{
     font-weight: 400;
   }
@@ -209,6 +211,7 @@ body{
     border: 1px solid #ccc;
     border-radius: 3px;
     box-shadow: 0 3px 35px rgba(0, 0, 0, 1 / 10%);
+    transition: .5s ease;
     .news-img{
       width: 100%;
       height: auto;
@@ -237,7 +240,7 @@ body{
 .news-block:hover{
   cursor: pointer;
   transform: translateY(-20px);
-  transition: .5s ease;
+
 }
 ////////////////////////////////////////////////
 // 7. Newsletter
@@ -386,6 +389,9 @@ body{
     text-align: center;
     line-height: 35px;
     border-radius: 3px;
+    &:hover{
+      cursor: pointer;
+    }
   }
 
 ////////////////////////////////////////////////
@@ -453,11 +459,11 @@ label.required:after{
 }
 .service-block-3:hover{
   transform: translateY(-20px);
-  transition: .5s ease;
+
 }
 .service-block-4:hover{
   transform: translateY(-20px);
-  transition: .5s ease;
+
 }
 .main-nav, .hide-sm, .header-search-md{
   display: none;
@@ -506,3 +512,6 @@ label.required:after{
   }
 }
 //set swich coloured - no coloured
+.w-block{
+  padding: 5px;
+}

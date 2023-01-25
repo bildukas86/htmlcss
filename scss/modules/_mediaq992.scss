@@ -18,6 +18,11 @@
   .side-nav-main{
     transform: translate(-350px, 4px);
   }
+  .stickyDown{
+    position: sticky;
+    // top: -168px;
+    top: -468px;
+  }
   .clients-list{
     display: flex;
     justify-content: center;
@@ -72,6 +77,10 @@
   .s-input-md{
     display: none;
   }
+  .s-input-md-toggle{
+    display: block;
+  }
+
   .width-containers{
     width: 970px;
   }

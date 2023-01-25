@@ -2,7 +2,7 @@ const  hamButton = document.getElementById('ham-button');
 const sideNav = document.getElementById('sideNav')
 const mainContainer = document.getElementById('main-container');
 const overlay = document.getElementById("overlay");
-const headerUpDown = document.getElementById('header')
+const headerUpDown = document.getElementById('header');
 
 hamButton.addEventListener('click', function () {
   // console.log("I clicked")
@@ -19,6 +19,49 @@ overlay.addEventListener('click', function () {
 });
 
 
+/////////////////////////////////////////////////////////////
+//search button toggle .s-button-md .s-input-md
+////////////////////////////////////////////////////////////
+
+const searchInputToggle = document.getElementById('s-input-md-input');
+const searchButton = document.getElementById('s-button-md-button');
+const hideButtons = document.querySelectorAll('.hide-sm');
+
+
+searchButton.addEventListener('click', function () {
+  // searchInputToggle.classList.toggle("s-input-md-toggle");
+  const mq = window.matchMedia( "(min-width: 992px)" );
+  const maxq = window.matchMedia( "(max-width: 1200px)" );
+
+  if (mq.matches && maxq.matches) {
+    searchInputToggle.classList.toggle("s-input-md-toggle");
+    if(searchInputToggle.classList != "s-input-md"){
+      hideButtons[0].classList.add("s-input-md");
+      hideButtons[1].classList.add("s-input-md");
+    }else {
+      hideButtons[0].classList.remove("s-input-md");
+      hideButtons[1].classList.remove("s-input-md")
+    }
+  }
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////
+////
+///////////////////////////////////////////////////////////////////
 var scrollableElement = document.body; //document.getElementById('scrollableElement');
 
 scrollableElement.addEventListener('wheel', checkScrollDirection);
@@ -48,3 +91,15 @@ function checkScrollDirectionIsUp(event) {
   }
   return event.deltaY < 0;
 }
+
+////////////////////////////////////////////////////////////
+//sideNav hover sections
+///////////////////////////////////////////////////////////
+const listOne = document.querySelectorAll(".side-main-li2");
+
+
+$(".side-main-li2").hover(function(){
+  $(this).css("background-color", "hsla(0,0%,100%,.05)");
+  }, function(){
+  $(this).css("background-color", "#333645");
+});
