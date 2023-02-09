@@ -62,36 +62,59 @@ searchButton.addEventListener('click', function () {
 /////////////////////////////////////////////////////////////////////
 ////
 ///////////////////////////////////////////////////////////////////
-var scrollableElement = document.body; //document.getElementById('scrollableElement');
+// var scrollableElement = document.getElementById("main-container"); //document.getElementById('scrollableElement');
+//
+// // //
+// scrollableElement.addEventListener('scroll', checkScrollDirection);
+// // //
+// //
+// // //track scroll up or down
+// let position = 0;
+// const noClass = document.querySelector('.side-nav');
+//
+// // sticky header
+// function checkScrollDirection(event) {
+//   if (checkScrollDirectionIsUp(event) || noClass.classList.contains("side-nav-open") === true ) {
+//     position = 1;
+//     headerUpDown.classList.add("sticky");
+//     headerUpDown.classList.remove("stickyDown");
+//
+//   } else {
+//
+//     position = 0;
+//     headerUpDown.classList.remove("sticky");
+//     headerUpDown.classList.add("stickyDown");
+//   }
+// }
+//
+// function checkScrollDirectionIsUp(event) {
+//   if (event.wheelDelta) {
+//     return event.wheelDelta > 0;
+//   }
+//   return event.deltaY < 0;
+//
+// }
 
-scrollableElement.addEventListener('wheel', checkScrollDirection);
 
-
-//track scroll up or down
 let position = 0;
-const noClass = document.querySelector('.side-nav');
+const scrolledElement = document.querySelector('#main-container');
 
-//sticky header
-function checkScrollDirection(event) {
-  if (checkScrollDirectionIsUp(event) || noClass.classList.contains("side-nav-open") === true ) {
-    position = 1;
-    headerUpDown.classList.add("sticky");
-    headerUpDown.classList.remove("stickyDown");
-  } else {
+scrolledElement.addEventListener('scroll', (event) => {
+      let scrolled = Math.ceil(scrolledElement.scrollTop) ;
+      console.log(scrolled);
+      if (scrolled  < position) {
+            console.log("up");
 
-    position = 0;
-    headerUpDown.classList.remove("sticky");
-    headerUpDown.classList.add("stickyDown");
-  }
-}
+            headerUpDown.classList.add("sticky");
+            headerUpDown.classList.remove("stickyDown");
+      } else {
+            console.log("down");
 
-function checkScrollDirectionIsUp(event) {
-  if (event.wheelDelta) {
-    return event.wheelDelta > 0;
-  }
-  return event.deltaY < 0;
-}
-
+            headerUpDown.classList.remove("sticky");
+            headerUpDown.classList.add("stickyDown");
+      }
+      position = scrolled;
+ });
 ////////////////////////////////////////////////////////////
 //sideNav hover sections
 ///////////////////////////////////////////////////////////
