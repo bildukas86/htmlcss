@@ -3,7 +3,7 @@ const acceptCookie = document.querySelectorAll(".btn-accept");
 
 
 let cname = "name";
-const cvalue = "15155156";
+const cvalue = "yes";
 const exdays = 30;
 
 function setCookie(cname,cvalue,exdays) {
@@ -11,18 +11,25 @@ function setCookie(cname,cvalue,exdays) {
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   let expires = "expires=" + d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  //also storing to local
+
 }
+
 
 acceptCookie[0].addEventListener("click", function () {
   setCookie(cname, cvalue, exdays);
   cookiePop.style.display = "none";
+  //also storing to local
+  localStorage.setItem("Cookie", "yes");
+
 });
 acceptCookie[1].addEventListener("click", function () {
   setCookie(cname, cvalue, exdays);
   cookieSettings.style.display = "none";
+  //also storing to local
+  localStorage.setItem("Cookie", "yes");
+
 });
-
-
 
 
 function getCookie(cname) {
@@ -43,10 +50,11 @@ function getCookie(cname) {
 //check cookie exist?
 function checkCookie() {
   let user = getCookie("name");
-  if (user != "") {
-    cookiePop.style.display = "none";
+  let cookieAccepted = localStorage.getItem("Cookie")
+  if (user === "" && cookieAccepted != "yes") {
+    cookiePop.style.display = "flex";
   } else {
-     cookiePop.style.display = "flex";
+     cookiePop.style.display = "none";
   }
 }
 
