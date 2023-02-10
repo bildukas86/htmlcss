@@ -3,13 +3,15 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 0;
+  width: 275px;
   height: 100%;
   text-transform: uppercase;
   background-color: $main-nav-color;
-  z-index: 102;
+  z-index: 0;
   overflow-y: auto;
   transition: all .5s ease;
+  overflow-y: scroll;
+
   ul{
     margin: 0;
   }
@@ -85,9 +87,12 @@
 
 
 }
-.side-nav-open{
-  width: 275px !important;
-
+// .side-nav-open{
+//   z-index: 4 !important;
+//
+// }
+.side-nav-main{
+  transform: translate(-275px, 4px);
 
 }
 .overlay{
@@ -99,16 +104,17 @@
     left: 0;
     right: 0;
     bottom: 0;
+    
     background-color: rgba(0,0,0,0.5);
-    z-index: 101;
+    z-index: 2;
     cursor: pointer;
 
 }
-.side-nav-main{
-  // left: -275px;
-
-  transform: translate(-275px, 4px);
-  // transition: all 0.5s ease-in-out;
-  overflow-y: scroll;
-
-}
+// .side-nav-main{
+//   // left: -275px;
+//
+//   transform: translate(-275px, 4px);
+//   // transition: all 0.5s ease-in-out;
+//   overflow-y: scroll;
+//
+// }

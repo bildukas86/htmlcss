@@ -1,6 +1,6 @@
 const  hamButton = document.getElementById('ham-button');
 const sideNav = document.getElementById('sideNav')
-const mainContainer = document.getElementById('main-container');
+const mainContainer = document.getElementById('container');
 const overlay = document.getElementById("overlay");
 const headerUpDown = document.getElementById('header');
 
@@ -100,7 +100,8 @@ let position = 0;
 const scrolledElement = document.querySelector('#main-container');
 
 scrolledElement.addEventListener('scroll', (event) => {
-      let scrolled = Math.ceil(scrolledElement.scrollTop) ;
+
+      let scrolled = scrolledElement.scrollTop;
       console.log(scrolled);
       if (scrolled  < position) {
             console.log("up");

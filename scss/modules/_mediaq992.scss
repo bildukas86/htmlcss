@@ -9,12 +9,17 @@
   .side-nav-list1{
     display: none;
   }
-  #sideNav .side-nav-list2 {
-    margin-top: 0;
-}
-  .side-nav-open{
+
+  #sideNav {
     width: 350px !important;
-  }
+    .side-nav-list2 {
+      margin-top: 0;
+
+    }
+}
+  // .side-nav-open{
+  //   width: 350px !important;
+  // }
   .side-nav-main{
     transform: translate(-350px, 4px);
   }
@@ -85,24 +90,20 @@
     width: 970px;
   }
   .txt{
-    top: 15vh;
+
     h1, p{
       text-align: left;
     }
     h1{
       font-size: 4rem;
+      line-height: 5rem;
     }
   }
   .banner{
 
     .banner-img{
-      height: 700px;
-      // img{
-      //
-      //   height: 75vh;
-      //
-      //
-      // }
+      height: 550px;
+      margin-top: 105px;
     }
   }
   .cookies-container{
