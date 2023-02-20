@@ -17,7 +17,7 @@
   }
   //side navigation list 1
   .side-main-li{
-      padding-top:19px;
+      margin-top: 19px;
       margin-left: 20px;
       margin-right: 20px;
 
@@ -33,7 +33,7 @@
     }
   }
   .side-nav-sub{
-    padding-top: 20px;
+    margin-top: 20px;
   }
   .side-nav-sub>ul>li{
 
@@ -104,7 +104,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    
+
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
     cursor: pointer;

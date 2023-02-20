@@ -6,13 +6,13 @@ const headerUpDown = document.getElementById('header');
 
 hamButton.addEventListener('click', function () {
   // console.log("I clicked")
-    hamButton.classList.toggle("change");
+    hamButton.classList.toggle("is-active");
     sideNav.classList.toggle("side-nav-open");
     mainContainer.classList.toggle("side-nav-main");
     overlay.classList.toggle("overlay");
 });
 overlay.addEventListener('click', function () {
-  hamButton.classList.toggle("change");
+  hamButton.classList.toggle("is-active");
   sideNav.classList.toggle("side-nav-open");
   mainContainer.classList.toggle("side-nav-main");
   overlay.classList.toggle("overlay");
@@ -119,11 +119,23 @@ scrolledElement.addEventListener('scroll', (event) => {
 ////////////////////////////////////////////////////////////
 //sideNav hover sections
 ///////////////////////////////////////////////////////////
-const listOne = document.querySelectorAll(".side-main-li2");
-
+// const listTwo = document.querySelectorAll(".side-main-li2");
+// const listOne = document.querySelectorAll(".side-main-li");
 
 $(".side-main-li2").hover(function(){
-  $(this).css("background-color", "hsla(0,0%,100%,.05)");
+  $(this).children().css("background-color", "hsla(0,0%,100%,.05)");
   }, function(){
-  $(this).css("background-color", "#333645");
+  $(this).children().css("background-color", "#333645");
+});
+
+// $(".side-main-li").hover(function(){
+//   $(this).css("background-color", "hsla(0,0%,100%,.05)");
+//   }, function(){
+//   $(this).css("background-color", "#333645");
+// });
+// hover-effect
+$(".side-main-li").hover(function(){
+  $(this).children().css("background-color", "hsla(0,0%,100%,.05)");
+  }, function(){
+  $(this).children().css("background-color", "#333645");
 });

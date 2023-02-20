@@ -46,36 +46,75 @@
 //hamburger sidenav buttons
 
 
-.ham-button {
+#ham-button {
   display: inline-block;
   cursor: pointer;
   background-color: $main-nav-color;
   border-radius: 3px;
   padding: 10px 15px;
   vertical-align: middle;
-  margin: auto 0 0 20px;
+  height: 56px;
   &:hover{
     background-color: #22242e;
+    opacity: 1;
   }
 }
-
-.ham1, .ham2, .ham3 {
+.hamburger-box{
+  width: 33px;
+  height: 19px;
+}
+.hamburger-inner {
+    display: block;
+    margin: auto;
+    // margin-top: -1.5px;
+}
+.hamburger.is-active .hamburger-inner,
+ .hamburger.is-active .hamburger-inner::before,
+  .hamburger.is-active .hamburger-inner::after{
+  background-color: #fff;
+  border-radius: 0;
+}
+.hamburger-inner,
+ .hamburger-inner::before,
+  .hamburger-inner::after{
+  background-color: #fff;
+  border-radius: 0;
   width: 33px;
   height: 4px;
-  background-color: $w-color;
-  margin: 6px 0;
-  transition: 0.4s;
 }
-
-.change .ham1 {
-  transform: translate(0, 11px) rotate(-45deg);
-}
-
-.change .ham2 {opacity: 0;}
-
-.change .ham3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
+// .hamburger-inner{
+//   background-color: #fff;
+//   border-radius: 0;
+//   &:before{
+//     background-color: #fff;
+//     border-radius: 0;
+//   }
+//   &:after{
+//     background-color: #fff;
+//     border-radius: 0;
+//   }
+// }
+// .hamburger.is-active .hamburger-inner{
+//   background-color: #fff;
+//   border-radius: 0;
+// }
+// .ham1, .ham2, .ham3 {
+//   width: 33px;
+//   height: 4px;
+//   background-color: $w-color;
+//   margin: 6px 0;
+//   transition: 0.4s;
+// }
+//
+// .change .ham1 {
+//   transform: translate(0, 11px) rotate(-45deg);
+// }
+//
+// .change .ham2 {opacity: 0;}
+//
+// .change .ham3 {
+//   transform: translate(0, -11px) rotate(45deg);
+// }
 
 
 ///////////////////////////////////////
