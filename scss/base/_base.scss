@@ -227,6 +227,7 @@ body{
 .n-view-all{
   margin: 0 auto;
   text-align: center;
+  color: #333645;
 }
 .news-articles{
   display: flex;
@@ -554,4 +555,10 @@ label.required:after{
   .btn-primary:hover{
     background-color: #121318;
   }
+}
+.l-news{
+  h1{
+    color: #333645;
+  }
+
 }
