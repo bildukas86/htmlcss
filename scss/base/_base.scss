@@ -237,12 +237,21 @@ body{
   padding-right: 15px;
 
   .news-block{
+    position: relative;
     margin-top: 30px;
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 3px;
     box-shadow: 0 3px 35px rgba(0, 0, 0, 1 / 10%);
     transition: .5s ease;
+    .top-right-i{
+      position: absolute;
+      right: 0;
+      top: 10px;
+      font-size: 0.75rem;
+      padding: 0 10px;
+      line-height: 1.438rem;
+    }
     .news-img{
       width: 100%;
       height: auto;
