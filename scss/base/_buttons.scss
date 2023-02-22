@@ -16,31 +16,51 @@
   background-color: $software-color;
   color: $w-color;
 }
+.software{
+  color: $software-color;
+}
 .btn-support{
   background-color: $support-color;
   color: $w-color;
+}
+.support {
+  color: $support-color;
 }
 .btn-marketing{
   background-color: $maraketing-color;
   color: $w-color;
 }
+.marketing{
+  color: $maraketing-color;
+}
 .btn-telecom{
   background-color: $telecom-color;
   color: $w-color;
+}
+.telecom{
+  color: $telecom-color;
 }
 .btn-design{
   background-color: $design-color;
   color: $w-color;
 }
+.design{
+  color: $design-color;
+}
 .btn-security{
   background-color: $security-color;
   color: $w-color;
+}
+.security{
+  color: $security-color;
 }
 .btn-course{
   background-color: $course-color;
   color: $w-color;
 }
-
+.course{
+  color: $course-color;
+}
 
 ////////////////////////////////////////
 //hamburger sidenav buttons
@@ -268,34 +288,40 @@
 ////////////////////////////////////////////////
 /// Services icons +backround change colour
 ///////////////////////////////////////////////
-.s-software span>i{
+.s-software span>i, .s-software .icon-apps{
   color: $w-color;
-  border: 1px solid $software-color;
+  // border: 1px solid $software-color;
   background-color: $software-color;
-  border-radius: 50%;
-  padding: 20px;
+  // border-radius: 50%;
+  // padding: 20px;
 }
 .s-software:hover{
   background-color: $software-color;
+  .icon-apps{
+    background-color: $w-color;
+  }
   i, .btn-software{
     color: $software-color;
     background-color: $w-color;
   }
-  h2, p{
+  h2, p {
     color: $w-color;
   }
 }
 
 
-.s-support span>i{
+.s-support span>i, .s-support .icon-apps{
   color: $w-color;
-  border: 1px solid $support-color;
+  // border: 1px solid $support-color;
   background-color: $support-color;
-  border-radius: 50%;
-  padding: 20px;
+  // border-radius: 50%;
+  // padding: 20px;
 }
 .s-support:hover{
   background-color: $support-color;
+  .icon-apps{
+    background-color: $w-color;
+  }
   i, .btn-support{
     color: $support-color;
     background-color: $w-color;
@@ -304,15 +330,18 @@
     color: $w-color;
   }
 }
-.s-marketing span>i{
+.s-marketing span>i, .s-marketing .icon-apps{
   color: $w-color;
-  border: 1px solid $maraketing-color;
+  // border: 1px solid $maraketing-color;
   background-color: $maraketing-color;
-  border-radius: 50%;
-  padding: 20px;
+  // border-radius: 50%;
+  // padding: 20px;
 }
 .s-marketing:hover{
   background-color: $maraketing-color;
+  .icon-apps{
+    background-color: $w-color;
+  }
   i, .btn-marketing{
     color: $maraketing-color;
     background-color: $w-color;
@@ -321,15 +350,18 @@
     color: $w-color;
   }
 }
-.s-telecom span>i{
+.s-telecom span>i, .s-telecom .icon-apps{
   color: $w-color;
-  border: 1px solid $telecom-color;
+  // border: 1px solid $telecom-color;
   background-color: $telecom-color;
-  border-radius: 50%;
-  padding: 20px;
+  // border-radius: 50%;
+  // padding: 20px;
 }
 .s-telecom:hover{
   background-color: $telecom-color;
+  .icon-apps{
+    background-color: $w-color;
+  }
   i, .btn-telecom{
     color: $telecom-color;
     background-color: $w-color;
@@ -338,15 +370,18 @@
     color: $w-color;
   }
 }
-.s-design span>i{
+.s-design span>i, .s-design .icon-apps{
   color: $w-color;
-  border: 1px solid $design-color;
+  // border: 1px solid $design-color;
   background-color: $design-color;
-  border-radius: 50%;
-  padding: 20px;
+  // border-radius: 50%;
+  // padding: 20px;
 }
 .s-design:hover{
   background-color: $design-color;
+  .icon-apps{
+    background-color: $w-color;
+  }
   i, .btn-design{
     color: $design-color;
     background-color: $w-color;
@@ -355,15 +390,18 @@
     color: $w-color;
   }
 }
-.s-security span>i{
+.s-security span>i, .s-security .icon-apps{
   color: $w-color;
-  border: 1px solid $security-color;
+  // border: 1px solid $security-color;
   background-color: $security-color;
-  border-radius: 50%;
-  padding: 20px;
+  // border-radius: 50%;
+  // padding: 20px;
 }
 .s-security:hover{
   background-color: $security-color;
+  .icon-apps{
+    background-color: $w-color;
+  }
   i, .btn-security{
     color: $security-color;
     background-color: $w-color;
@@ -372,15 +410,18 @@
     color: $w-color;
   }
 }
-.s-course span>i{
+.s-course span>i, .s-course .icon-apps{
   color: $w-color;
-  border: 1px solid $course-color;
+  // border: 1px solid $course-color;
   background-color: $course-color;
-  border-radius: 50%;
-  padding: 20px;
+  // border-radius: 50%;
+  // padding: 20px;
 }
 .s-course:hover{
   background-color: $course-color;
+  .icon-apps{
+    background-color: $w-color;
+  }
   i, .btn-course{
     color: $course-color;
     background-color: $w-color;
@@ -393,15 +434,40 @@
   background-color: #4387f6;
   margin-right: 8px;
     border-radius: 6px;
-    padding: 10px 5px;
+    padding: 10px 30px;
     font-size: 20px;
     color: #fff;
+    &:hover{
+      background-color: #166af4;
+    }
 }
 .btn-trustpilot{
   background-color: #00b67b;
   margin-right: 8px;
     border-radius: 6px;
-    padding: 10px 5px;
+    padding: 10px 30px;
     font-size: 20px;
     color: #fff;
+    &:hover{
+      background-color: #009b69;
+    }
+}
+.icon{
+
+  width: 65px;
+  height: 65px;
+
+  margin: 0 auto 17px;
+  border-radius: 50%;
+}
+.icon-apps{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+
+  border-radius: 50%;
+
 }

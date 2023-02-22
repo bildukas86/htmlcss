@@ -16,6 +16,7 @@ body{
   height: 100%;
   overflow: hidden;
 }
+
 #main-container{
   position: relative;
   height: 100vh;
@@ -78,8 +79,13 @@ body{
 }
 //////////////////////////////////////////////////
 
-
-
+.sub-menu-banner ul>li:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.sub-menu-banner ul>li{
+  margin-top: 15px;
+}
 
 
 ////////////////////////////////////////////////
@@ -123,16 +129,25 @@ body{
 }
 
 .service-block-3, .service-block-4{
+  width: 100%;
   margin-top: 30px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  padding: 15px;
+  padding: 30px;
   text-align: center;
   height: auto;
   background-color: $w-color;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 1 / 10%);
   transition:  .3s ease-in-out;
   h2{
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #333645;
+  }
+  p{
+    font-size: .8125rem;
+    line-height: 1.375rem;
+    margin-bottom: 13px;
     font-weight: 400;
   }
 }
@@ -200,7 +215,12 @@ body{
 
   }
 }
-
+.View-all-top{
+  display: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
 .n-view-all-top{
   display: none;
 }
@@ -279,10 +299,16 @@ body{
     }
   }
 
-
+  #checkbox{
+    text-align: left;
+    line-height: 32px;
+    cursor: pointer;
+    font-weight: 600;
+  }
   .checkbox-line{
     display: inline-flex;
-    margin: 1em;
+    margin: 1em 0;
+
 
     span:hover{
       cursor: pointer;
@@ -290,6 +316,7 @@ body{
 
     span>a{
       text-decoration: underline;
+      text-transform: none;
     }
 
 
@@ -524,4 +551,7 @@ label.required:after{
 //set swich coloured - no coloured
 .w-block{
   padding: 5px;
+  .btn-primary:hover{
+    background-color: #121318;
+  }
 }

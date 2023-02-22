@@ -62,9 +62,13 @@
   .n-view-all{
     display: none;
   }
-  .n-view-all-top{
+  .View-all-top{
     display: block;
+    font-weight: 600;
+    color: #333645;
+    margin: auto 0;
   }
+
   .l-news-links{
     display: flex;
     justify-content: space-between;
